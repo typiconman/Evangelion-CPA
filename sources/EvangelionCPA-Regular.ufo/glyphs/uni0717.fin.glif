@@ -9,7 +9,8 @@
       <point x="954" y="40" type="line"/>
       <point x="954" y="0" type="line"/>
       <point x="954" y="0"/>
-      <point x="613" y="0" type="qcurve"/>
+      <point x="954" y="0"/>
+      <point x="613" y="0" type="curve"/>
       <point x="613" y="419" type="line"/>
       <point x="461" y="419" type="line"/>
       <point x="461" y="0" type="line"/>

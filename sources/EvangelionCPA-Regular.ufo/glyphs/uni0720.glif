@@ -12,8 +12,9 @@
       <point x="391" y="41" type="line"/>
       <point x="393" y="45" type="line"/>
       <point x="158" y="518" type="line"/>
-      <point x="138" y="553"/>
-      <point x="80" y="589" type="qcurve"/>
+      <point x="144.667" y="541.333"/>
+      <point x="118.667" y="565"/>
+      <point x="80" y="589" type="curve"/>
       <point x="274" y="589" type="line"/>
       <point x="512" y="9" type="line"/>
     </contour>

@@ -10,10 +10,12 @@
       <point x="412" y="114" type="line"/>
       <point x="414" y="118" type="line"/>
       <point x="179" y="591" type="line" smooth="yes"/>
-      <point x="167" y="612"/>
-      <point x="141" y="634" type="qcurve" smooth="yes"/>
-      <point x="130" y="644"/>
-      <point x="101" y="662" type="qcurve"/>
+      <point x="171" y="605"/>
+      <point x="158.333" y="619.333"/>
+      <point x="141" y="634" type="curve" smooth="yes"/>
+      <point x="133.667" y="640.667"/>
+      <point x="120.333" y="650"/>
+      <point x="101" y="662" type="curve"/>
       <point x="295" y="662" type="line"/>
       <point x="533" y="82" type="line"/>
     </contour>

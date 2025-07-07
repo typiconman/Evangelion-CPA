@@ -5,18 +5,30 @@
   <anchor x="951" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="366" y="575" type="qcurve" smooth="yes"/>
-      <point x="366" y="553"/>
-      <point x="336" y="525"/>
-      <point x="314" y="525" type="qcurve" smooth="yes"/>
-      <point x="292" y="525"/>
-      <point x="264" y="554"/>
-      <point x="264" y="575" type="qcurve" smooth="yes"/>
-      <point x="264" y="597"/>
-      <point x="293" y="627"/>
-      <point x="314" y="627" type="qcurve" smooth="yes"/>
-      <point x="336" y="627"/>
-      <point x="366" y="597"/>
+      <point x="366" y="575" type="curve" smooth="yes"/>
+      <point x="366" y="560.333"/>
+      <point x="361" y="548.333"/>
+      <point x="351" y="539" type="curve" smooth="yes"/>
+      <point x="341" y="529.667"/>
+      <point x="328.667" y="525"/>
+      <point x="314" y="525" type="curve" smooth="yes"/>
+      <point x="299.333" y="525"/>
+      <point x="287.333" y="529.833"/>
+      <point x="278" y="539.5" type="curve" smooth="yes"/>
+      <point x="268.667" y="549.167"/>
+      <point x="264" y="561"/>
+      <point x="264" y="575" type="curve" smooth="yes"/>
+      <point x="264" y="589.667"/>
+      <point x="268.833" y="602"/>
+      <point x="278.5" y="612" type="curve" smooth="yes"/>
+      <point x="288.167" y="622"/>
+      <point x="300" y="627"/>
+      <point x="314" y="627" type="curve" smooth="yes"/>
+      <point x="328.667" y="627"/>
+      <point x="341" y="622"/>
+      <point x="351" y="612" type="curve" smooth="yes"/>
+      <point x="361" y="602"/>
+      <point x="366" y="589.667"/>
     </contour>
     <contour>
       <point x="632.201" y="40" type="line"/>
@@ -27,7 +39,8 @@
       <point x="188" y="391" type="line"/>
       <point x="189" y="1" type="line"/>
       <point x="189" y="1"/>
-      <point x="-150" y="1" type="qcurve"/>
+      <point x="189" y="1"/>
+      <point x="-150" y="1" type="curve"/>
       <point x="-149" y="41" type="line"/>
       <point x="79" y="41" type="line"/>
       <point x="79" y="463" type="line"/>

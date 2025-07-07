@@ -5,7 +5,7 @@
   <anchor x="81" y="1" name="curs"/>
   <outline>
     <contour>
-      <point x="79" y="1" type="qcurve"/>
+      <point x="79" y="1" type="curve"/>
       <point x="79" y="41" type="line"/>
       <point x="337" y="41" type="line"/>
       <point x="337" y="419" type="line"/>
@@ -17,6 +17,7 @@
       <point x="735" y="41" type="line"/>
       <point x="945" y="40" type="line"/>
       <point x="945" y="0" type="line" smooth="yes"/>
+      <point x="945" y="0"/>
       <point x="945" y="0"/>
     </contour>
     <contour>

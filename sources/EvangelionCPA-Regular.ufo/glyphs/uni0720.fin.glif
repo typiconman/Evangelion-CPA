@@ -6,21 +6,27 @@
   <outline>
     <contour>
       <point x="748" y="0" type="line"/>
-      <point x="301" y="0"/>
-      <point x="80" y="1" type="qcurve"/>
+      <point x="450" y="0"/>
+      <point x="227.333" y="0.333333"/>
+      <point x="80" y="1" type="curve"/>
       <point x="80" y="1"/>
-      <point x="80" y="41" type="qcurve"/>
+      <point x="80" y="1"/>
+      <point x="80" y="41" type="curve"/>
       <point x="392" y="41" type="line"/>
       <point x="394" y="45" type="line"/>
       <point x="159" y="518" type="line"/>
-      <point x="139" y="553"/>
-      <point x="81" y="589" type="qcurve"/>
+      <point x="145.667" y="541.333"/>
+      <point x="119.667" y="565"/>
+      <point x="81" y="589" type="curve"/>
       <point x="81" y="589"/>
-      <point x="275" y="589" type="qcurve"/>
-      <point x="387" y="315"/>
-      <point x="499.869" y="41" type="qcurve"/>
+      <point x="81" y="589"/>
+      <point x="275" y="589" type="curve"/>
+      <point x="349.667" y="406.333"/>
+      <point x="424.623" y="223.667"/>
+      <point x="499.869" y="41" type="curve"/>
       <point x="499.869" y="41"/>
-      <point x="748" y="40" type="qcurve"/>
+      <point x="499.869" y="41"/>
+      <point x="748" y="40" type="curve"/>
     </contour>
   </outline>
   <lib>
