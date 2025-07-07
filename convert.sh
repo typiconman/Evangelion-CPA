@@ -11,6 +11,9 @@ else
     FONTFORGE_BIN="fontforge"
 fi
 
+# First, backup the features.fea file because it has handcoded stuff
+cp sources/EvangelionCPA-Regular.ufo/features.fea features.fea.bak
+
 # Run FontForge with the provided arguments
 $FONTFORGE_BIN -lang=ff -c 'Open($1); Generate($2)' sources/EvangelionCPA.sfd sources/EvangelionCPA-Regular.ufo
 

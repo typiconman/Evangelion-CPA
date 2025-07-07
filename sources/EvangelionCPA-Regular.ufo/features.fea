@@ -12,23 +12,19 @@ languagesystem syrc dflt;
     \uni0710.med \uni0712.med \uni0713.med \uni0717.med \uni0718.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072B.med \uni072C.med
 ];
 
+# a different class that also includes the Dalath, Zain, and Rish
+@_RIGHT_CONNECTORS = [
+    \uni0715 \uni0715.med \uni0719 \uni0719.med \uni072A \uni072A.med
+    \uni0710 \uni0712 \uni0713 \uni0717 \uni0718 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 \uni0725 \uni0726 \uni0727 \uni0728 \uni0729 \uni072B \uni072C \uni200D
+    \uni0710.med \uni0712.med \uni0713.med \uni0717.med \uni0718.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072B.med \uni072C.med
+];
+
 # These are all the final forms before which a character should turn into an initial form
 # We also include ZWJ here
 # We also add the medial forms from above
 @_FINAL_FORMS = [
     \uni0710.fin \uni0712.fin \uni0713.fin \uni0715.fin \uni0717.fin \uni0718.fin \uni0719.fin \uni071A.fin \uni071B.fin \uni071D.fin \uni071F.fin \uni0720.fin \uni0721.fin \uni0722.fin \uni0723.fin \uni0725.fin \uni0726.fin \uni0727.fin \uni0728.fin \uni0729.fin \uni072A.fin \uni072B.fin \uni072C.fin \uni200D
-    \uni0710.med \uni0712.med \uni0713.med \uni0717.med \uni0718.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072B.med \uni072C.med
-];
-
-# Define glyphs that *do not* connect to the left (i.e., will cause a preceding glyph to take final form)
-# This is Dalath, Zain and Rish and all non-Syriac characters
-# and Zero-Width Non-Joiner
-@_NON_CONNECTORS = [
-    space period comma exclam question quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus hyphen slash
-    zero one two three four five six seven eight nine
-    colon semicolon less equal greater bracketleft bracketright backslash underscore braceleft braceright bar .notdef
-    \uni0715 \uni0719 \uni072A
-    \uni200C
+    \uni0710.med \uni0712.med \uni0713.med \uni0715.med \uni0717.med \uni0718.med \uni0719.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072A.med \uni072B.med \uni072C.med
 ];
 
 # Lookup for final forms
@@ -41,29 +37,29 @@ feature ccmp {
         # OR, more explicitly for readability:
         lookupflag RightToLeft; # This is the preferred AFDKO syntax
 
-        sub @_CONNECTORS \uni0710' @_CONNECTORS by \uni0710.med;
-        sub @_CONNECTORS \uni0712' @_CONNECTORS by \uni0712.med;
-        sub @_CONNECTORS \uni0713' @_CONNECTORS by \uni0713.med;
-        sub @_CONNECTORS \uni0715' @_CONNECTORS by \uni0715.med;
-        sub @_CONNECTORS \uni0717' @_CONNECTORS by \uni0717.med;
-        sub @_CONNECTORS \uni0718' @_CONNECTORS by \uni0718.med;
-        sub @_CONNECTORS \uni0719' @_CONNECTORS by \uni0719.med;
-        sub @_CONNECTORS \uni071A' @_CONNECTORS by \uni071A.med;
-        sub @_CONNECTORS \uni071B' @_CONNECTORS by \uni071B.med;
-        sub @_CONNECTORS \uni071D' @_CONNECTORS by \uni071D.med;
-        sub @_CONNECTORS \uni071F' @_CONNECTORS by \uni071F.med;
-        sub @_CONNECTORS \uni0720' @_CONNECTORS by \uni0720.med;
-        sub @_CONNECTORS \uni0721' @_CONNECTORS by \uni0721.med;
-        sub @_CONNECTORS \uni0722' @_CONNECTORS by \uni0722.med;
-        sub @_CONNECTORS \uni0723' @_CONNECTORS by \uni0723.med;
-        sub @_CONNECTORS \uni0725' @_CONNECTORS by \uni0725.med;
-        sub @_CONNECTORS \uni0726' @_CONNECTORS by \uni0726.med;
-        sub @_CONNECTORS \uni0727' @_CONNECTORS by \uni0727.med;
-        sub @_CONNECTORS \uni0728' @_CONNECTORS by \uni0728.med;
-        sub @_CONNECTORS \uni0729' @_CONNECTORS by \uni0729.med;
-        sub @_CONNECTORS \uni072A' @_CONNECTORS by \uni072A.med;
-        sub @_CONNECTORS \uni072B' @_CONNECTORS by \uni072B.med;
-        sub @_CONNECTORS \uni072C' @_CONNECTORS by \uni072C.med;
+        sub @_CONNECTORS \uni0710' @_RIGHT_CONNECTORS by \uni0710.med;
+        sub @_CONNECTORS \uni0712' @_RIGHT_CONNECTORS by \uni0712.med;
+        sub @_CONNECTORS \uni0713' @_RIGHT_CONNECTORS by \uni0713.med;
+        sub @_CONNECTORS \uni0715' @_RIGHT_CONNECTORS by \uni0715.med;
+        sub @_CONNECTORS \uni0717' @_RIGHT_CONNECTORS by \uni0717.med;
+        sub @_CONNECTORS \uni0718' @_RIGHT_CONNECTORS by \uni0718.med;
+        sub @_CONNECTORS \uni0719' @_RIGHT_CONNECTORS by \uni0719.med;
+        sub @_CONNECTORS \uni071A' @_RIGHT_CONNECTORS by \uni071A.med;
+        sub @_CONNECTORS \uni071B' @_RIGHT_CONNECTORS by \uni071B.med;
+        sub @_CONNECTORS \uni071D' @_RIGHT_CONNECTORS by \uni071D.med;
+        sub @_CONNECTORS \uni071F' @_RIGHT_CONNECTORS by \uni071F.med;
+        sub @_CONNECTORS \uni0720' @_RIGHT_CONNECTORS by \uni0720.med;
+        sub @_CONNECTORS \uni0721' @_RIGHT_CONNECTORS by \uni0721.med;
+        sub @_CONNECTORS \uni0722' @_RIGHT_CONNECTORS by \uni0722.med;
+        sub @_CONNECTORS \uni0723' @_RIGHT_CONNECTORS by \uni0723.med;
+        sub @_CONNECTORS \uni0725' @_RIGHT_CONNECTORS by \uni0725.med;
+        sub @_CONNECTORS \uni0726' @_RIGHT_CONNECTORS by \uni0726.med;
+        sub @_CONNECTORS \uni0727' @_RIGHT_CONNECTORS by \uni0727.med;
+        sub @_CONNECTORS \uni0728' @_RIGHT_CONNECTORS by \uni0728.med;
+        sub @_CONNECTORS \uni0729' @_RIGHT_CONNECTORS by \uni0729.med;
+        sub @_CONNECTORS \uni072A' @_RIGHT_CONNECTORS by \uni072A.med;
+        sub @_CONNECTORS \uni072B' @_RIGHT_CONNECTORS by \uni072B.med;
+        sub @_CONNECTORS \uni072C' @_RIGHT_CONNECTORS by \uni072C.med;
     } medial_forms_lookup;
 
   lookup final_forms_lookup {
@@ -127,36 +123,12 @@ feature ccmp {
 
 lookup cursCursiveAttachmentlookup0 {
   lookupflag RightToLeft IgnoreMarks;
-    pos cursive \egrave <anchor 750 0> <anchor 204 1>;
-    pos cursive \uni0712 <anchor 657 0> <anchor 80 0>;
-    pos cursive \uni0713 <anchor 410 0> <anchor 187 0>;
     pos cursive \uni0712.init <anchor 655 0> <anchor -149 0>;
     pos cursive \uni0712.med <anchor 905 0> <anchor -148 -1>;
     pos cursive \uni0712.fin <anchor 905 0> <anchor 82 -1>;
     pos cursive \uni0713.init <anchor 326 0> <anchor -150 0>;
     pos cursive \uni0713.med <anchor 908 -1> <anchor -150 0>;
     pos cursive \uni0713.fin <anchor 908 -1> <anchor 228 0>;
-    pos cursive \uni0710 <anchor 642 1> <anchor 80 0>;
-    pos cursive \uni0715 <anchor 570 0> <anchor 88 0>;
-    pos cursive \uni0717 <anchor 722 0> <anchor 82 1>;
-    pos cursive \uni0718 <anchor 404 0> <anchor 216 0>;
-    pos cursive \uni0719 <anchor 212 0> <anchor 92 0>;
-    pos cursive \uni071A <anchor 454 0> <anchor 81 0>;
-    pos cursive \uni071B <anchor 750 0> <anchor 204 1>;
-    pos cursive \uni071D <anchor 456 1> <anchor 71 1>;
-    pos cursive \uni071F <anchor 699 0> <anchor 77 0>;
-    pos cursive \uni0720 <anchor 512 0> <anchor 79 0>;
-    pos cursive \uni0721 <anchor 734 -1> <anchor 82 1>;
-    pos cursive \uni0722 <anchor 368 -1> <anchor 78 1>;
-    pos cursive \uni0723 <anchor 652 -1> <anchor 217 -1>;
-    pos cursive \uni0725 <anchor 596 -2> <anchor 81 0>;
-    pos cursive \uni0727 <anchor 507 1> <anchor 82 -1>;
-    pos cursive \uni0726 <anchor 499 1> <anchor 93 0>;
-    pos cursive \uni0728 <anchor 654 -1> <anchor 80 -1>;
-    pos cursive \uni0729 <anchor 535 -1> <anchor 81 0>;
-    pos cursive \uni072A <anchor 570 2> <anchor 80 1>;
-    pos cursive \uni072B <anchor 400 0> <anchor 291 0>;
-    pos cursive \uni072C <anchor 596 0> <anchor 80 -1>;
     pos cursive \uni071F.med <anchor 670 1> <anchor -149 1>;
     pos cursive \uni0722.init <anchor 295 0> <anchor -150 0>;
     pos cursive \uni0710.med <anchor 951 0> <anchor -145 1>;
@@ -164,11 +136,11 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni0717.med <anchor 954 0> <anchor -145 1>;
     pos cursive \uni0717.fin <anchor 954 0> <anchor 80 0>;
     pos cursive \uni0718.med <anchor 751 1> <anchor -146 1>;
-    pos cursive \uni0718.fin <anchor 750 1> <anchor 202 0>;
-    pos cursive \uni0718.init <anchor 336 1> <anchor -146 1>;
+    pos cursive \uni0718.fin <anchor 750 1> <anchor 1 -1>;
+    pos cursive \uni0718.init <anchor 612 0> <anchor -146 1>;
     pos cursive \uni071A.init <anchor 454 0> <anchor -150 0>;
     pos cursive \uni071A.med <anchor 675 0> <anchor -150 0>;
-    pos cursive \uni071A.fin <anchor 675 0> <anchor 80 -1>;
+    pos cursive \uni071A.fin <anchor 675 0> <anchor 0 0>;
     pos cursive \uni071B.init <anchor 749 1> <anchor -145 1>;
     pos cursive \uni071B.med <anchor 1020 0> <anchor -150 0>;
     pos cursive \uni071B.fin <anchor 1020 0> <anchor 204 0>;
@@ -176,13 +148,13 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni071D.med <anchor 668 1> <anchor -148 1>;
     pos cursive \uni071D.fin <anchor 668 1> <anchor 71 1>;
     pos cursive \uni071F.init <anchor 436 1> <anchor -149 1>;
-    pos cursive \uni071F.fin <anchor 1018 1> <anchor 89 0>;
+    pos cursive \uni071F.fin <anchor 1018 1> <anchor 1 -1>;
     pos cursive \uni0710.fin <anchor 950 0> <anchor 84 0>;
     pos cursive \uni0710.init <anchor 648 0> <anchor -145 1>;
-    pos cursive \uni0715.med <anchor 798 0> <anchor 84 0>;
-    pos cursive \uni0715.fin <anchor 798 0> <anchor 84 0>;
-    pos cursive \uni0719.med <anchor 448 0> <anchor 140 0>;
-    pos cursive \uni0719.fin <anchor 448 0> <anchor 140 0>;
+    pos cursive \uni0715.med <anchor 798 0> <anchor -151 0>;
+    pos cursive \uni0715.fin <anchor 798 0> <anchor NULL>;
+    pos cursive \uni0719.med <anchor 448 0> <anchor -151 0>;
+    pos cursive \uni0719.fin <anchor 448 0> <anchor NULL>;
     pos cursive \uni0720.init <anchor 512 0> <anchor -151 0>;
     pos cursive \uni0720.med <anchor 747 0> <anchor -151 0>;
     pos cursive \uni0720.fin <anchor 747 0> <anchor 79 0>;
@@ -192,7 +164,7 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni0722.med <anchor 604 -2> <anchor -148 1>;
     pos cursive \uni0722.fin <anchor 958 -6> <anchor 142 1>;
     pos cursive \uni0723.med <anchor 1030 0> <anchor -148 -1>;
-    pos cursive \uni0723.init <anchor 652 -1> <anchor -148 -1>;
+    pos cursive \uni0723.init <anchor 880 0> <anchor -148 -1>;
     pos cursive \uni0723.fin <anchor 1030 0> <anchor 182 0>;
     pos cursive \uni0725.init <anchor 596 -2> <anchor -149 0>;
     pos cursive \uni0725.med <anchor 826 0> <anchor -149 0>;
@@ -209,9 +181,9 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni0729.init <anchor 535 -1> <anchor -150 0>;
     pos cursive \uni0729.med <anchor 759 -1> <anchor -150 0>;
     pos cursive \uni0729.fin <anchor 759 -1> <anchor 82 0>;
-    pos cursive \uni072A.med <anchor 790 0> <anchor 85 0>;
-    pos cursive \uni072A.fin <anchor 790 0> <anchor 85 0>;
-    pos cursive \uni072B.init <anchor 400 0> <anchor -151 0>;
+    pos cursive \uni072A.med <anchor 790 0> <anchor -151 0>;
+    pos cursive \uni072A.fin <anchor 790 0> <anchor NULL>;
+    pos cursive \uni072B.init <anchor 708 0> <anchor -151 0>;
     pos cursive \uni072B.med <anchor 859 0> <anchor -151 0>;
     pos cursive \uni072B.fin <anchor 859 0> <anchor 305 0>;
     pos cursive \uni072C.init <anchor 596 0> <anchor -150 -1>;
@@ -219,6 +191,20 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni072C.fin <anchor 1039 0> <anchor 80 -1>;
 } cursCursiveAttachmentlookup0;
 
+feature curs {
+
+ script DFLT;
+     language dflt ;
+      lookup cursCursiveAttachmentlookup0;
+
+ script latn;
+     language dflt ;
+      lookup cursCursiveAttachmentlookup0;
+
+ script syrc;
+     language dflt ;
+      lookup cursCursiveAttachmentlookup0;
+} curs;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\uni0712 \uni0713 \uni0712.init \uni0712.med \uni0712.fin 

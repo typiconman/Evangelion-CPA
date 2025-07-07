@@ -2,8 +2,6 @@
 <glyph name="uni0729" format="2">
   <advance width="610"/>
   <unicode hex="0729"/>
-  <anchor x="81" y="0" name="curs"/>
-  <anchor x="535" y="-1" name="_curs"/>
   <outline>
     <contour>
       <point x="413" y="40" type="line"/>

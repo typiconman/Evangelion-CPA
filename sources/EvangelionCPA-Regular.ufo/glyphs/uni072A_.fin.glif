@@ -2,7 +2,6 @@
 <glyph name="uni072A.fin" format="2">
   <advance width="640"/>
   <anchor x="790" y="0" name="_curs"/>
-  <anchor x="85" y="0" name="curs"/>
   <outline>
     <contour>
       <point x="334" y="649" type="curve" smooth="yes"/>
