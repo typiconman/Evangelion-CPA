@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0719.fin" format="2">
+  <advance width="400"/>
+  <anchor x="140" y="0" name="curs"/>
+  <anchor x="448" y="0" name="_curs"/>
+  <outline>
+    <contour>
+      <point x="447" y="0" type="line"/>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="461" type="line"/>
+      <point x="260" y="461" type="line"/>
+      <point x="260" y="40" type="line"/>
+      <point x="447" y="41" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>140</integer>
+            <key>width</key>
+            <integer>120</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

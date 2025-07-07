@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0721.init" format="2">
+  <advance width="805"/>
+  <anchor x="-148" y="1" name="curs"/>
+  <anchor x="734" y="-1" name="_curs"/>
+  <outline>
+    <contour>
+      <point x="735" y="1" type="line"/>
+      <point x="-150" y="1" type="line"/>
+      <point x="-150" y="41" type="line"/>
+      <point x="337" y="41" type="line"/>
+      <point x="337" y="419" type="line"/>
+      <point x="233" y="419" type="line"/>
+      <point x="233" y="312" type="line"/>
+      <point x="80" y="312" type="line"/>
+      <point x="80" y="462" type="line"/>
+      <point x="735" y="462" type="line"/>
+    </contour>
+    <contour>
+      <point x="622" y="41" type="line"/>
+      <point x="622" y="417" type="line"/>
+      <point x="451" y="417" type="line"/>
+      <point x="451" y="41" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>312</integer>
+            <key>width</key>
+            <integer>150</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>419</integer>
+            <key>width</key>
+            <integer>43</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>80</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>337</integer>
+            <key>width</key>
+            <integer>114</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>622</integer>
+            <key>width</key>
+            <integer>113</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

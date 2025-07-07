@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0710" format="2">
+  <advance width="800"/>
+  <unicode hex="0710"/>
+  <anchor x="80" y="0" name="curs"/>
+  <anchor x="642" y="1" name="_curs"/>
+  <outline>
+    <contour>
+      <point x="651.5" y="1" type="line"/>
+      <point x="527.5" y="1" type="line"/>
+      <point x="335.5" y="391" type="line"/>
+      <point x="188.5" y="391" type="line"/>
+      <point x="189.5" y="1" type="line"/>
+      <point x="79.5" y="1" type="line"/>
+      <point x="79.5" y="463" type="line"/>
+      <point x="328.5" y="463" type="line"/>
+      <point x="660.5" y="672" type="line"/>
+      <point x="720.5" y="606" type="line"/>
+      <point x="450.5" y="418" type="line"/>
+    </contour>
+  </outline>
+</glyph>

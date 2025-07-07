@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onequarter" format="2">
+  <advance width="118"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <contour>
+      <point x="93" y="-101" type="qcurve" smooth="yes"/>
+      <point x="93" y="-115"/>
+      <point x="73" y="-135"/>
+      <point x="59" y="-135" type="qcurve" smooth="yes"/>
+      <point x="45" y="-135"/>
+      <point x="25" y="-115"/>
+      <point x="25" y="-101" type="qcurve" smooth="yes"/>
+      <point x="25" y="-87"/>
+      <point x="45" y="-67"/>
+      <point x="59" y="-67" type="qcurve" smooth="yes"/>
+      <point x="73" y="-67"/>
+      <point x="93" y="-87"/>
+    </contour>
+  </outline>
+</glyph>

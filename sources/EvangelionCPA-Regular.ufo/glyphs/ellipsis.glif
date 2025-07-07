@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+  <advance width="564"/>
+  <unicode hex="2026"/>
+  <outline>
+    <contour>
+      <point x="56" y="231" type="qcurve" smooth="yes"/>
+      <point x="56" y="252"/>
+      <point x="85" y="281"/>
+      <point x="107" y="281" type="qcurve" smooth="yes"/>
+      <point x="127" y="281"/>
+      <point x="156" y="252"/>
+      <point x="156" y="231" type="qcurve" smooth="yes"/>
+      <point x="156" y="211"/>
+      <point x="127" y="181"/>
+      <point x="107" y="181" type="qcurve" smooth="yes"/>
+      <point x="86" y="181"/>
+      <point x="56" y="210"/>
+    </contour>
+    <contour>
+      <point x="56" y="505" type="qcurve" smooth="yes"/>
+      <point x="56" y="526"/>
+      <point x="85" y="554"/>
+      <point x="107" y="554" type="qcurve" smooth="yes"/>
+      <point x="127" y="554"/>
+      <point x="156" y="526"/>
+      <point x="156" y="505" type="qcurve" smooth="yes"/>
+      <point x="156" y="485"/>
+      <point x="127" y="454"/>
+      <point x="107" y="454" type="qcurve" smooth="yes"/>
+      <point x="86" y="454"/>
+      <point x="56" y="484"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="2">
+  <advance width="822"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="340" y="165" type="qcurve" smooth="yes"/>
+      <point x="362" y="165"/>
+      <point x="392" y="134"/>
+      <point x="392" y="113" type="qcurve" smooth="yes"/>
+      <point x="392" y="91"/>
+      <point x="376.5" y="76.5" type="qcurve" smooth="yes"/>
+      <point x="362" y="62"/>
+      <point x="340" y="62" type="qcurve" smooth="yes"/>
+      <point x="318" y="62"/>
+      <point x="288" y="91"/>
+      <point x="288" y="113" type="qcurve" smooth="yes"/>
+      <point x="288" y="135"/>
+      <point x="318" y="165"/>
+    </contour>
+    <contour>
+      <point x="495" y="57" type="line"/>
+      <point x="495" y="483" type="line"/>
+      <point x="271" y="483" type="line"/>
+      <point x="271" y="366" type="line"/>
+      <point x="113" y="366" type="line"/>
+      <point x="113" y="519" type="line"/>
+      <point x="602" y="519" type="line"/>
+      <point x="602" y="57" type="line"/>
+    </contour>
+  </outline>
+</glyph>

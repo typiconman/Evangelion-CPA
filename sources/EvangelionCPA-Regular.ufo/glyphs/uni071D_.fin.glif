@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni071D.fin" format="2">
+  <advance width="520"/>
+  <anchor x="668" y="1" name="_curs"/>
+  <anchor x="71" y="1" name="curs"/>
+  <outline>
+    <contour>
+      <point x="548" y="572" type="qcurve" smooth="yes"/>
+      <point x="548" y="550"/>
+      <point x="518" y="522"/>
+      <point x="496" y="522" type="qcurve" smooth="yes"/>
+      <point x="474" y="522"/>
+      <point x="446" y="551"/>
+      <point x="446" y="572" type="qcurve" smooth="yes"/>
+      <point x="446" y="594"/>
+      <point x="475" y="624"/>
+      <point x="496" y="624" type="qcurve" smooth="yes"/>
+      <point x="518" y="624"/>
+      <point x="548" y="594"/>
+    </contour>
+    <contour>
+      <point x="110" y="40" type="line"/>
+      <point x="160" y="402" type="line"/>
+      <point x="234" y="402" type="line"/>
+      <point x="394" y="40" type="line"/>
+      <point x="670" y="40" type="line"/>
+      <point x="670" y="0" type="line"/>
+      <point x="69" y="0" type="line"/>
+      <point x="69" y="40" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
