@@ -3,7 +3,6 @@ venv
 venv-test
 build.stamp
 proof
-fonts
 node_modules
 package-lock.json
 package.json
@@ -11,6 +10,7 @@ master_ufo
 instance_ufos
 .ninja_log
 build.ninja
+*.bak
 
 # OS generated files #
 ######################

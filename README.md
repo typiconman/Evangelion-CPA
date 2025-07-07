@@ -2,6 +2,8 @@
 
 Evangelion CPA is a typeface for [Christian Palestinian Aramaic](https://en.wikipedia.org/wiki/Christian_Palestinian_Aramaic). The typeface is used in the [Corpus of Christian Palestinian Aramaic](https://brill.com/display/serial/CCPA).
 
+The font is presently ALPHA-stage software and is available for testing purposes only.
+
 ![Sample Image](documentation/image2.png)
 
 ## History
@@ -16,6 +18,11 @@ The font source is stored in a FontForge SFD file in the `sources/` directory. A
 cd your/local/project/directory
 ./convert.sh
 ```
+
+Note that this overwrites the features.fea file. But the GSUB rules for
+the attachment of glyphs are stored in this file, not in FontForge.
+Therefore, the script will backup the features.fea file to ./features.fea.bak. You need to then manually add the contents of this file to the beginning
+of the resulting features.fea file (before the GPOS rules).
 
 The font can then be built using fontmake and gftools by running:
 
