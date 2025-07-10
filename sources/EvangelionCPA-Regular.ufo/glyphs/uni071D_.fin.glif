@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni071D.fin" format="2">
   <advance width="520"/>
-  <anchor x="668" y="1" name="_curs"/>
+  <anchor x="648" y="1" name="_curs"/>
   <anchor x="71" y="1" name="curs"/>
   <outline>
     <contour>
@@ -9,8 +9,8 @@
       <point x="160" y="402" type="line"/>
       <point x="234" y="402" type="line"/>
       <point x="394" y="40" type="line"/>
-      <point x="670" y="40" type="line"/>
-      <point x="670" y="0" type="line"/>
+      <point x="650" y="40" type="line"/>
+      <point x="650" y="0" type="line"/>
       <point x="69" y="0" type="line"/>
       <point x="69" y="40" type="line"/>
     </contour>

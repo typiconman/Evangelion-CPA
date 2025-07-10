@@ -2,7 +2,7 @@
 <glyph name="uni071A.fin" format="2">
   <advance width="524"/>
   <anchor x="0" y="0" name="curs"/>
-  <anchor x="675" y="0" name="_curs"/>
+  <anchor x="655" y="0" name="_curs"/>
   <outline>
     <contour>
       <point x="340" y="0" type="curve"/>
@@ -19,9 +19,9 @@
       <point x="378" y="461" type="line"/>
       <point x="454" y="461" type="line"/>
       <point x="454" y="41" type="line"/>
-      <point x="674" y="40" type="line"/>
-      <point x="674" y="0" type="line"/>
-      <point x="674" y="0"/>
+      <point x="654" y="40" type="line"/>
+      <point x="654" y="0" type="line"/>
+      <point x="654" y="0"/>
       <point x="674" y="0"/>
     </contour>
   </outline>
@@ -29,15 +29,6 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>41</integer>
-          </dict>
-        </array>
         <key>vhints</key>
         <array>
           <dict>

@@ -2,7 +2,7 @@
 <glyph name="uni0722.fin" format="2">
   <advance width="807"/>
   <anchor x="142" y="1" name="curs"/>
-  <anchor x="958" y="-6" name="_curs"/>
+  <anchor x="938" y="-6" name="_curs"/>
   <outline>
     <contour>
       <point x="431" y="0" type="curve"/>
@@ -37,11 +37,11 @@
       <point x="367.752" y="55.6667"/>
       <point x="385.257" y="41" type="curve"/>
       <point x="385.257" y="41"/>
-      <point x="385.257" y="41"/>
-      <point x="957" y="40" type="curve"/>
-      <point x="957" y="0" type="line"/>
-      <point x="957" y="0"/>
-      <point x="957" y="0"/>
+      <point x="365.257" y="41"/>
+      <point x="937" y="40" type="curve"/>
+      <point x="937" y="0" type="line"/>
+      <point x="938.247" y="1.29005"/>
+      <point x="543.634" y="-0.63851"/>
     </contour>
   </outline>
   <lib>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni072C.med" format="2">
   <advance width="886"/>
-  <anchor x="-150" y="-1" name="curs"/>
-  <anchor x="1039" y="0" name="_curs"/>
+  <anchor x="-130" y="-1" name="curs"/>
+  <anchor x="1019" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="1036" y="0" type="line"/>
-      <point x="761.333" y="0"/>
-      <point x="366" y="0.333333"/>
-      <point x="-150" y="1" type="curve"/>
-      <point x="-150" y="1"/>
-      <point x="-150" y="1"/>
-      <point x="-150" y="41" type="curve"/>
+      <point x="1016" y="0" type="line"/>
+      <point x="741.333" y="0"/>
+      <point x="386" y="0.333008"/>
+      <point x="-130" y="1" type="curve"/>
+      <point x="-130" y="1"/>
+      <point x="-130" y="1"/>
+      <point x="-130" y="41" type="curve"/>
       <point x="80" y="40" type="line"/>
       <point x="80" y="40"/>
       <point x="80" y="40"/>
@@ -45,8 +45,8 @@
       <point x="735.317" y="48.3333"/>
       <point x="723.951" y="41" type="curve"/>
       <point x="723.951" y="41"/>
-      <point x="723.951" y="41"/>
-      <point x="1036" y="40" type="curve"/>
+      <point x="703.951" y="41"/>
+      <point x="1016" y="40" type="curve"/>
     </contour>
     <contour>
       <point x="706" y="224" type="curve" smooth="yes"/>

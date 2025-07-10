@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0721.fin" format="2">
   <advance width="805"/>
-  <anchor x="945" y="0" name="_curs"/>
-  <anchor x="81" y="1" name="curs"/>
+  <anchor x="925" y="0" name="_curs"/>
+  <anchor x="0" y="0" name="curs"/>
   <outline>
     <contour>
-      <point x="79" y="1" type="curve"/>
+      <point x="79" y="0" type="curve"/>
       <point x="79" y="41" type="line"/>
       <point x="337" y="41" type="line"/>
       <point x="337" y="419" type="line"/>
@@ -15,10 +15,10 @@
       <point x="80" y="462" type="line"/>
       <point x="735" y="462" type="line"/>
       <point x="735" y="41" type="line"/>
-      <point x="945" y="40" type="line"/>
-      <point x="945" y="0" type="line" smooth="yes"/>
-      <point x="945" y="0"/>
-      <point x="945" y="0"/>
+      <point x="925" y="40" type="line"/>
+      <point x="925" y="0" type="line" smooth="yes"/>
+      <point x="925" y="0"/>
+      <point x="945" y="-1"/>
     </contour>
     <contour>
       <point x="622" y="41" type="line"/>
@@ -35,9 +35,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>1</integer>
+            <integer>0</integer>
             <key>width</key>
-            <integer>40</integer>
+            <integer>41</integer>
           </dict>
           <dict>
             <key>position</key>

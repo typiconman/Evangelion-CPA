@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0720.med" format="2">
   <advance width="598"/>
-  <anchor x="-151" y="0" name="curs"/>
-  <anchor x="747" y="0" name="_curs"/>
+  <anchor x="-131" y="0" name="curs"/>
+  <anchor x="727" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="748" y="0" type="line"/>
-      <point x="296.667" y="0"/>
-      <point x="-2.66667" y="0.333333"/>
-      <point x="-150" y="1" type="curve"/>
-      <point x="-150" y="1"/>
-      <point x="-150" y="1"/>
-      <point x="-150" y="41" type="curve"/>
+      <point x="728" y="0" type="line"/>
+      <point x="276.667" y="0"/>
+      <point x="17.333" y="0.333008"/>
+      <point x="-130" y="1" type="curve"/>
+      <point x="-130" y="1"/>
+      <point x="-130" y="1"/>
+      <point x="-130" y="41" type="curve"/>
       <point x="391" y="41" type="line"/>
       <point x="393" y="45" type="line"/>
       <point x="158" y="518" type="line"/>
@@ -25,8 +25,8 @@
       <point x="423.623" y="223.667"/>
       <point x="498.869" y="41" type="curve"/>
       <point x="498.869" y="41"/>
-      <point x="498.869" y="41"/>
-      <point x="748" y="40" type="curve"/>
+      <point x="478.869" y="41"/>
+      <point x="728" y="40" type="curve"/>
     </contour>
   </outline>
   <lib>

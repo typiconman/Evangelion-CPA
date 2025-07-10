@@ -2,15 +2,15 @@
 <glyph name="uni0725.fin" format="2">
   <advance width="676"/>
   <anchor x="81" y="0" name="curs"/>
-  <anchor x="826" y="0" name="_curs"/>
+  <anchor x="806" y="0" name="_curs"/>
   <outline>
     <contour>
       <point x="552" y="40" type="curve"/>
       <point x="552" y="40"/>
-      <point x="552" y="40"/>
-      <point x="826" y="40" type="curve"/>
-      <point x="826" y="0" type="line"/>
-      <point x="826" y="0"/>
+      <point x="532" y="40"/>
+      <point x="806" y="40" type="curve"/>
+      <point x="806" y="0" type="line"/>
+      <point x="806" y="0"/>
       <point x="826" y="0"/>
       <point x="80" y="0" type="curve"/>
       <point x="80" y="0"/>

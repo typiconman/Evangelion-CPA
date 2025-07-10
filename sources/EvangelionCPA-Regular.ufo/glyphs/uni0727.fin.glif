@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0727.fin" format="2">
   <advance width="680"/>
-  <anchor x="832" y="1" name="_curs"/>
-  <anchor x="82" y="-1" name="curs"/>
+  <anchor x="812" y="1" name="_curs"/>
+  <anchor x="0" y="0" name="curs"/>
   <outline>
     <contour>
       <point x="81" y="41" type="line"/>
@@ -60,9 +60,9 @@
       <point x="252.169" y="58"/>
       <point x="260.507" y="40" type="curve"/>
       <point x="260.507" y="40"/>
-      <point x="260.507" y="40"/>
-      <point x="830" y="40" type="curve"/>
-      <point x="830" y="0" type="line"/>
+      <point x="240.507" y="40"/>
+      <point x="810" y="40" type="curve"/>
+      <point x="810" y="0" type="line"/>
       <point x="81" y="0" type="line"/>
     </contour>
   </outline>
@@ -76,7 +76,7 @@
             <key>position</key>
             <integer>0</integer>
             <key>width</key>
-            <integer>40</integer>
+            <integer>41</integer>
           </dict>
           <dict>
             <key>position</key>

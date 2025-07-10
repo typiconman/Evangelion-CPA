@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni071B.med" format="2">
   <advance width="870"/>
-  <anchor x="1020" y="0" name="_curs"/>
-  <anchor x="-150" y="0" name="curs"/>
+  <anchor x="1000" y="0" name="_curs"/>
+  <anchor x="-130" y="0" name="curs"/>
   <outline>
     <contour>
-      <point x="1020" y="0" type="line"/>
+      <point x="1000" y="0" type="line"/>
       <point x="753" y="0" type="line"/>
       <point x="529" y="-209" type="line"/>
       <point x="343" y="-208" type="line"/>
       <point x="267" y="0" type="line"/>
-      <point x="-150" y="0" type="line"/>
-      <point x="-150" y="40" type="line"/>
+      <point x="-130" y="0" type="line"/>
+      <point x="-130" y="40" type="line"/>
       <point x="253" y="40" type="line"/>
       <point x="196.333" y="213.333"/>
       <point x="164" y="313.833"/>
@@ -27,7 +27,7 @@
       <point x="23" y="588" type="curve"/>
       <point x="223" y="588" type="line"/>
       <point x="376" y="40" type="line"/>
-      <point x="1020" y="40" type="line"/>
+      <point x="1000" y="40" type="line"/>
     </contour>
     <contour>
       <point x="640" y="1" type="curve"/>

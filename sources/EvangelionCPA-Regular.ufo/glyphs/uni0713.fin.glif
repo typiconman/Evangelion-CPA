@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0713.fin" format="2">
   <advance width="760"/>
-  <anchor x="908" y="-1" name="_curs"/>
+  <anchor x="888" y="-1" name="_curs"/>
   <anchor x="228" y="0" name="curs"/>
   <outline>
     <contour>
-      <point x="910" y="0" type="line"/>
+      <point x="890" y="0" type="line"/>
       <point x="415" y="0" type="line"/>
       <point x="509.5" y="-39.5" type="line" smooth="yes"/>
       <point x="572.5" y="-65.8333"/>
@@ -41,7 +41,7 @@
       <point x="48" y="504"/>
       <point x="215" y="504" type="curve"/>
       <point x="325" y="40" type="line"/>
-      <point x="910" y="40" type="line"/>
+      <point x="890" y="40" type="line"/>
     </contour>
   </outline>
   <lib>

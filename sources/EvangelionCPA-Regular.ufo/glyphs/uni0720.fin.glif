@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0720.fin" format="2">
   <advance width="598"/>
-  <anchor x="747" y="0" name="_curs"/>
-  <anchor x="79" y="0" name="curs"/>
+  <anchor x="727" y="0" name="_curs"/>
+  <anchor x="1" y="0" name="curs"/>
   <outline>
     <contour>
-      <point x="748" y="0" type="line"/>
-      <point x="450" y="0"/>
+      <point x="728" y="0" type="line"/>
+      <point x="430" y="0"/>
       <point x="227.333" y="0.333333"/>
       <point x="80" y="1" type="curve"/>
       <point x="80" y="1"/>
@@ -25,8 +25,8 @@
       <point x="424.623" y="223.667"/>
       <point x="499.869" y="41" type="curve"/>
       <point x="499.869" y="41"/>
-      <point x="499.869" y="41"/>
-      <point x="748" y="40" type="curve"/>
+      <point x="479.869" y="41"/>
+      <point x="728" y="40" type="curve"/>
     </contour>
   </outline>
   <lib>

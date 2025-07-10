@@ -2,11 +2,11 @@
 <glyph name="uni0717.init" format="2">
   <advance width="804"/>
   <anchor x="723" y="0" name="_curs"/>
-  <anchor x="-145" y="1" name="curs"/>
+  <anchor x="-125" y="1" name="curs"/>
   <outline>
     <contour>
-      <point x="-150" y="1" type="line"/>
-      <point x="-149" y="41" type="line"/>
+      <point x="-130" y="1" type="line"/>
+      <point x="-129" y="41" type="line"/>
       <point x="80" y="41" type="line"/>
       <point x="80" y="41"/>
       <point x="80" y="41"/>
