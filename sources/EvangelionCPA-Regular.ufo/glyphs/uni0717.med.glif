@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0717.med" format="2">
   <advance width="804"/>
-  <anchor x="934" y="0" name="_curs"/>
-  <anchor x="-125" y="1" name="curs"/>
+  <anchor x="931" y="0" name="_curs"/>
+  <anchor x="-125" y="0" name="curs"/>
   <outline>
     <contour>
-      <point x="724" y="41" type="line"/>
+      <point x="724" y="40" type="line"/>
       <point x="934" y="40" type="line"/>
       <point x="934" y="0" type="line"/>
-      <point x="934" y="0"/>
-      <point x="954" y="0"/>
-      <point x="613" y="0" type="curve"/>
-      <point x="613" y="419" type="line"/>
-      <point x="461" y="419" type="line"/>
+      <point x="613" y="0" type="line"/>
+      <point x="613" y="418" type="line"/>
+      <point x="461" y="418" type="line"/>
       <point x="461" y="0" type="line"/>
       <point x="349" y="0" type="line"/>
-      <point x="349" y="419" type="line"/>
-      <point x="194" y="419" type="line"/>
+      <point x="349" y="418" type="line"/>
+      <point x="194" y="418" type="line"/>
       <point x="194" y="0" type="line"/>
-      <point x="-130" y="1" type="line"/>
-      <point x="-129" y="41" type="line"/>
-      <point x="80" y="41" type="line"/>
-      <point x="80" y="41"/>
-      <point x="80" y="41"/>
-      <point x="80" y="461" type="curve"/>
-      <point x="724" y="461" type="line"/>
+      <point x="-131" y="0" type="line"/>
+      <point x="-131" y="40" type="line"/>
+      <point x="80" y="40" type="line"/>
+      <point x="80" y="40"/>
+      <point x="80" y="40"/>
+      <point x="80" y="460" type="curve"/>
+      <point x="724" y="460" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,11 +35,11 @@
             <key>position</key>
             <integer>0</integer>
             <key>width</key>
-            <integer>41</integer>
+            <integer>40</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>419</integer>
+            <integer>418</integer>
             <key>width</key>
             <integer>42</integer>
           </dict>

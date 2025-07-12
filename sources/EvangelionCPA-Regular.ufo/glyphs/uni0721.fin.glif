@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0721.fin" format="2">
   <advance width="805"/>
-  <anchor x="925" y="0" name="_curs"/>
-  <anchor x="0" y="0" name="curs"/>
+  <anchor x="923" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="79" y="0" type="curve"/>
-      <point x="79" y="41" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="80" y="41" type="line"/>
       <point x="337" y="41" type="line"/>
       <point x="337" y="419" type="line"/>
       <point x="233" y="419" type="line"/>
@@ -14,16 +13,14 @@
       <point x="80" y="312" type="line"/>
       <point x="80" y="462" type="line"/>
       <point x="735" y="462" type="line"/>
-      <point x="735" y="41" type="line"/>
+      <point x="735" y="40" type="line"/>
       <point x="925" y="40" type="line"/>
-      <point x="925" y="0" type="line" smooth="yes"/>
-      <point x="925" y="0"/>
-      <point x="945" y="-1"/>
+      <point x="925" y="0" type="line"/>
     </contour>
     <contour>
       <point x="622" y="41" type="line"/>
-      <point x="622" y="417" type="line"/>
-      <point x="451" y="417" type="line"/>
+      <point x="622" y="419" type="line"/>
+      <point x="451" y="419" type="line"/>
       <point x="451" y="41" type="line"/>
     </contour>
   </outline>

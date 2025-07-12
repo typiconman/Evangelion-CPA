@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0715.fin" format="2">
   <advance width="648"/>
-  <anchor x="778" y="0" name="_curs"/>
+  <anchor x="776" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="81.5" y="461" type="line"/>
-      <point x="81.5" y="462" type="line"/>
-      <point x="570.5" y="462" type="line"/>
-      <point x="570.5" y="461" type="line"/>
+      <point x="80" y="461" type="line"/>
       <point x="571" y="461" type="line"/>
       <point x="571" y="40" type="line"/>
       <point x="778" y="40" type="line"/>
       <point x="778" y="0" type="line"/>
-      <point x="778" y="0"/>
-      <point x="798" y="0"/>
-      <point x="463" y="0" type="curve"/>
-      <point x="463.5" y="425" type="line"/>
-      <point x="239.5" y="425" type="line"/>
-      <point x="239.5" y="309" type="line"/>
-      <point x="237" y="309" type="line"/>
-      <point x="237" y="308" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="464" y="425" type="line"/>
+      <point x="240" y="425" type="line"/>
+      <point x="240" y="308" type="line"/>
       <point x="80" y="308" type="line"/>
-      <point x="80" y="461" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -46,7 +38,7 @@
             <key>position</key>
             <integer>425</integer>
             <key>width</key>
-            <integer>37</integer>
+            <integer>36</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -59,9 +51,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>463</integer>
+            <integer>464</integer>
             <key>width</key>
-            <integer>108</integer>
+            <integer>107</integer>
           </dict>
         </array>
       </dict>

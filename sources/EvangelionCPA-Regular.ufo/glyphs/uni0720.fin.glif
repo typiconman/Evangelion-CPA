@@ -2,31 +2,24 @@
 <glyph name="uni0720.fin" format="2">
   <advance width="598"/>
   <anchor x="727" y="0" name="_curs"/>
-  <anchor x="1" y="0" name="curs"/>
   <outline>
     <contour>
       <point x="728" y="0" type="line"/>
       <point x="430" y="0"/>
-      <point x="227.333" y="0.333333"/>
-      <point x="80" y="1" type="curve"/>
-      <point x="80" y="1"/>
-      <point x="80" y="1"/>
-      <point x="80" y="41" type="curve"/>
-      <point x="392" y="41" type="line"/>
-      <point x="394" y="45" type="line"/>
+      <point x="227" y="0"/>
+      <point x="80" y="0" type="curve"/>
+      <point x="80" y="40" type="line"/>
+      <point x="392" y="40" type="line"/>
+      <point x="394" y="47" type="line"/>
       <point x="159" y="518" type="line"/>
-      <point x="145.667" y="541.333"/>
-      <point x="119.667" y="565"/>
+      <point x="146" y="541"/>
+      <point x="120" y="565"/>
       <point x="81" y="589" type="curve"/>
-      <point x="81" y="589"/>
-      <point x="81" y="589"/>
-      <point x="275" y="589" type="curve"/>
-      <point x="349.667" y="406.333"/>
-      <point x="424.623" y="223.667"/>
-      <point x="499.869" y="41" type="curve"/>
-      <point x="499.869" y="41"/>
-      <point x="479.869" y="41"/>
-      <point x="728" y="40" type="curve"/>
+      <point x="275" y="589" type="line"/>
+      <point x="350" y="406"/>
+      <point x="425" y="222"/>
+      <point x="500" y="39" type="curve"/>
+      <point x="728" y="39" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,7 +30,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>1</integer>
+            <integer>0</integer>
             <key>width</key>
             <integer>40</integer>
           </dict>

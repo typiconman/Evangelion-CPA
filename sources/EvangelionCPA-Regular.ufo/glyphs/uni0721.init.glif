@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0721.init" format="2">
   <advance width="805"/>
-  <anchor x="-128" y="1" name="curs"/>
-  <anchor x="734" y="-1" name="_curs"/>
+  <anchor x="-128" y="0" name="curs"/>
   <outline>
     <contour>
-      <point x="735" y="1" type="line"/>
-      <point x="-130" y="1" type="line"/>
-      <point x="-130" y="41" type="line"/>
-      <point x="337" y="41" type="line"/>
+      <point x="735" y="0" type="line"/>
+      <point x="-130" y="0" type="line"/>
+      <point x="-130" y="40" type="line"/>
+      <point x="337" y="40" type="line"/>
       <point x="337" y="419" type="line"/>
       <point x="233" y="419" type="line"/>
       <point x="233" y="312" type="line"/>
@@ -17,10 +16,10 @@
       <point x="735" y="462" type="line"/>
     </contour>
     <contour>
-      <point x="622" y="41" type="line"/>
-      <point x="622" y="417" type="line"/>
-      <point x="451" y="417" type="line"/>
-      <point x="451" y="41" type="line"/>
+      <point x="622" y="40" type="line"/>
+      <point x="622" y="419" type="line"/>
+      <point x="451" y="419" type="line"/>
+      <point x="451" y="40" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -31,7 +30,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>1</integer>
+            <integer>0</integer>
             <key>width</key>
             <integer>40</integer>
           </dict>

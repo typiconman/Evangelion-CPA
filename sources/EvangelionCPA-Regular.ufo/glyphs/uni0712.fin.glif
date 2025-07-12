@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0712.fin" format="2">
   <advance width="757"/>
-  <anchor x="82" y="-1" name="curs"/>
   <anchor x="885" y="0" name="_curs"/>
   <outline>
     <contour>
