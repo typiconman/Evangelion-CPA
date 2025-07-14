@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0307" format="2">
+<glyph name="uni0323" format="2">
   <advance width="0"/>
-  <unicode hex="0307"/>
+  <unicode hex="0323"/>
   <outline>
     <contour>
-      <point x="26" y="647" type="curve" smooth="yes"/>
-      <point x="26" y="675"/>
-      <point x="49" y="698"/>
-      <point x="77" y="698" type="curve" smooth="yes"/>
-      <point x="105" y="698"/>
-      <point x="126" y="677"/>
-      <point x="126" y="647" type="curve" smooth="yes"/>
-      <point x="126" y="621"/>
-      <point x="106" y="598"/>
-      <point x="77" y="598" type="curve" smooth="yes"/>
-      <point x="51" y="598"/>
-      <point x="26" y="619"/>
+      <point x="26" y="-133" type="curve" smooth="yes"/>
+      <point x="26" y="-105"/>
+      <point x="49" y="-82"/>
+      <point x="77" y="-82" type="curve" smooth="yes"/>
+      <point x="105" y="-82"/>
+      <point x="126" y="-103"/>
+      <point x="126" y="-133" type="curve" smooth="yes"/>
+      <point x="126" y="-159"/>
+      <point x="106" y="-182"/>
+      <point x="77" y="-182" type="curve" smooth="yes"/>
+      <point x="51" y="-182"/>
+      <point x="26" y="-161"/>
     </contour>
   </outline>
   <lib>
@@ -26,7 +26,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>598</integer>
+            <integer>-182</integer>
             <key>width</key>
             <integer>100</integer>
           </dict>

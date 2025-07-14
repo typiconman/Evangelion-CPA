@@ -142,8 +142,6 @@
     <string>braceright.glif</string>
     <key>c129</key>
     <string>c129.glif</string>
-    <key>quotesinglbase</key>
-    <string>quotesinglbase.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
     <key>dagger</key>
@@ -176,12 +174,6 @@
     <string>guillemotright.glif</string>
     <key>onequarter</key>
     <string>onequarter.glif</string>
-    <key>Agrave</key>
-    <string>A_grave.glif</string>
-    <key>Aacute</key>
-    <string>A_acute.glif</string>
-    <key>Acircumflex</key>
-    <string>A_circumflex.glif</string>
     <key>Igrave</key>
     <string>I_grave.glif</string>
     <key>Icircumflex</key>
@@ -312,8 +304,8 @@
     <string>uni0308.glif</string>
     <key>uni0307</key>
     <string>uni0307.glif</string>
-    <key>dotbelowcomb</key>
-    <string>dotbelowcomb.glif</string>
+    <key>uni0323</key>
+    <string>uni0323.glif</string>
     <key>uni071F.med</key>
     <string>uni071F_.med.glif</string>
     <key>uni0722.init</key>
@@ -438,5 +430,7 @@
     <string>uni072C_.med.glif</string>
     <key>uni072C.fin</key>
     <string>uni072C_.fin.glif</string>
+    <key>uni0740</key>
+    <string>uni0740.glif</string>
   </dict>
 </plist>

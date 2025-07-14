@@ -27,15 +27,13 @@ languagesystem syrc dflt;
     \uni0710.med \uni0712.med \uni0713.med \uni0715.med \uni0717.med \uni0718.med \uni0719.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072A.med \uni072B.med \uni072C.med
 ];
 
-# Lookup for final forms
-feature ccmp {
-  script syrc;
-
-  lookup medial_forms_lookup {
+# Lookups for the initial, medial, and final forms
+# They must be called in this order!
+lookup medial_forms_lookup {
         # Set the RightToLeft flag (value 1)
         # lookupflag 1;
         # OR, more explicitly for readability:
-        lookupflag RightToLeft; # This is the preferred AFDKO syntax
+        lookupflag RightToLeft IgnoreMarks;
 
         sub @_CONNECTORS \uni0710' @_RIGHT_CONNECTORS by \uni0710.med;
         sub @_CONNECTORS \uni0712' @_RIGHT_CONNECTORS by \uni0712.med;
@@ -63,7 +61,7 @@ feature ccmp {
     } medial_forms_lookup;
 
   lookup final_forms_lookup {
-        lookupflag RightToLeft;
+        lookupflag RightToLeft IgnoreMarks;
 
         sub @_CONNECTORS \uni0710' by \uni0710.fin;
         sub @_CONNECTORS \uni0712' by \uni0712.fin;
@@ -93,7 +91,7 @@ feature ccmp {
   # Note that Dalath, Zain, and Rish do not have initial forms
   # since they do not join to the left; hence they are omitted
   lookup initial_forms_lookup {
-      lookupflag RightToLeft;
+      lookupflag RightToLeft IgnoreMarks;
 
       sub \uni0710' @_FINAL_FORMS by \uni0710.init;
       sub \uni0712' @_FINAL_FORMS by \uni0712.init;
@@ -116,6 +114,20 @@ feature ccmp {
       sub \uni072B' @_FINAL_FORMS by \uni072B.init;
       sub \uni072C' @_FINAL_FORMS by \uni072C.init;
   } initial_forms_lookup;
+
+# Lookup for final forms
+feature ccmp {
+  script DFLT;
+    language dflt ;
+       lookup medial_forms_lookup;
+       lookup final_forms_lookup;
+       lookup initial_forms_lookup;
+
+  script syrc;
+    language dflt ;
+       lookup medial_forms_lookup;
+       lookup final_forms_lookup;
+       lookup initial_forms_lookup;
 } ccmp;
 
 # GPOS 
@@ -210,23 +222,24 @@ feature curs {
 @GDEF_Simple = [\uni0712 \uni0713 \uni0712.init \uni0712.med \uni0712.fin 
 	\uni0713.init \uni0713.med \uni0713.fin \uni0710 \uni0715 \uni0717 \uni0718 
 	\uni0719 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 
-	\uni0725 \uni0727 \uni0726 \uni0728 \uni0729 \uni072A \uni072B \uni072C \uni0308 
-	\uni0307 \dotbelowcomb \uni071F.med \uni0722.init \uni0710.med \uni0717.init 
-	\uni0717.med \uni0717.fin \uni0718.med \uni0718.fin \uni0718.init 
-	\uni071A.init \uni071A.med \uni071A.fin \uni071B.init \uni071B.med 
-	\uni071B.fin \uni071D.init \uni071D.med \uni071D.fin \uni071F.init 
-	\uni071F.fin \uni0710.fin \uni200D \uni200C \uni0710.init \uni0715.med 
-	\uni0715.fin \uni0719.med \uni0719.fin \uni0720.init \uni0720.med 
-	\uni0720.fin \uni0721.init \uni0721.med \uni0721.fin \uni0722.med 
-	\uni0722.fin \uni0723.med \uni0723.init \uni0723.fin \uni0725.init 
-	\uni0725.med \uni0725.fin \uni0727.init \uni0727.med \uni0727.fin 
-	\uni0726.init \uni0726.med \uni0726.fin \uni0728.init \uni0728.med 
-	\uni0728.fin \uni0729.init \uni0729.med \uni0729.fin \uni072A.med 
-	\uni072A.fin \uni072B.init \uni072B.med \uni072B.fin \uni072C.init 
-	\uni072C.med \uni072C.fin ];
+	\uni0725 \uni0727 \uni0726 \uni0728 \uni0729 \uni072A \uni072B \uni072C 
+	\uni071F.med \uni0722.init \uni0710.med \uni0717.init \uni0717.med 
+	\uni0717.fin \uni0718.med \uni0718.fin \uni0718.init \uni071A.init 
+	\uni071A.med \uni071A.fin \uni071B.init \uni071B.med \uni071B.fin 
+	\uni071D.init \uni071D.med \uni071D.fin \uni071F.init \uni071F.fin 
+	\uni0710.fin \uni200D \uni200C \uni0710.init \uni0715.med \uni0715.fin 
+	\uni0719.med \uni0719.fin \uni0720.init \uni0720.med \uni0720.fin 
+	\uni0721.init \uni0721.med \uni0721.fin \uni0722.med \uni0722.fin 
+	\uni0723.med \uni0723.init \uni0723.fin \uni0725.init \uni0725.med 
+	\uni0725.fin \uni0727.init \uni0727.med \uni0727.fin \uni0726.init 
+	\uni0726.med \uni0726.fin \uni0728.init \uni0728.med \uni0728.fin 
+	\uni0729.init \uni0729.med \uni0729.fin \uni072A.med \uni072A.fin 
+	\uni072B.init \uni072B.med \uni072B.fin \uni072C.init \uni072C.med 
+	\uni072C.fin ];
+@GDEF_Mark = [\uni0308 \uni0307 \uni0323 \uni0740 ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
 
 } GDEF;
 
