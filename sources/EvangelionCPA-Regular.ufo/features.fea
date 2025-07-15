@@ -14,7 +14,7 @@ languagesystem syrc dflt;
 
 # a different class that also includes the Dalath, Zain, and Rish
 @_RIGHT_CONNECTORS = [
-    \uni0715 \uni0715.med \uni0719 \uni0719.med \uni072A \uni072A.med
+    \uni0715 \uni0715.med \uni0716 \uni0716.med \uni0719 \uni0719.med \uni072A \uni072A.med
     \uni0710 \uni0712 \uni0713 \uni0717 \uni0718 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 \uni0725 \uni0726 \uni0727 \uni0728 \uni0729 \uni072B \uni072C \uni200D
     \uni0710.med \uni0712.med \uni0713.med \uni0717.med \uni0718.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072B.med \uni072C.med
 ];
@@ -23,9 +23,22 @@ languagesystem syrc dflt;
 # We also include ZWJ here
 # We also add the medial forms from above
 @_FINAL_FORMS = [
-    \uni0710.fin \uni0712.fin \uni0713.fin \uni0715.fin \uni0717.fin \uni0718.fin \uni0719.fin \uni071A.fin \uni071B.fin \uni071D.fin \uni071F.fin \uni0720.fin \uni0721.fin \uni0722.fin \uni0723.fin \uni0725.fin \uni0726.fin \uni0727.fin \uni0728.fin \uni0729.fin \uni072A.fin \uni072B.fin \uni072C.fin \uni200D
-    \uni0710.med \uni0712.med \uni0713.med \uni0715.med \uni0717.med \uni0718.med \uni0719.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072A.med \uni072B.med \uni072C.med
+    \uni0710.fin \uni0712.fin \uni0713.fin \uni0715.fin \uni0716.fin \uni0717.fin \uni0718.fin \uni0719.fin \uni071A.fin \uni071B.fin \uni071D.fin \uni071F.fin \uni0720.fin \uni0721.fin \uni0722.fin \uni0723.fin \uni0725.fin \uni0726.fin \uni0727.fin \uni0728.fin \uni0729.fin \uni072A.fin \uni072B.fin \uni072C.fin \uni200D
+    \uni0710.med \uni0712.med \uni0713.med \uni0715.med \uni0716.med \uni0717.med \uni0718.med \uni0719.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072A.med \uni072B.med \uni072C.med
 ];
+
+# Diacritical marks 
+@_DIACRITICS = [
+    \uni0307 \uni0308
+];
+
+# Removal of the dot above the Rish
+# This must be called first
+# It changes Rish to Dotless Rish / Dalath
+lookup dot_removal {
+  lookupflag RightToLeft;
+  sub \uni072A' @_DIACRITICS by \uni0716;
+} dot_removal;
 
 # Lookups for the initial, medial, and final forms
 # They must be called in this order!
@@ -39,6 +52,7 @@ lookup medial_forms_lookup {
         sub @_CONNECTORS \uni0712' @_RIGHT_CONNECTORS by \uni0712.med;
         sub @_CONNECTORS \uni0713' @_RIGHT_CONNECTORS by \uni0713.med;
         sub @_CONNECTORS \uni0715' @_RIGHT_CONNECTORS by \uni0715.med;
+        sub @_CONNECTORS \uni0716' @_RIGHT_CONNECTORS by \uni0716.med;
         sub @_CONNECTORS \uni0717' @_RIGHT_CONNECTORS by \uni0717.med;
         sub @_CONNECTORS \uni0718' @_RIGHT_CONNECTORS by \uni0718.med;
         sub @_CONNECTORS \uni0719' @_RIGHT_CONNECTORS by \uni0719.med;
@@ -67,6 +81,7 @@ lookup medial_forms_lookup {
         sub @_CONNECTORS \uni0712' by \uni0712.fin;
         sub @_CONNECTORS \uni0713' by \uni0713.fin;
         sub @_CONNECTORS \uni0715' by \uni0715.fin;
+        sub @_CONNECTORS \uni0716' by \uni0716.fin;
         sub @_CONNECTORS \uni0717' by \uni0717.fin;
         sub @_CONNECTORS \uni0718' by \uni0718.fin;
         sub @_CONNECTORS \uni0719' by \uni0719.fin;
@@ -115,16 +130,17 @@ lookup medial_forms_lookup {
       sub \uni072C' @_FINAL_FORMS by \uni072C.init;
   } initial_forms_lookup;
 
-# Lookup for final forms
 feature ccmp {
   script DFLT;
     language dflt ;
+       lookup dot_removal;
        lookup medial_forms_lookup;
        lookup final_forms_lookup;
        lookup initial_forms_lookup;
 
   script syrc;
     language dflt ;
+       lookup dot_removal;
        lookup medial_forms_lookup;
        lookup final_forms_lookup;
        lookup initial_forms_lookup;
@@ -144,7 +160,7 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni071F.med <anchor 649 0> <anchor -129 0>;
     pos cursive \uni0722.init <anchor NULL> <anchor -128 0>;
     pos cursive \uni0710.med <anchor 924 0> <anchor -125 0>;
-    pos cursive \uni0717.init <anchor NULL> <anchor -125 1>;
+    pos cursive \uni0717.init <anchor NULL> <anchor -125 0>;
     pos cursive \uni0717.med <anchor 931 0> <anchor -125 0>;
     pos cursive \uni0717.fin <anchor 932 0> <anchor NULL>;
     pos cursive \uni0718.med <anchor 728 0> <anchor -125 0>;
@@ -197,11 +213,48 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni072A.fin <anchor 767 0> <anchor NULL>;
     pos cursive \uni072B.init <anchor NULL> <anchor -126 0>;
     pos cursive \uni072B.med <anchor 833 0> <anchor -126 0>;
-    pos cursive \uni072B.fin <anchor 834 0> <anchor 305 0>;
+    pos cursive \uni072B.fin <anchor 834 0> <anchor NULL>;
     pos cursive \uni072C.init <anchor NULL> <anchor -124 0>;
     pos cursive \uni072C.med <anchor 1012 0> <anchor -126 0>;
     pos cursive \uni072C.fin <anchor 1011 0> <anchor NULL>;
+    pos cursive \uni0716.med <anchor 776 0> <anchor -1 0>;
+    pos cursive \uni0716.fin <anchor 776 0> <anchor NULL>;
 } cursCursiveAttachmentlookup0;
+
+lookup markDiacriticalPositioninglookup1 {
+  lookupflag RightToLeft;
+  markClass [\uni0308 ] <anchor 167 598> @Diacritic;
+  markClass [\uni0307 ] <anchor 77 598> @Diacritic;
+  pos base [\uni0712 \uni0712.init \uni0712.med \uni0712.fin ] <anchor 374 550> mark @Diacritic;
+  pos base [\uni0713 \uni0713.init \uni0713.med \uni0713.fin ] <anchor 454 293> mark @Diacritic;
+  pos base [\uni0710 \uni0710.fin \uni0710.init ] <anchor 261 550> mark @Diacritic;
+  pos base [\uni0715 \uni0715.med \uni0715.fin \uni0716 \uni0716.med \uni0716.fin ] <anchor 360 550> mark @Diacritic;
+  pos base [\uni0717 \uni0717.init \uni0717.med \uni0717.fin ] <anchor 411 550> mark @Diacritic;
+  pos base [\uni0718 \uni0718.med \uni0718.fin \uni0718.init ] <anchor 302 550> mark @Diacritic;
+  pos base [\uni0719 ] <anchor 152 549> mark @Diacritic;
+  pos base [\uni071A \uni071A.init \uni071A.med \uni071A.fin ] <anchor 267 549> mark @Diacritic;
+  pos base [\uni071B \uni071B.init \uni071B.med \uni071B.fin ] <anchor 530 310> mark @Diacritic;
+  pos base [\uni071D \uni071D.init \uni071D.med \uni071D.fin ] <anchor 197 549> mark @Diacritic;
+  pos base [\uni071F \uni071F.fin ] <anchor 273 550> mark @Diacritic;
+  pos base [\uni0720 \uni0720.init \uni0720.med \uni0720.fin ] <anchor 445 501> mark @Diacritic;
+  pos base [\uni0721 \uni0721.init \uni0721.med \uni0721.fin ] <anchor 412 549> mark @Diacritic;
+  pos base [\uni0722 \uni0722.fin ] <anchor 393 204> mark @Diacritic;
+  pos base [\uni0723 \uni0723.med \uni0723.init \uni0723.fin ] <anchor 437 549> mark @Diacritic;
+  pos base [\uni0725 \uni0725.init \uni0725.med \uni0725.fin ] <anchor 327 549> mark @Diacritic;
+  pos base [\uni0727 \uni0727.init \uni0727.med \uni0727.fin ] <anchor 357 549> mark @Diacritic;
+  pos base [\uni0726 \uni0726.init \uni0726.med \uni0726.fin ] <anchor 330 549> mark @Diacritic;
+  pos base [\uni0728 \uni0728.init \uni0728.med \uni0728.fin ] <anchor 388 549> mark @Diacritic;
+  pos base [\uni0729 \uni0729.init \uni0729.med \uni0729.fin ] <anchor 315 549> mark @Diacritic;
+  pos base [\uni072A \uni072A.med \uni072A.fin ] <anchor 331 732> mark @Diacritic;
+  pos base [\uni072B \uni072B.init \uni072B.med \uni072B.fin ] <anchor 348 549> mark @Diacritic;
+  pos base [\uni072C \uni072C.init \uni072C.med \uni072C.fin ] <anchor 517 550> mark @Diacritic;
+  pos base [\uni071F.med \uni071F.init ] <anchor 292 549> mark @Diacritic;
+  pos base [\uni0722.init ] <anchor 239 549> mark @Diacritic;
+  pos base [\uni0719.med ] <anchor 198 549> mark @Diacritic;
+  pos base [\uni0719.fin ] <anchor 200 549> mark @Diacritic;
+  pos base [\uni0722.med ] <anchor 234 549> mark @Diacritic;
+  pos base [\uni25CC ] <anchor 264 550> mark @Diacritic;
+} markDiacriticalPositioninglookup1;
 
 feature curs {
 
@@ -217,6 +270,17 @@ feature curs {
      language dflt ;
       lookup cursCursiveAttachmentlookup0;
 } curs;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markDiacriticalPositioninglookup1;
+
+ script syrc;
+     language dflt ;
+      lookup markDiacriticalPositioninglookup1;
+} mark;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\uni0712 \uni0713 \uni0712.init \uni0712.med \uni0712.fin 
@@ -235,8 +299,8 @@ feature curs {
 	\uni0726.med \uni0726.fin \uni0728.init \uni0728.med \uni0728.fin 
 	\uni0729.init \uni0729.med \uni0729.fin \uni072A.med \uni072A.fin 
 	\uni072B.init \uni072B.med \uni072B.fin \uni072C.init \uni072C.med 
-	\uni072C.fin ];
-@GDEF_Mark = [\uni0308 \uni0307 \uni0323 \uni0740 ];
+	\uni072C.fin \uni0716 \uni0716.med \uni0716.fin \uni25CC ];
+@GDEF_Mark = [\uni0308 \uni0307 \uni0323 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;

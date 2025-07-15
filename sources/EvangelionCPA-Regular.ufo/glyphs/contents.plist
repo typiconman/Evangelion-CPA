@@ -188,60 +188,8 @@
     <string>O_acute.glif</string>
     <key>Ocircumflex</key>
     <string>O_circumflex.glif</string>
-    <key>agrave</key>
-    <string>agrave.glif</string>
-    <key>aacute</key>
-    <string>aacute.glif</string>
-    <key>acircumflex</key>
-    <string>acircumflex.glif</string>
-    <key>atilde</key>
-    <string>atilde.glif</string>
-    <key>adieresis</key>
-    <string>adieresis.glif</string>
-    <key>aring</key>
-    <string>aring.glif</string>
-    <key>ae</key>
-    <string>ae.glif</string>
-    <key>ccedilla</key>
-    <string>ccedilla.glif</string>
-    <key>egrave</key>
-    <string>egrave.glif</string>
-    <key>eacute</key>
-    <string>eacute.glif</string>
-    <key>ecircumflex</key>
-    <string>ecircumflex.glif</string>
-    <key>edieresis</key>
-    <string>edieresis.glif</string>
-    <key>igrave</key>
-    <string>igrave.glif</string>
-    <key>icircumflex</key>
-    <string>icircumflex.glif</string>
-    <key>idieresis</key>
-    <string>idieresis.glif</string>
-    <key>eth</key>
-    <string>eth.glif</string>
-    <key>ntilde</key>
-    <string>ntilde.glif</string>
-    <key>ograve</key>
-    <string>ograve.glif</string>
-    <key>oacute</key>
-    <string>oacute.glif</string>
-    <key>ocircumflex</key>
-    <string>ocircumflex.glif</string>
-    <key>odieresis</key>
-    <string>odieresis.glif</string>
-    <key>divide</key>
-    <string>divide.glif</string>
-    <key>oslash</key>
-    <string>oslash.glif</string>
-    <key>ugrave</key>
-    <string>ugrave.glif</string>
-    <key>uacute</key>
-    <string>uacute.glif</string>
     <key>ETX</key>
     <string>E_T_X_.glif</string>
-    <key>ring</key>
-    <string>ring.glif</string>
     <key>uni0712</key>
     <string>uni0712.glif</string>
     <key>uni0713</key>
@@ -430,7 +378,13 @@
     <string>uni072C_.med.glif</string>
     <key>uni072C.fin</key>
     <string>uni072C_.fin.glif</string>
-    <key>uni0740</key>
-    <string>uni0740.glif</string>
+    <key>uni0716</key>
+    <string>uni0716.glif</string>
+    <key>uni0716.med</key>
+    <string>uni0716.med.glif</string>
+    <key>uni0716.fin</key>
+    <string>uni0716.fin.glif</string>
+    <key>uni25CC</key>
+    <string>uni25C_C_.glif</string>
   </dict>
 </plist>

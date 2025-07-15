@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0712.fin" format="2">
-  <advance width="757"/>
-  <anchor x="374" y="550" name="Diacritic"/>
-  <anchor x="885" y="0" name="_curs"/>
+<glyph name="uni0716.fin" format="2">
+  <advance width="648"/>
+  <anchor x="360" y="550" name="Diacritic"/>
+  <anchor x="776" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="887" y="0" type="line"/>
-      <point x="80" y="0" type="line"/>
-      <point x="80" y="40" type="line"/>
-      <point x="549" y="40" type="line"/>
-      <point x="549" y="425" type="line"/>
-      <point x="237" y="425" type="line"/>
-      <point x="237" y="308" type="line"/>
-      <point x="80" y="308" type="line"/>
       <point x="80" y="461" type="line"/>
-      <point x="656" y="461" type="line"/>
-      <point x="656" y="40" type="line"/>
-      <point x="887" y="40" type="line"/>
+      <point x="571" y="461" type="line"/>
+      <point x="571" y="40" type="line"/>
+      <point x="778" y="40" type="line"/>
+      <point x="778" y="0" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="464" y="425" type="line"/>
+      <point x="240" y="425" type="line"/>
+      <point x="240" y="308" type="line"/>
+      <point x="80" y="308" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -50,11 +48,11 @@
             <key>position</key>
             <integer>80</integer>
             <key>width</key>
-            <integer>157</integer>
+            <integer>160</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>549</integer>
+            <integer>464</integer>
             <key>width</key>
             <integer>107</integer>
           </dict>

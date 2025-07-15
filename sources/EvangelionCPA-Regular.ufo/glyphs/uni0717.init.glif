@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0717.init" format="2">
   <advance width="804"/>
-  <anchor x="-125" y="1" name="curs"/>
+  <anchor x="411" y="550" name="Diacritic"/>
+  <anchor x="-125" y="0" name="curs"/>
   <outline>
     <contour>
       <point x="-130" y="0" type="line"/>

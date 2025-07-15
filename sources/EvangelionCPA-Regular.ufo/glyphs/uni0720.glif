@@ -2,19 +2,20 @@
 <glyph name="uni0720" format="2">
   <advance width="598"/>
   <unicode hex="0720"/>
+  <anchor x="445" y="501" name="Diacritic"/>
   <outline>
     <contour>
-      <point x="512" y="1" type="line"/>
-      <point x="80" y="1" type="line"/>
-      <point x="80" y="41" type="line"/>
-      <point x="391" y="41" type="line"/>
-      <point x="393" y="45" type="line"/>
-      <point x="158" y="518" type="line"/>
-      <point x="144.667" y="541.333"/>
-      <point x="118.667" y="565"/>
-      <point x="80" y="589" type="curve"/>
-      <point x="274" y="589" type="line"/>
-      <point x="512" y="9" type="line"/>
+      <point x="512" y="0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="80" y="40" type="line"/>
+      <point x="391" y="40" type="line"/>
+      <point x="393" y="44" type="line"/>
+      <point x="158" y="517" type="line"/>
+      <point x="145" y="540"/>
+      <point x="119" y="564"/>
+      <point x="80" y="588" type="curve"/>
+      <point x="274" y="588" type="line"/>
+      <point x="512" y="8" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,7 +26,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>1</integer>
+            <integer>0</integer>
             <key>width</key>
             <integer>40</integer>
           </dict>
