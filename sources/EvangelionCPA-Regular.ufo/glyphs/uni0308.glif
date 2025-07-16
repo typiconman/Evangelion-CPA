@@ -2,6 +2,8 @@
 <glyph name="uni0308" format="2">
   <advance width="0"/>
   <unicode hex="0308"/>
+  <anchor x="167" y="598" name="_Stacking"/>
+  <anchor x="167" y="800" name="Stacking"/>
   <anchor x="167" y="598" name="_Diacritic"/>
   <outline>
     <contour>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0725.init" format="2">
   <advance width="676"/>
+  <anchor x="326" y="-37" name="Below"/>
   <anchor x="327" y="549" name="Diacritic"/>
   <anchor x="-126" y="0" name="curs"/>
   <outline>

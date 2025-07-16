@@ -2,6 +2,7 @@
 <glyph name="uni25CC" format="2">
   <advance width="525"/>
   <unicode hex="25CC"/>
+  <anchor x="262" y="-37" name="Below"/>
   <anchor x="264" y="550" name="Diacritic"/>
   <outline>
     <contour>

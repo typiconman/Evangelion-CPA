@@ -126,14 +126,6 @@
     <string>asciicircum.glif</string>
     <key>underscore</key>
     <string>underscore.glif</string>
-    <key>grave</key>
-    <string>grave.glif</string>
-    <key>d</key>
-    <string>d.glif</string>
-    <key>n</key>
-    <string>n.glif</string>
-    <key>z</key>
-    <string>z.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
     <key>bar</key>
@@ -146,8 +138,6 @@
     <string>ellipsis.glif</string>
     <key>dagger</key>
     <string>dagger.glif</string>
-    <key>daggerdbl</key>
-    <string>daggerdbl.glif</string>
     <key>guilsinglleft</key>
     <string>guilsinglleft.glif</string>
     <key>OE</key>
