@@ -5,26 +5,26 @@ languagesystem syrc dflt;
 # Define glyphs that can connect *to the left* (i.e., will cause a following glyph to take init/medi form)
 # This includes all letters that participate in initial/medial/final forms.
 # This is all Syriac characters except Dalath, Zain and Rish
-# as well as Zero-Width Joiner
+# as well as Zero-Width Joiner and the Arabic Tatweel
 # add to this class also all medial forms
 @_CONNECTORS = [
-    \uni0710 \uni0712 \uni0713 \uni0717 \uni0718 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 \uni0725 \uni0726 \uni0727 \uni0728 \uni0729 \uni072B \uni072C \uni200D
+    \uni0710 \uni0712 \uni0713 \uni0717 \uni0718 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 \uni0725 \uni0726 \uni0727 \uni0728 \uni0729 \uni072B \uni072C \uni200D \uni0640
     \uni0710.med \uni0712.med \uni0713.med \uni0717.med \uni0718.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072B.med \uni072C.med
 ];
 
 # a different class that also includes the Dalath, Zain, and Rish
 @_RIGHT_CONNECTORS = [
     \uni0715 \uni0715.med \uni0716 \uni0716.med \uni0719 \uni0719.med \uni072A \uni072A.med
-    \uni0710 \uni0712 \uni0713 \uni0717 \uni0718 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 \uni0725 \uni0726 \uni0727 \uni0728 \uni0729 \uni072B \uni072C \uni200D
+    \uni0710 \uni0712 \uni0713 \uni0717 \uni0718 \uni071A \uni071B \uni071D \uni071F \uni0720 \uni0721 \uni0722 \uni0723 \uni0725 \uni0726 \uni0727 \uni0728 \uni0729 \uni072B \uni072C \uni200D \uni0640
     \uni0710.med \uni0712.med \uni0713.med \uni0717.med \uni0718.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072B.med \uni072C.med
 ];
 
 # These are all the final forms before which a character should turn into an initial form
-# We also include ZWJ here
+# We also include ZWJ and Tatweel here
 # We also add the medial forms from above
 @_FINAL_FORMS = [
     \uni0710.fin \uni0712.fin \uni0713.fin \uni0715.fin \uni0716.fin \uni0717.fin \uni0718.fin \uni0719.fin \uni071A.fin \uni071B.fin \uni071D.fin \uni071F.fin \uni0720.fin \uni0721.fin \uni0722.fin \uni0723.fin \uni0725.fin \uni0726.fin \uni0727.fin \uni0728.fin \uni0729.fin \uni072A.fin \uni072B.fin \uni072C.fin \uni200D
-    \uni0710.med \uni0712.med \uni0713.med \uni0715.med \uni0716.med \uni0717.med \uni0718.med \uni0719.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072A.med \uni072B.med \uni072C.med
+    \uni0710.med \uni0712.med \uni0713.med \uni0715.med \uni0716.med \uni0717.med \uni0718.med \uni0719.med \uni071A.med \uni071B.med \uni071D.med \uni071F.med \uni0720.med \uni0721.med \uni0722.med \uni0723.med \uni0725.med \uni0726.med \uni0727.med \uni0728.med \uni0729.med \uni072A.med \uni072B.med \uni072C.med \uni0640
 ];
 
 # Diacritical marks 
@@ -39,6 +39,13 @@ lookup dot_removal {
   lookupflag RightToLeft;
   sub \uni072A' @_DIACRITICS by \uni0716;
 } dot_removal;
+
+# HarfBuzz (or fontmake?) is stupid and ignores ZWNJ in ccmp lookups
+# so we have come up with a hack that replaces ZWNJ with a dummy glyph.
+lookup ZWNJ_subst {
+  lookupflag RightToLeft;
+  sub \uni200C by _TheGreatFixerGlyph;
+} ZWNJ_subst;
 
 # Lookups for the initial, medial, and final forms
 # They must be called in this order!
@@ -133,6 +140,7 @@ lookup medial_forms_lookup {
 feature ccmp {
   script DFLT;
     language dflt ;
+       lookup ZWNJ_subst;
        lookup dot_removal;
        lookup medial_forms_lookup;
        lookup final_forms_lookup;
@@ -140,17 +148,19 @@ feature ccmp {
 
   script syrc;
     language dflt ;
+       lookup ZWNJ_subst;
        lookup dot_removal;
        lookup medial_forms_lookup;
        lookup final_forms_lookup;
        lookup initial_forms_lookup;
 } ccmp;
 
-# GPOS
+# GPOS 
 
 
 lookup cursCursiveAttachmentlookup0 {
   lookupflag RightToLeft IgnoreMarks;
+    pos cursive \uni0640 <anchor 237 0> <anchor -86 0>;
     pos cursive \uni0712.init <anchor NULL> <anchor -129 0>;
     pos cursive \uni0712.med <anchor 885 0> <anchor -129 0>;
     pos cursive \uni0712.fin <anchor 885 0> <anchor NULL>;
@@ -223,9 +233,12 @@ lookup cursCursiveAttachmentlookup0 {
 
 lookup markDiacriticalPositioninglookup1 {
   lookupflag RightToLeft;
-  markClass [\uni0323 ] <anchor 77 -83> @Below;
+  markClass [\uni0324 ] <anchor 123 -67> @Below;
+  markClass [\uni0323 ] <anchor 77 -82> @Below;
   markClass [\uni0308 ] <anchor 167 598> @Diacritic;
   markClass [\uni0307 ] <anchor 77 598> @Diacritic;
+  pos base [\uni0640 ] <anchor 73 550> mark @Diacritic
+	<anchor 72 -37> mark @Below;
   pos base [\uni0712 \uni0712.init \uni0712.med \uni0712.fin ] <anchor 362 -37> mark @Below
 	<anchor 374 550> mark @Diacritic;
   pos base [\uni0713 \uni0713.init \uni0713.med \uni0713.fin ] <anchor 256 -37> mark @Below
@@ -372,8 +385,10 @@ feature mkmk {
 	\uni0726.med \uni0726.fin \uni0728.init \uni0728.med \uni0728.fin 
 	\uni0729.init \uni0729.med \uni0729.fin \uni072A.med \uni072A.fin 
 	\uni072B.init \uni072B.med \uni072B.fin \uni072C.init \uni072C.med 
-	\uni072C.fin \uni0716 \uni0716.med \uni0716.fin \uni25CC ];
-@GDEF_Mark = [\uni0308 \uni0307 \uni0323 ];
+	\uni072C.fin \uni0716 \uni0716.med \uni0716.fin \uni25CC \uni0701 \uni0703 
+	\uni205D \uni0700 \uni070D \uni00A0 \uni202F \uni200E \uni200F \uniEC46 \uniEC47 
+	\_TheGreatFixerGlyph ];
+@GDEF_Mark = [\uni0324 \uni0308 \uni0307 \uni0323 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
