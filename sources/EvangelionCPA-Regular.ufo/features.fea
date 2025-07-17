@@ -387,7 +387,9 @@ feature mkmk {
 	\uni072B.init \uni072B.med \uni072B.fin \uni072C.init \uni072C.med 
 	\uni072C.fin \uni0716 \uni0716.med \uni0716.fin \uni25CC \uni0701 \uni0703 
 	\uni205D \uni0700 \uni070D \uni00A0 \uni202F \uni200E \uni200F \uniEC46 \uniEC47 
-	\_TheGreatFixerGlyph ];
+	\_TheGreatFixerGlyph \uni0000 \uni000D \at \B \A \C \D \E \F \G \H \I \J \K \L \M \N \O \P 
+	\Q \R \S \T \U \V \W \X \Y \Z \asciicircum \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q 
+	\r \s \t \u \v \w \x \y \z \asciitilde \uni007F ];
 @GDEF_Mark = [\uni0324 \uni0308 \uni0307 \uni0323 ];
 
 table GDEF {

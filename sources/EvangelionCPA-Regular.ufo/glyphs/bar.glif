@@ -4,10 +4,35 @@
   <unicode hex="007C"/>
   <outline>
     <contour>
-      <point x="58" y="4" type="line"/>
-      <point x="30" y="4" type="line"/>
-      <point x="30" y="504" type="line"/>
-      <point x="58" y="504" type="line"/>
+      <point x="60" y="1" type="line"/>
+      <point x="32" y="1" type="line"/>
+      <point x="32" y="501" type="line"/>
+      <point x="60" y="501" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>481</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>32</integer>
+            <key>width</key>
+            <integer>28</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
