@@ -1,0 +1,160 @@
+/* mystyle.css */
+
+/* 1. Import Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+/* 2. Define @font-face for your Christian Palestinian Aramaic font */
+/* Make sure these paths are correct relative to your HTML file */
+@font-face {
+    font-family: 'EvangelionCPA';
+    src: local('EvangelionCPA-Regular'), /* Common PostScript name */
+         local('EvangelionCPA'), /* Common full font name */
+        url('https://github.com/typiconman/Evangelion-CPA/raw/refs/heads/main/fonts/webfonts/EvangelionCPA-Regular.woff2') format('woff2'),
+         url('../fonts/webfonts/EvangelionCPA-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Improves font loading performance */
+}
+
+/* 3. Base Body Styles */
+body {
+    font-family: 'Inter', sans-serif; /* Default font for Latin text */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+}
+
+/* 4. Main Content Container */
+/* This helps center and limit the width of your content for readability */
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* 5. Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif; /* Keep Inter for Latin headings */
+    color: #222;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+h1 { font-size: 2em; text-align: center; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+
+/* 6. Paragraph Styles */
+p {
+    margin-bottom: 1em;
+    text-align: justify; /* Justify text for a clean block look */
+    font-size: 1.2em;
+}
+
+/* 7. Styles for Christian Palestinian Aramaic text */
+/* Apply your CPA font and its features to elements that will contain Aramaic.
+   Pandoc should add dir="rtl" and lang="syr" to blocks of Syriac text. */
+[lang="syr"], [dir="rtl"] {
+    font-family: 'EvangelionCPA', 'Inter', sans-serif; /* Prioritize CPA font */
+    direction: rtl; /* Explicitly set Right-to-Left direction */
+    text-align: right; /* Align text to the right for RTL */
+    /* Activate your ccmp feature for complex script shaping */
+    /* 'ccmp' is a standard feature tag for Glyph Composition/Decomposition */
+    font-feature-settings: "ccmp" on;
+    -webkit-font-feature-settings: "ccmp" on; /* For WebKit browsers */
+    -moz-font-feature-settings: "ccmp" on;    /* For Mozilla browsers */
+    -ms-font-feature-settings: "ccmp" on;     /* For IE/Edge (older syntax) */
+    /* You might also need 'rlig' (Required Ligatures) or other features depending on your font */
+    /* font-feature-settings: "ccmp" on, "rlig" on; */
+    font-size: 1.5em; /* Slightly larger for readability */
+}
+
+/* 8. Basic Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sample {
+  margin: 1em 5vw 1em 5vw;
+  padding: 0.5em;
+  border: 1pt solid lightgrey;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* 9. Code Blocks (if any in your LaTeX) */
+pre {
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto; /* Enable horizontal scrolling for long lines */
+    font-family: 'Fira Code', 'Cascadia Code', 'Consolas', monospace; /* Monospace font for code */
+    font-size: 1.1em;
+}
+
+code {
+    font-family: 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+    background-color: #e0e0e0;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* 10. Tables (if any) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    .container {
+        padding: 20px;
+        border-radius: 8px;
+    }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.7em; }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+        border-radius: 6px;
+    }
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.5em; }
+    p { font-size: 0.95em; }
+    [lang="syr"], [dir="rtl"] {
+        font-size: 1em;
+    }
+}
