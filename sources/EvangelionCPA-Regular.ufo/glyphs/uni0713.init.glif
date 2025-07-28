@@ -3,7 +3,7 @@
   <advance width="760"/>
   <anchor x="256" y="-37" name="Below"/>
   <anchor x="454" y="293" name="Diacritic"/>
-  <anchor x="-128" y="0" name="curs"/>
+  <anchor x="-98" y="0" name="curs"/>
   <outline>
     <contour>
       <point x="245" y="40" type="line"/>
@@ -40,8 +40,8 @@
       <point x="419" y="-80"/>
       <point x="361" y="-42"/>
       <point x="322" y="0" type="curve"/>
-      <point x="-130" y="0" type="line"/>
-      <point x="-130" y="40" type="line"/>
+      <point x="-100" y="0" type="line"/>
+      <point x="-100" y="40" type="line"/>
     </contour>
   </outline>
   <lib>

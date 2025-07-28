@@ -3,26 +3,15 @@
   <advance width="807"/>
   <anchor x="96" y="-37" name="Below"/>
   <anchor x="393" y="204" name="Diacritic"/>
-  <anchor x="930" y="0" name="_curs"/>
+  <anchor x="710" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="144" y="65" type="curve" smooth="yes"/>
-      <point x="144" y="106"/>
-      <point x="183" y="138"/>
       <point x="228" y="138" type="curve" smooth="yes"/>
-      <point x="255" y="138"/>
-      <point x="284" y="126"/>
-      <point x="314" y="100" type="curve" smooth="yes"/>
-      <point x="344" y="76"/>
-      <point x="368" y="55"/>
-      <point x="385" y="40" type="curve" smooth="yes"/>
-      <point x="386" y="40"/>
-      <point x="399" y="40"/>
-      <point x="540" y="40" type="curve" smooth="yes"/>
-      <point x="622" y="40"/>
-      <point x="746" y="40"/>
-      <point x="937" y="40" type="curve"/>
-      <point x="937" y="0" type="line"/>
+      <point x="267.125" y="138"/>
+      <point x="292.168" y="121.911"/>
+      <point x="385" y="40" type="curve"/>
+      <point x="717" y="40" type="line"/>
+      <point x="717" y="0" type="line"/>
       <point x="431" y="0" type="line"/>
       <point x="633" y="-162"/>
       <point x="715" y="-220"/>
@@ -32,6 +21,9 @@
       <point x="984" y="-386" type="curve"/>
       <point x="618" y="-251"/>
       <point x="144" y="-74"/>
+      <point x="144" y="65" type="curve" smooth="yes"/>
+      <point x="144" y="106"/>
+      <point x="183" y="138"/>
     </contour>
   </outline>
   <lib>

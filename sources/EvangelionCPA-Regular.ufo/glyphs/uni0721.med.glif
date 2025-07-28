@@ -7,15 +7,15 @@
   <anchor x="923" y="0" name="_curs"/>
   <outline>
     <contour>
-      <point x="622" y="41" type="line"/>
+      <point x="622" y="40" type="line"/>
       <point x="622" y="419" type="line"/>
       <point x="451" y="419" type="line"/>
-      <point x="451" y="41" type="line"/>
+      <point x="451" y="40" type="line"/>
     </contour>
     <contour>
       <point x="-130" y="0" type="line"/>
-      <point x="-130" y="41" type="line"/>
-      <point x="337" y="41" type="line"/>
+      <point x="-130" y="40" type="line"/>
+      <point x="337" y="40" type="line"/>
       <point x="337" y="419" type="line"/>
       <point x="233" y="419" type="line"/>
       <point x="233" y="312" type="line"/>
@@ -37,7 +37,7 @@
             <key>position</key>
             <integer>0</integer>
             <key>width</key>
-            <integer>41</integer>
+            <integer>40</integer>
           </dict>
           <dict>
             <key>position</key>

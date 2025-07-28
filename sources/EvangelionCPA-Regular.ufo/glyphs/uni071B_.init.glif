@@ -15,10 +15,8 @@
       <point x="520" y="-108"/>
     </contour>
     <contour>
-      <point x="205" y="0" type="line"/>
       <point x="-130" y="0" type="line"/>
       <point x="-130" y="40" type="line"/>
-      <point x="205" y="40" type="line"/>
       <point x="253" y="40" type="line"/>
       <point x="168" y="300" type="line"/>
       <point x="128" y="437"/>

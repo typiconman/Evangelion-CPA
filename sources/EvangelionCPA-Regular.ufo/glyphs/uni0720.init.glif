@@ -3,12 +3,12 @@
   <advance width="598"/>
   <anchor x="261" y="-37" name="Below"/>
   <anchor x="445" y="501" name="Diacritic"/>
-  <anchor x="-126" y="0" name="curs"/>
+  <anchor x="-26" y="0" name="curs"/>
   <outline>
     <contour>
       <point x="512" y="0" type="line"/>
-      <point x="-130" y="0" type="line"/>
-      <point x="-130" y="40" type="line"/>
+      <point x="-30" y="0" type="line"/>
+      <point x="-30" y="40" type="line"/>
       <point x="391" y="40" type="line"/>
       <point x="393" y="47" type="line"/>
       <point x="158" y="518" type="line"/>

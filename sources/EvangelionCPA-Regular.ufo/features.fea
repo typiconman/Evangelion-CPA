@@ -164,8 +164,8 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni0712.init <anchor NULL> <anchor -129 0>;
     pos cursive \uni0712.med <anchor 885 0> <anchor -129 0>;
     pos cursive \uni0712.fin <anchor 885 0> <anchor NULL>;
-    pos cursive \uni0713.init <anchor NULL> <anchor -128 0>;
-    pos cursive \uni0713.med <anchor 888 0> <anchor -128 0>;
+    pos cursive \uni0713.init <anchor NULL> <anchor -98 0>;
+    pos cursive \uni0713.med <anchor 808 0> <anchor -98 0>;
     pos cursive \uni0713.fin <anchor 888 0> <anchor NULL>;
     pos cursive \uni071F.med <anchor 649 0> <anchor -129 0>;
     pos cursive \uni0722.init <anchor NULL> <anchor -128 0>;
@@ -193,14 +193,14 @@ lookup cursCursiveAttachmentlookup0 {
     pos cursive \uni0715.fin <anchor 776 0> <anchor NULL>;
     pos cursive \uni0719.med <anchor 425 0> <anchor 0 0>;
     pos cursive \uni0719.fin <anchor 421 0> <anchor NULL>;
-    pos cursive \uni0720.init <anchor NULL> <anchor -126 0>;
-    pos cursive \uni0720.med <anchor 726 0> <anchor -127 0>;
+    pos cursive \uni0720.init <anchor NULL> <anchor -26 0>;
+    pos cursive \uni0720.med <anchor 726 0> <anchor -27 0>;
     pos cursive \uni0720.fin <anchor 727 0> <anchor NULL>;
     pos cursive \uni0721.init <anchor NULL> <anchor -128 0>;
     pos cursive \uni0721.med <anchor 923 0> <anchor -128 0>;
     pos cursive \uni0721.fin <anchor 923 0> <anchor NULL>;
     pos cursive \uni0722.med <anchor 577 0> <anchor -118 0>;
-    pos cursive \uni0722.fin <anchor 930 0> <anchor NULL>;
+    pos cursive \uni0722.fin <anchor 710 0> <anchor NULL>;
     pos cursive \uni0723.med <anchor 1004 0> <anchor -126 0>;
     pos cursive \uni0723.init <anchor NULL> <anchor -126 0>;
     pos cursive \uni0723.fin <anchor 1007 0> <anchor NULL>;
