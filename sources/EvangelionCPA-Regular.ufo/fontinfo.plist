@@ -27,13 +27,13 @@
     <key>openTypeHeadCreated</key>
     <string>1930/10/16 22:57:21</string>
     <key>openTypeHheaAscender</key>
-    <integer>732</integer>
+    <integer>844</integer>
     <key>openTypeHheaDescender</key>
     <integer>-394</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameVersion</key>
-    <string>1.0 Wed Oct 16 18:57:21 1996</string>
+    <string>Version 1.002</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>0</integer>
@@ -65,9 +65,9 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>744</integer>
+    <integer>844</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>394</integer>
+    <integer>-394</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
