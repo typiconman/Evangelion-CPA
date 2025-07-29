@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>copyright</key>
     <string>Copyright 2025 The Evangelion CPA Project Authors (https://github.com/typiconman/Evangelion-CPA)</string>
     <key>unitsPerEm</key>
@@ -27,9 +27,9 @@
     <key>openTypeHeadCreated</key>
     <string>1930/10/16 22:57:21</string>
     <key>openTypeHheaAscender</key>
-    <integer>746</integer>
+    <integer>732</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-336</integer>
+    <integer>-394</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameVersion</key>
@@ -65,9 +65,9 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>746</integer>
+    <integer>744</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>336</integer>
+    <integer>394</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
