@@ -23,7 +23,7 @@ AUXILIARY_FONT_SIZE = 48
 
 LINE_ONE = "ܫܠܡܐ ܥܠܡܐ"
 LINE_TWO = " "
-LINE_THREE = "ܐܢܐ ܐܢܐ ܢܘܗܪܐ ܕܥܠܡܐ"
+LINE_THREE = "ܐܢܐ ܐܢܐ ܢܘܗܪܐ ܖܥܠܡܐ"
 LINE_FOUR = " "
 BIG_TEXT_FONT_SIZE = 120
 BIG_TEXT_SIDE_MARGIN = WIDTH - MARGIN * 1
