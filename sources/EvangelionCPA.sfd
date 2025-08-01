@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: EvangelionCPA
 FullName: Evangelion CPA
-FamilyName: EvangelionCPA
+FamilyName: Evangelion CPA
 Weight: Regular
 Copyright: Copyright 2025 The Evangelion CPA Project Authors (https://github.com/typiconman/Evangelion-CPA)
 Version: 1.2
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: -1237338159
-ModificationTime: 1753818807
+ModificationTime: 1754075111
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -557,7 +557,7 @@ ShortTable: maxp 16
   1
   1
 EndShort
-LangName: 1033
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Aleksandr Andreev" "" "" "" "" "" "" "" "" "" "+BywHKwchByAHIQAA +BxIHGwcdBxIHGAcsBxAA +BxIHKwciBywA +BxAHLAcdByIA +BxgHGgchBysHEAAA +BxgHJQcjByoHHQci"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -576,8 +576,9 @@ Grid
  780 550 l 1025
   Named: "Upper diacritical mark"
 EndSplineSet
+TeXData: 1 0 0 314572 157286 104857 338690 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Stacking" "'mkmk' Mark to Mark lookup 2-1" "Below" "'mark' Diacritical Positioning lookup 1-1" "Diacritic" "'mark' Diacritical Positioning lookup 1-1" "curs" "'curs' Cursive Attachment lookup 0-1"
-BeginChars: 1114182 220
+BeginChars: 1114182 221
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1847,7 +1848,7 @@ EndChar
 
 StartChar: uni0324
 Encoding: 804 804 46
-Width: 256
+Width: 0
 GlyphClass: 4
 Flags: W
 HStem: -135 68<40.3303 103.67 144.33 207.67>
@@ -9015,26 +9016,18 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni007F
-Encoding: 127 127 219
-Width: 746
+StartChar: uni2028
+Encoding: 8232 8232 219
+Width: 0
 Flags: W
-HStem: 0 36<148 598> 560 36<148 598>
-VStem: 111 37<36 560> 598 37<36 560>
 LayerCount: 2
-Fore
-SplineSet
-111 0 m 5
- 111 596 l 5
- 635 596 l 5
- 635 0 l 5
- 111 0 l 5
-598 36 m 5
- 598 560 l 5
- 148 560 l 5
- 148 36 l 5
- 598 36 l 5
-EndSplineSet
+EndChar
+
+StartChar: uni2029
+Encoding: 8233 8233 220
+Width: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

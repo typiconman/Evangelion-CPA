@@ -440,7 +440,9 @@
     <string>z.glif</string>
     <key>asciitilde</key>
     <string>asciitilde.glif</string>
-    <key>uni007F</key>
-    <string>uni007F_.glif</string>
+    <key>uni2028</key>
+    <string>uni2028.glif</string>
+    <key>uni2029</key>
+    <string>uni2029.glif</string>
   </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>familyName</key>
-    <string>EvangelionCPA</string>
+    <string>Evangelion CPA</string>
     <key>styleName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
@@ -32,8 +32,12 @@
     <integer>-394</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Aleksandr Andreev</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.002</string>
+    <key>openTypeNameSampleText</key>
+    <string>ܬܫܡܠܡ ܒܛܝܒܘܬܐ ܒܫܢܬ ܐܬܝܢ ܘܚܡܫܐ ܘܥܣܪܝܢ</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>0</integer>
