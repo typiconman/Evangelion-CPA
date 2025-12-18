@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni071D.med" format="2">
-  <advance width="520"/>
-  <anchor x="206" y="-37" name="Below"/>
-  <anchor x="197" y="549" name="Diacritic"/>
-  <anchor x="-128" y="0" name="curs"/>
-  <anchor x="647" y="0" name="_curs"/>
+  <advance width="770"/>
+  <anchor x="331" y="-37" name="Below"/>
+  <anchor x="322" y="549" name="Diacritic"/>
   <outline>
     <contour>
-      <point x="110" y="40" type="line"/>
-      <point x="160" y="402" type="line"/>
-      <point x="234" y="402" type="line"/>
-      <point x="394" y="40" type="line"/>
-      <point x="650" y="40" type="line"/>
-      <point x="650" y="0" type="line"/>
-      <point x="-130" y="0" type="line"/>
-      <point x="-130" y="40" type="line"/>
+      <point x="235" y="40" type="line"/>
+      <point x="285" y="402" type="line"/>
+      <point x="359" y="402" type="line"/>
+      <point x="519" y="40" type="line"/>
+      <point x="775" y="40" type="line"/>
+      <point x="775" y="0" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="-5" y="40" type="line"/>
     </contour>
   </outline>
   <lib>

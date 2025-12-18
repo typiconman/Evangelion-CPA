@@ -4,7 +4,7 @@ FullName: Evangelion CPA
 FamilyName: Evangelion CPA
 Weight: Regular
 Copyright: Copyright 2025 The Evangelion CPA Project Authors (https://github.com/typiconman/Evangelion-CPA)
-Version: 1.2
+Version: 1.21
 ItalicAngle: 0
 UnderlinePosition: -210
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: -1237338159
-ModificationTime: 1754075111
+ModificationTime: 1766086507
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,6 @@ OS2UnicodeRanges: 00000000.00000000.00000000.00000000
 Lookup: 1 1 0 "'init' Initial Forms lookup 0" { "'init' Initial Forms lookup 0-1" ("init") } []
 Lookup: 1 1 0 "'medi' Medial Forms lookup 1" { "'medi' Medial Forms lookup 1-1" ("med") } []
 Lookup: 1 1 0 "'fina' Terminal Forms lookup 2" { "'fina' Terminal Forms lookup 2-1" ("fin") } []
-Lookup: 259 9 0 "'curs' Cursive Attachment lookup 0" { "'curs' Cursive Attachment lookup 0-1"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > 'syrc' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Diacritical Positioning lookup 1" { "'mark' Diacritical Positioning lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'syrc' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark lookup 2" { "'mkmk' Mark to Mark lookup 2-1"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > 'syrc' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -577,7 +576,7 @@ Grid
   Named: "Upper diacritical mark"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 338690 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Stacking" "'mkmk' Mark to Mark lookup 2-1" "Below" "'mark' Diacritical Positioning lookup 1-1" "Diacritic" "'mark' Diacritical Positioning lookup 1-1" "curs" "'curs' Cursive Attachment lookup 0-1"
+AnchorClass2: "Stacking" "'mkmk' Mark to Mark lookup 2-1" "Below" "'mark' Diacritical Positioning lookup 1-1" "Diacritic" "'mark' Diacritical Positioning lookup 1-1" "curs""" 
 BeginChars: 1114182 221
 
 StartChar: .notdef
@@ -2017,68 +2016,64 @@ EndChar
 
 StartChar: uni0712.init
 Encoding: 1114113 -1 53
-Width: 757
+Width: 857
 Flags: W
-HStem: 0 40<-130 549> 308 153<80 237> 425 36<237 549>
-VStem: 80 157<308 425> 549 107<40 425>
-AnchorPoint: "Below" 362 -37 basechar 0
-AnchorPoint: "Diacritic" 374 550 basechar 0
-AnchorPoint: "curs" -129 0 exit 0
+HStem: 0 40<-5 674> 308 153<205 362> 425 36<362 674>
+VStem: 205 157<308 425> 674 107<40 425>
+AnchorPoint: "Below" 487 -37 basechar 0
+AnchorPoint: "Diacritic" 499 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-656 0 m 1xb8
- -130 0 l 5
- -130 40 l 1
- 549 40 l 1
- 549 425 l 1
- 237 425 l 1xb8
- 237 424 237 424 237 308 c 1
- 80 308 l 1
- 80 461 l 1xd8
- 656 461 l 1
- 656 0 l 1xb8
+781 0 m 1xb8
+ -5 0 l 1
+ -5 40 l 1
+ 674 40 l 1
+ 674 425 l 1
+ 362 425 l 1xb8
+ 362 424 362 424 362 308 c 1
+ 205 308 l 1
+ 205 461 l 1xd8
+ 781 461 l 1
+ 781 0 l 1xb8
 EndSplineSet
 EndChar
 
 StartChar: uni0712.med
 Encoding: 1114114 -1 54
-Width: 757
+Width: 1007
 Flags: W
-HStem: 0 40<-130 549 656 887> 308 153<80 237> 425 36<237 549>
-VStem: 80 157<308 425> 549 107<40 425>
-AnchorPoint: "Below" 362 -37 basechar 0
-AnchorPoint: "Diacritic" 374 550 basechar 0
-AnchorPoint: "curs" -129 0 exit 0
-AnchorPoint: "curs" 885 0 entry 0
+HStem: 0 40<-5 674 781 1012> 308 153<205 362> 425 36<362 674>
+VStem: 205 157<308 425> 674 107<40 425>
+AnchorPoint: "Below" 487 -37 basechar 0
+AnchorPoint: "Diacritic" 499 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-887 0 m 1xb8
- -130 0 l 1
- -130 40 l 1
- 549 40 l 1
- 549 425 l 1
- 237 425 l 1xb8
- 237 308 l 1
- 80 308 l 1
- 80 461 l 1xd8
- 656 461 l 1
- 656 40 l 1
- 887 40 l 5
- 887 0 l 1xb8
+1012 0 m 1xb8
+ -5 0 l 1
+ -5 40 l 1
+ 674 40 l 1
+ 674 425 l 1
+ 362 425 l 1xb8
+ 362 308 l 1
+ 205 308 l 1
+ 205 461 l 1xd8
+ 781 461 l 1
+ 781 40 l 1
+ 1012 40 l 1
+ 1012 0 l 1xb8
 EndSplineSet
 EndChar
 
 StartChar: uni0712.fin
 Encoding: 1114115 -1 55
-Width: 757
+Width: 882
 Flags: W
 HStem: 0 40<80 549 656 887> 308 153<80 237> 425 36<237 549>
 VStem: 80 157<308 425> 549 107<40 425>
 AnchorPoint: "Below" 362 -37 basechar 0
 AnchorPoint: "Diacritic" 374 550 basechar 0
-AnchorPoint: "curs" 885 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2093,83 +2088,79 @@ SplineSet
  80 461 l 1xd8
  656 461 l 1
  656 40 l 1
- 887 40 l 5
+ 887 40 l 1
  887 0 l 1xb8
 EndSplineSet
 EndChar
 
 StartChar: uni0713.init
 Encoding: 1114116 -1 56
-Width: 760
+Width: 906
 Flags: W
-HStem: -163 62<612.912 709.995> 0 40<-100 245>
-AnchorPoint: "Below" 256 -37 basechar 0
-AnchorPoint: "Diacritic" 454 293 basechar 0
-AnchorPoint: "curs" -98 0 exit 0
+HStem: -163 62<707.912 804.995> 0 40<-5 340>
+AnchorPoint: "Below" 351 -37 basechar 0
+AnchorPoint: "Diacritic" 549 293 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-245 40 m 1
- 245 40 203 170 122 429 c 2
- 120 436 106 450 81 473 c 0
- 74 480 62 490 46 504 c 1
- 213 504 l 1
- 323 40 l 1
- 417 0 l 1
- 425 -7 464 -23 534 -50 c 0
- 600 -75 639 -89 651 -92 c 0
- 662 -95 675 -98 690 -101 c 1
- 704 -106 711 -117 711 -132 c 0
- 711 -152 700 -163 679 -163 c 0
- 630 -163 568 -146 494 -113 c 0
- 419 -80 361 -42 322 0 c 1
- -100 0 l 1
- -100 40 l 1
- 245 40 l 1
+340 40 m 1
+ 340 40 298 170 217 429 c 2
+ 215 436 201 450 176 473 c 0
+ 169 480 157 490 141 504 c 1
+ 308 504 l 1
+ 418 40 l 1
+ 512 0 l 1
+ 520 -7 559 -23 629 -50 c 0
+ 695 -75 734 -89 746 -92 c 0
+ 757 -95 770 -98 785 -101 c 1
+ 799 -106 806 -117 806 -132 c 0
+ 806 -152 795 -163 774 -163 c 0
+ 725 -163 663 -146 589 -113 c 0
+ 514 -80 456 -42 417 0 c 1
+ -5 0 l 1
+ -5 40 l 1
+ 340 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0713.med
 Encoding: 1114117 -1 57
-Width: 760
+Width: 900
 Flags: W
-HStem: -163 62<610.284 711.995> 0 40<-100 247 325 345.603 415 810>
-AnchorPoint: "Below" 256 -37 basechar 0
-AnchorPoint: "Diacritic" 454 293 basechar 0
-AnchorPoint: "curs" -98 0 exit 0
-AnchorPoint: "curs" 808 0 entry 0
+HStem: -163 62<705.284 806.995> 0 40<-5 342 420 440.603 510 905>
+AnchorPoint: "Below" 351 -37 basechar 0
+AnchorPoint: "Diacritic" 549 293 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-810 0 m 1
- 415 0 l 1
- 510 -40 l 2
- 572 -66 615 -82 637 -88 c 0
- 659 -93 677 -98 692 -101 c 0
- 706 -106 713 -117 713 -132 c 0
- 713 -152 702 -163 681 -163 c 0
- 635 -163 574 -148 498 -114 c 0
- 422 -80 365 -42 326 0 c 1
- -100 0 l 1
- -100 40 l 1
- 247 40 l 1
- 244 43 203 173 124 429 c 0
- 121 438 96 463 48 504 c 1
- 48 504 48 504 215 504 c 1
- 325 40 l 1
- 810 40 l 1
- 810 0 l 1
+905 0 m 1
+ 510 0 l 1
+ 605 -40 l 2
+ 667 -66 710 -82 732 -88 c 0
+ 754 -93 772 -98 787 -101 c 0
+ 801 -106 808 -117 808 -132 c 0
+ 808 -152 797 -163 776 -163 c 0
+ 730 -163 669 -148 593 -114 c 0
+ 517 -80 460 -42 421 0 c 1
+ -5 0 l 1
+ -5 40 l 1
+ 342 40 l 1
+ 339 43 298 173 219 429 c 0
+ 216 438 191 463 143 504 c 1
+ 143 504 143 504 310 504 c 1
+ 420 40 l 1
+ 905 40 l 1
+ 905 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0713.fin
 Encoding: 1114118 -1 58
-Width: 760
+Width: 885
 Flags: W
 HStem: -163 62<610.284 711.995> 0 40<228 247 325 345.603 415 890>
 AnchorPoint: "Below" 256 -37 basechar 0
 AnchorPoint: "Diacritic" 454 293 basechar 0
-AnchorPoint: "curs" 888 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2896,174 +2887,165 @@ EndChar
 
 StartChar: uni071F.med
 Encoding: 1114119 -1 83
-Width: 520
+Width: 770
 Flags: W
-HStem: 0 40<-130 334 436 650> 359 105<253.814 325.538>
-VStem: 334 103<40 345.531>
-AnchorPoint: "Below" 279 -37 basechar 0
-AnchorPoint: "Diacritic" 292 549 basechar 0
-AnchorPoint: "curs" -129 0 exit 0
-AnchorPoint: "curs" 649 0 entry 0
+HStem: 0 40<-5 459 561 775> 359 105<378.814 450.538>
+VStem: 459 103<40 345.531>
+AnchorPoint: "Below" 404 -37 basechar 0
+AnchorPoint: "Diacritic" 417 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-650 0 m 1
- -130 0 l 1
- -130 40 l 1
- 334 40 l 1
- 334 312 l 2
- 334 325 331 336 324 346 c 0
- 317 354 308 359 297 359 c 0
- 286 359 273 353 258 341 c 0
- 244 329 225 306 202 271 c 1
- 202 271 202 271 86 271 c 1
- 82 276 l 1
- 105 309 132 341 161 373 c 0
- 190 404 216 427 237 442 c 0
- 258 457 279 464 298 464 c 0
- 339 464 373 450 398 424 c 0
- 424 396 437 361 437 319 c 0
- 437 226 436 133 436 40 c 1
- 650 40 l 1
- 650 0 l 1
+775 0 m 1
+ -5 0 l 1
+ -5 40 l 1
+ 459 40 l 1
+ 459 312 l 2
+ 459 325 456 336 449 346 c 0
+ 442 354 433 359 422 359 c 0
+ 411 359 398 353 383 341 c 0
+ 369 329 350 306 327 271 c 1
+ 327 271 327 271 211 271 c 1
+ 207 276 l 1
+ 230 309 257 341 286 373 c 0
+ 315 404 341 427 362 442 c 0
+ 383 457 404 464 423 464 c 0
+ 464 464 498 450 523 424 c 0
+ 549 396 562 361 562 319 c 0
+ 562 226 561 133 561 40 c 1
+ 775 40 l 1
+ 775 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0722.init
 Encoding: 1114120 -1 84
-Width: 466
+Width: 580
 Flags: W
-HStem: 0 40<-130 186> 422 39<115 186 295 363>
-VStem: 186 109<40 421>
-AnchorPoint: "Below" 234 -37 basechar 0
-AnchorPoint: "Diacritic" 239 549 basechar 0
-AnchorPoint: "curs" -128 0 exit 0
+HStem: 0 40<-5 311> 422 39<240 311 420 488>
+VStem: 311 109<40 421>
+AnchorPoint: "Below" 359 -37 basechar 0
+AnchorPoint: "Diacritic" 364 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-363 421 m 1
- 295 421 l 1
- 295 0 l 1
- -130 0 l 1
- -130 40 l 5
- 186 40 l 1
- 186 422 l 1
- 115 422 l 1
- 115 461 l 1
- 363 461 l 1
- 363 421 l 1
+488 421 m 1
+ 420 421 l 1
+ 420 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 311 40 l 1
+ 311 422 l 1
+ 240 422 l 1
+ 240 461 l 1
+ 488 461 l 5
+ 488 421 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0710.med
 Encoding: 1114121 -1 85
-Width: 800
+Width: 905
 Flags: W
-HStem: 0 40<-130 79 632 930> 390 72<188 328>
-VStem: 79 109<40 390>
-AnchorPoint: "Diacritic" 261 550 basechar 0
-AnchorPoint: "Below" 326 -38 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
-AnchorPoint: "curs" 924 0 entry 0
+HStem: 0 40<-5 204 757 910> 390 72<313 453>
+VStem: 204 109<40 390>
+AnchorPoint: "Diacritic" 386 550 basechar 0
+AnchorPoint: "Below" 451 -38 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-632 40 m 1
- 930 40 l 1
- 930 0 l 1
- 527 0 l 1
- 335 390 l 1
- 188 390 l 1
- 188 0 l 1
- -130 0 l 1
- -130 40 l 1
- 79 40 l 1
- 79 462 l 1
- 328 462 l 1
- 660 671 l 1
- 720 605 l 1
- 450 417 l 1
- 632 40 l 1
+757 40 m 1
+ 910 40 l 1
+ 910 0 l 1
+ 652 0 l 1
+ 460 390 l 1
+ 313 390 l 1
+ 313 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 204 40 l 1
+ 204 462 l 1
+ 453 462 l 1
+ 785 671 l 1
+ 845 605 l 1
+ 575 417 l 1
+ 757 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0717.init
 Encoding: 1114122 -1 86
-Width: 804
+Width: 949
 Flags: W
-HStem: 0 40<-130 80> 418 42<194 349 461 613>
-VStem: 80 114<40 418> 349 112<0 418> 613 111<0 418>
-AnchorPoint: "Below" 409 -37 basechar 0
-AnchorPoint: "Diacritic" 411 550 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: 0 40<-5 205> 418 42<319 474 586 738>
+VStem: 205 114<40 418> 474 112<0 418> 738 111<0 418>
+AnchorPoint: "Below" 534 -37 basechar 0
+AnchorPoint: "Diacritic" 536 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--130 0 m 1
- -130 40 l 5
- 80 40 l 1
- 80 40 80 40 80 460 c 1
- 724 460 l 1
- 724 0 l 1
- 613 0 l 1
- 613 418 l 1
- 461 418 l 1
- 461 0 l 1
- 349 0 l 1
- 349 418 l 1
- 194 418 l 1
- 194 0 l 1
- -130 0 l 1
+-5 0 m 1
+ -5 40 l 1
+ 205 40 l 1
+ 205 40 205 40 205 460 c 1
+ 849 460 l 1
+ 849 0 l 1
+ 738 0 l 1
+ 738 418 l 1
+ 586 418 l 1
+ 586 0 l 1
+ 474 0 l 1
+ 474 418 l 1
+ 319 418 l 1
+ 319 0 l 1
+ -5 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0717.med
 Encoding: 1114123 -1 87
-Width: 804
+Width: 1050
 Flags: W
-HStem: 0 40<-131 80 724 934> 418 42<194 349 461 613>
-VStem: 80 114<40 418> 349 112<0 418> 613 111<40 418>
-AnchorPoint: "Below" 409 -37 basechar 0
-AnchorPoint: "Diacritic" 411 550 basechar 0
-AnchorPoint: "curs" 931 0 entry 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: 0 40<-5 206 850 1055> 418 42<320 475 587 739>
+VStem: 206 114<40 418> 475 112<0 418> 739 111<40 418>
+AnchorPoint: "Below" 535 -37 basechar 0
+AnchorPoint: "Diacritic" 537 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-724 40 m 1
- 934 40 l 5
- 934 0 l 1
- 613 0 l 1
- 613 418 l 1
- 461 418 l 1
- 461 0 l 1
- 349 0 l 1
- 349 418 l 1
- 194 418 l 1
- 194 0 l 1
- -131 0 l 1
- -131 40 l 1
- 80 40 l 1
- 80 40 80 40 80 460 c 1
- 724 460 l 1
- 724 40 l 1
+850 40 m 1
+ 1055 40 l 1
+ 1055 0 l 1
+ 739 0 l 1
+ 739 418 l 1
+ 587 418 l 1
+ 587 0 l 1
+ 475 0 l 1
+ 475 418 l 1
+ 320 418 l 1
+ 320 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 206 40 l 1
+ 206 40 206 40 206 460 c 1
+ 850 460 l 1
+ 850 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0717.fin
 Encoding: 1114124 -1 88
-Width: 804
+Width: 929
 Flags: W
 HStem: 0 40<724 934> 419 42<194 349 461 613>
 VStem: 80 114<0 419> 349 112<0 419> 613 111<40 419>
 AnchorPoint: "Below" 409 -38 basechar 0
 AnchorPoint: "Diacritic" 411 550 basechar 0
-AnchorPoint: "curs" 932 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
 724 40 m 1
- 934 40 l 5
+ 934 40 l 1
  934 0 l 1
  613 0 l 1
  613 419 l 1
@@ -3082,47 +3064,44 @@ EndChar
 
 StartChar: uni0718.med
 Encoding: 1114125 -1 89
-Width: 612
+Width: 852
 Flags: W
-HStem: 0 40<-130 177 439 732> 430 37<264.858 347.375>
-VStem: 79 143<130.431 329.945> 401 130<131.443 339.276>
-AnchorPoint: "Below" 311 -37 basechar 0
-AnchorPoint: "Diacritic" 302 550 basechar 0
-AnchorPoint: "curs" 728 0 entry 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: 0 47<394.237 486.727> 0 40<-5 302 564 857> 430 37<389.858 472.375>
+VStem: 204 143<130.431 329.945> 526 130<131.443 339.276>
+AnchorPoint: "Below" 436 -37 basechar 0
+AnchorPoint: "Diacritic" 427 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-306 467 m 0
- 401 467 531 391 531 240 c 0
- 531 170 510 112 469 68 c 0
- 460 57 450 48 439 40 c 1
- 732 40 l 1
- 732 0 l 1
- -130 0 l 1
- -130 40 l 5
- 177 40 l 1
- 141 65 79 124 79 233 c 0
- 79 300 104 355 154 400 c 0
- 203 445 254 467 306 467 c 0
-222 236 m 0
- 222 140 252 47 314 47 c 0
- 372 47 401 109 401 236 c 0
- 401 285 394 328 379 364 c 0
- 360 408 335 430 303 430 c 0
- 227 430 222 262 222 236 c 0
+431 467 m 0x78
+ 526 467 656 391 656 240 c 0
+ 656 170 635 112 594 68 c 0
+ 585 57 575 48 564 40 c 1
+ 857 40 l 1
+ 857 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 302 40 l 1
+ 266 65 204 124 204 233 c 0
+ 204 300 229 355 279 400 c 0
+ 328 445 379 467 431 467 c 0x78
+347 236 m 0
+ 347 140 377 47 439 47 c 0xb8
+ 497 47 526 109 526 236 c 0
+ 526 285 519 328 504 364 c 0
+ 485 408 460 430 428 430 c 0
+ 352 430 347 262 347 236 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0718.fin
 Encoding: 1114126 -1 90
-Width: 612
+Width: 727
 Flags: W
 HStem: 0 40<279.573 355.08 440 732> 430 37<267.57 346.823>
 VStem: 80 143<129.431 325.886> 402 130<127.321 335.168>
 AnchorPoint: "Below" 311 -37 basechar 0
 AnchorPoint: "Diacritic" 302 550 basechar 0
-AnchorPoint: "curs" 727 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3136,7 +3115,7 @@ SplineSet
 308 467 m 0
  390 467 532 405 532 229 c 0
  532 152 501 89 440 40 c 1
- 732 40 l 5
+ 732 40 l 1
  732 0 l 1
  314 0 l 2
  190 0 80 87 80 232 c 0
@@ -3146,108 +3125,103 @@ EndChar
 
 StartChar: uni0718.init
 Encoding: 1114127 -1 91
-Width: 612
+Width: 747
 Flags: W
-HStem: 0 40<-130 178 278.008 353.527> 430 37<266.077 346.764>
-VStem: 80 143<131.001 330.272> 402 130<131.29 337.727>
-AnchorPoint: "Below" 311 -37 basechar 0
-AnchorPoint: "Diacritic" 302 550 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: 0 40<-5 303 403.008 478.527> 430 37<391.077 471.764>
+VStem: 205 143<131.001 330.272> 527 130<131.29 337.727>
+AnchorPoint: "Below" 436 -37 basechar 0
+AnchorPoint: "Diacritic" 427 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-315 46 m 0
- 373 46 402 109 402 236 c 0
- 402 285 395 328 380 364 c 0
- 361 408 336 430 304 430 c 0
- 277 430 257 410 244 370 c 0
- 230 329 223 285 223 236 c 0
- 223 187 230 146 244 111 c 0
- 261 68 285 46 315 46 c 0
-314 0 m 2
- -130 0 l 1
- -130 40 l 5
- 178 40 l 1
- 157 54 80 114 80 233 c 0
- 80 300 105 355 154 400 c 0
- 204 445 255 467 308 467 c 0
- 405 467 532 388 532 240 c 0
- 532 96 438 0 314 0 c 2
+440 46 m 0
+ 498 46 527 109 527 236 c 0
+ 527 285 520 328 505 364 c 0
+ 486 408 461 430 429 430 c 0
+ 402 430 382 410 369 370 c 0
+ 355 329 348 285 348 236 c 0
+ 348 187 355 146 369 111 c 0
+ 386 68 410 46 440 46 c 0
+439 0 m 2
+ -5 0 l 1
+ -5 40 l 1
+ 303 40 l 1
+ 282 54 205 114 205 233 c 0
+ 205 300 230 355 279 400 c 0
+ 329 445 380 467 433 467 c 0
+ 530 467 657 388 657 240 c 0
+ 657 96 563 0 439 0 c 2
 EndSplineSet
 EndChar
 
 StartChar: uni071A.init
 Encoding: 1114128 -1 92
-Width: 524
+Width: 680
 Flags: W
-HStem: 0 40<-130 80>
-VStem: 80 81<40 365> 378 76<105 461>
-AnchorPoint: "Below" 266 -38 basechar 0
-AnchorPoint: "Diacritic" 267 549 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: 0 40<-5 205>
+VStem: 205 81<40 365> 503 76<105 461>
+AnchorPoint: "Below" 391 -38 basechar 0
+AnchorPoint: "Diacritic" 392 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--130 0 m 1
- -130 40 l 5
- 80 40 l 1
- 80 461 l 1
- 210 461 l 1
- 373 105 l 1
- 378 105 l 1
- 378 461 l 1
- 454 461 l 1
- 454 0 l 1
- 341 0 l 1
- 168 365 l 1
- 161 365 l 1
- 161 0 l 1
- -130 0 l 1
+-5 0 m 1
+ -5 40 l 1
+ 205 40 l 1
+ 205 461 l 1
+ 335 461 l 1
+ 498 105 l 1
+ 503 105 l 1
+ 503 461 l 1
+ 579 461 l 1
+ 579 0 l 1
+ 466 0 l 1
+ 293 365 l 1
+ 286 365 l 1
+ 286 0 l 1
+ -5 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni071A.med
 Encoding: 1114129 -1 93
-Width: 524
+Width: 774
 Flags: W
-HStem: 0 40<-130 80 454 654>
-VStem: 80 81<40 365> 378 76<105 461>
-AnchorPoint: "Below" 266 -38 basechar 0
-AnchorPoint: "Diacritic" 267 549 basechar 0
-AnchorPoint: "curs" -128 0 exit 0
-AnchorPoint: "curs" 652 0 entry 0
+HStem: 0 40<-5 205 579 779>
+VStem: 205 81<40 365> 503 76<105 461>
+AnchorPoint: "Below" 391 -38 basechar 0
+AnchorPoint: "Diacritic" 392 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-340 0 m 2
- 340 0 283 122 168 365 c 1
- 161 365 l 1
- 161 0 l 1
- -130 0 l 1
- -130 40 l 5
- 80 40 l 1
- 80 461 l 1
- 210 461 l 1
- 373 105 l 1
- 378 105 l 1
- 378 461 l 1
- 454 461 l 1
- 454 40 l 1
- 654 40 l 1
- 654 0 l 1
- 340 0 l 2
+465 0 m 2
+ 465 0 408 122 293 365 c 1
+ 286 365 l 1
+ 286 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 205 40 l 1
+ 205 461 l 1
+ 335 461 l 1
+ 498 105 l 1
+ 503 105 l 1
+ 503 461 l 1
+ 579 461 l 1
+ 579 40 l 1
+ 779 40 l 1
+ 779 0 l 1
+ 465 0 l 2
 EndSplineSet
 EndChar
 
 StartChar: uni071A.fin
 Encoding: 1114130 -1 94
-Width: 524
+Width: 649
 Flags: W
 HStem: 0 40<454 654>
 VStem: 80 81<0 365> 378 76<105 461>
 AnchorPoint: "Below" 266 -38 basechar 0
 AnchorPoint: "Diacritic" 267 549 basechar 0
-AnchorPoint: "curs" 651 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3263,7 +3237,7 @@ SplineSet
  378 461 l 1
  454 461 l 1
  454 40 l 1
- 654 40 l 5
+ 654 40 l 1
  654 0 l 1
  340 0 l 1
 EndSplineSet
@@ -3271,77 +3245,73 @@ EndChar
 
 StartChar: uni071B.init
 Encoding: 1114131 -1 95
-Width: 870
+Width: 1008
 Flags: W
-HStem: 0 40<-130 253 388 639>
-AnchorPoint: "Below" 116 -38 basechar 0
-AnchorPoint: "Diacritic" 530 310 basechar 0
-AnchorPoint: "curs" -122 0 exit 0
+HStem: 0 40<-5 378 513 764>
+AnchorPoint: "Below" 241 -38 basechar 0
+AnchorPoint: "Diacritic" 655 310 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-639 0 m 1
- 388 0 l 1
- 388 -1 407 -57 443 -172 c 1
- 456 -165 520 -108 639 0 c 1
--130 0 m 1
- -130 40 l 5
- 253 40 l 1
- 168 300 l 1
- 128 437 103 523 23 575 c 1
- 23 588 l 1
- 223 588 l 1
- 376 40 l 1
- 791 40 l 1
- 529 -209 l 1
- 343 -209 l 1
- 267 0 l 1
- -130 0 l 1
+764 0 m 1
+ 513 0 l 1
+ 513 -1 532 -57 568 -172 c 1
+ 581 -165 645 -108 764 0 c 1
+-5 0 m 1
+ -5 40 l 1
+ 378 40 l 1
+ 293 300 l 1
+ 253 437 228 523 148 575 c 1
+ 148 588 l 1
+ 348 588 l 1
+ 501 40 l 1
+ 916 40 l 1
+ 654 -209 l 1
+ 468 -209 l 1
+ 392 0 l 1
+ -5 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni071B.med
 Encoding: 1114132 -1 96
-Width: 870
+Width: 1120
 Flags: W
-HStem: 0 40<-130 253 389 640 754 1000>
-AnchorPoint: "Below" 116 -38 basechar 0
-AnchorPoint: "Diacritic" 530 310 basechar 0
-AnchorPoint: "curs" 998 0 entry 0
-AnchorPoint: "curs" -127 0 exit 0
+HStem: 0 40<-5 378 514 765 879 1125>
+AnchorPoint: "Below" 241 -38 basechar 0
+AnchorPoint: "Diacritic" 655 310 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1000 0 m 1
- 754 0 l 1
- 529 -209 l 1
- 343 -209 l 1
- 267 0 l 1
- -130 0 l 1
- -130 40 l 1
- 253 40 l 1
- 176 275 131 421 130 425 c 0
- 105 495 70 545 23 575 c 1
- 23 588 l 1
- 223 588 l 1
- 376 40 l 1
- 1000 40 l 5
- 1000 0 l 1
-640 0 m 1
- 389 0 l 1
- 389 -1 407 -57 443 -172 c 1
- 456 -165 521 -108 640 0 c 1
+1125 0 m 1
+ 879 0 l 1
+ 654 -209 l 1
+ 468 -209 l 1
+ 392 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 378 40 l 1
+ 301 275 256 421 255 425 c 0
+ 230 495 195 545 148 575 c 1
+ 148 588 l 1
+ 348 588 l 1
+ 501 40 l 1
+ 1125 40 l 1
+ 1125 0 l 1
+765 0 m 1
+ 514 0 l 1
+ 514 -1 532 -57 568 -172 c 1
+ 581 -165 646 -108 765 0 c 1
 EndSplineSet
 EndChar
 
 StartChar: uni071B.fin
 Encoding: 1114133 -1 97
-Width: 870
+Width: 995
 Flags: W
 HStem: 0 40<204 253 389 640 749 1000>
 AnchorPoint: "Below" 116 -38 basechar 0
 AnchorPoint: "Diacritic" 530 310 basechar 0
-AnchorPoint: "curs" 998 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3351,7 +3321,7 @@ SplineSet
  343 -209 l 1
  267 0 l 1
  204 0 l 1
- 204 40 l 5
+ 204 40 l 1
  253 40 l 1
  176 275 131 421 130 425 c 0
  105 495 70 545 23 575 c 1
@@ -3369,59 +3339,55 @@ EndChar
 
 StartChar: uni071D.init
 Encoding: 1114134 -1 98
-Width: 520
+Width: 673
 Flags: W
-HStem: 0 40<-130 110 394 458>
-AnchorPoint: "Below" 206 -37 basechar 0
-AnchorPoint: "Diacritic" 197 549 basechar 0
-AnchorPoint: "curs" -127 0 exit 0
+HStem: 0 40<-5 235 519 583>
+AnchorPoint: "Below" 331 -37 basechar 0
+AnchorPoint: "Diacritic" 322 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-110 40 m 1
- 160 402 l 1
- 234 402 l 1
- 394 40 l 1
- 458 40 l 5
- 458 0 l 1
- -130 0 l 1
- -130 40 l 1
- 110 40 l 1
+235 40 m 1
+ 285 402 l 1
+ 359 402 l 1
+ 519 40 l 1
+ 583 40 l 1
+ 583 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 235 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni071D.med
 Encoding: 1114135 -1 99
-Width: 520
+Width: 770
 Flags: W
-HStem: 0 40<-130 110 394 650>
-AnchorPoint: "Below" 206 -37 basechar 0
-AnchorPoint: "Diacritic" 197 549 basechar 0
-AnchorPoint: "curs" -128 0 exit 0
-AnchorPoint: "curs" 647 0 entry 0
+HStem: 0 40<-5 235 519 775>
+AnchorPoint: "Below" 331 -37 basechar 0
+AnchorPoint: "Diacritic" 322 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-110 40 m 1
- 160 402 l 1
- 234 402 l 1
- 394 40 l 1
- 650 40 l 5
- 650 0 l 1
- -130 0 l 1
- -130 40 l 1
- 110 40 l 1
+235 40 m 1
+ 285 402 l 1
+ 359 402 l 1
+ 519 40 l 1
+ 775 40 l 1
+ 775 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 235 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni071D.fin
 Encoding: 1114136 -1 100
-Width: 520
+Width: 645
 Flags: W
 HStem: 0 40<69 110 394 650>
 AnchorPoint: "Below" 206 -37 basechar 0
 AnchorPoint: "Diacritic" 197 549 basechar 0
-AnchorPoint: "curs" 648 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3432,48 +3398,46 @@ SplineSet
  650 40 l 1
  650 0 l 1
  69 0 l 1
- 69 40 l 5
+ 69 40 l 1
  110 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni071F.init
 Encoding: 1114137 -1 101
-Width: 520
+Width: 651
 Flags: W
-HStem: 0 40<-130 334> 359 105<255.804 328.509>
-VStem: 334 103<40 353.279>
-AnchorPoint: "Below" 279 -37 basechar 0
-AnchorPoint: "Diacritic" 292 549 basechar 0
-AnchorPoint: "curs" -127 0 exit 0
+HStem: 0 40<-5 459> 359 105<380.804 453.509>
+VStem: 459 103<40 353.279>
+AnchorPoint: "Below" 404 -37 basechar 0
+AnchorPoint: "Diacritic" 417 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-298 464 m 0
- 382 464 437 404 437 319 c 2
- 437 0 l 1
- -130 0 l 1
- -130 40 l 5
- 334 40 l 1
- 334 312 l 2
- 334 314 334 359 297 359 c 0
- 265 359 231 313 202 271 c 1
- 86 271 l 1
- 82 276 l 1
- 123 333 189 409 237 442 c 0
- 258 457 279 464 298 464 c 0
+423 464 m 0
+ 507 464 562 404 562 319 c 2
+ 562 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 459 40 l 1
+ 459 312 l 2
+ 459 314 459 359 422 359 c 0
+ 390 359 356 313 327 271 c 1
+ 211 271 l 1
+ 207 276 l 1
+ 248 333 314 409 362 442 c 0
+ 383 457 404 464 423 464 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni071F.fin
 Encoding: 1114138 -1 102
-Width: 868
+Width: 993
 Flags: W
 HStem: -14 83<216.511 355.312> 0 40<698 998>
 VStem: 80 84<134.175 374>
 AnchorPoint: "Below" 279 -37 basechar 0
 AnchorPoint: "Diacritic" 273 550 basechar 0
-AnchorPoint: "curs" 992 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3482,7 +3446,7 @@ SplineSet
  412 374 l 1
  504 374 l 1
  677 40 l 1
- 998 40 l 5
+ 998 40 l 1
  998 0 l 1
  698 0 l 1x60
  844 -280 l 1
@@ -3501,13 +3465,12 @@ EndChar
 
 StartChar: uni0710.fin
 Encoding: 1114139 -1 103
-Width: 800
+Width: 925
 Flags: W
 HStem: 0 40<632 930> 391 72<189 329>
 VStem: 80 109<0 391>
 AnchorPoint: "Below" 326 -37 basechar 0
 AnchorPoint: "Diacritic" 261 550 basechar 0
-AnchorPoint: "curs" 927 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3523,7 +3486,7 @@ SplineSet
  721 606 l 1
  451 418 l 1
  632 40 l 1
- 930 40 l 5
+ 930 40 l 1
  930 0 l 1
 EndSplineSet
 EndChar
@@ -3546,43 +3509,41 @@ EndChar
 
 StartChar: uni0710.init
 Encoding: 1114140 -1 106
-Width: 800
+Width: 920
 Flags: W
-HStem: 0 40<-130 80> 391 72<189 329>
-VStem: 80 109<40 391>
-AnchorPoint: "Below" 326 -38 basechar 0
-AnchorPoint: "Diacritic" 261 549 basechar 0
-AnchorPoint: "curs" -124 0 exit 0
+HStem: 0 40<-5 205> 391 72<314 454>
+VStem: 205 109<40 391>
+AnchorPoint: "Below" 451 -38 basechar 0
+AnchorPoint: "Diacritic" 386 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-80 40 m 1
- 80 463 l 1
- 329 463 l 1
- 661 672 l 1
- 721 606 l 1
- 451 418 l 1
+205 40 m 1
+ 205 463 l 1
+ 454 463 l 1
+ 786 672 l 1
+ 846 606 l 1
+ 576 418 l 1
+ 778 0 l 1
  653 0 l 1
- 528 0 l 1
- 336 391 l 1
- 189 391 l 1
- 189 0 l 1
- -130 0 l 1
- -130 40 l 5
- 80 40 l 1
+ 461 391 l 1
+ 314 391 l 1
+ 314 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 205 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0715.med
 Encoding: 1114141 -1 107
-Width: 648
+Width: 773
 Flags: W
 HStem: 0 40<571 778> 5 103<264.236 349.046> 308 153<80 240> 425 36<240 464>
 VStem: 80 160<308 425> 255 104<14.1767 98.0461> 464 107<40 425>
 AnchorPoint: "Below" 309 -37 basechar 0
 AnchorPoint: "Diacritic" 360 550 basechar 0
 AnchorPoint: "curs" -1 0 exit 0
-AnchorPoint: "curs" 776 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3594,7 +3555,7 @@ SplineSet
 80 461 m 1x2e
  571 461 l 1
  571 40 l 1
- 778 40 l 5
+ 778 40 l 1
  778 0 l 1
  464 0 l 1
  464 425 l 1
@@ -3607,13 +3568,12 @@ EndChar
 
 StartChar: uni0715.fin
 Encoding: 1114142 -1 108
-Width: 648
+Width: 770
 Flags: W
 HStem: 0 40<571 778> 5 103<264.236 349.046> 308 153<80 240> 425 36<240 464>
 VStem: 80 160<308 425> 255 104<14.1767 98.0461> 464 107<40 425>
 AnchorPoint: "Below" 309 -37 basechar 0
 AnchorPoint: "Diacritic" 360 550 basechar 0
-AnchorPoint: "curs" 776 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3625,8 +3585,8 @@ SplineSet
 80 461 m 1x2e
  571 461 l 1
  571 40 l 1
- 778 40 l 5
- 778 0 l 1
+ 778 40 l 1
+ 778 0 l 5
  464 0 l 1
  464 425 l 1
  240 425 l 1x9e
@@ -3638,14 +3598,12 @@ EndChar
 
 StartChar: uni0719.med
 Encoding: 1114143 -1 109
-Width: 400
+Width: 422
 Flags: W
 HStem: 0 40<260 427>
 VStem: 140 120<40 461>
 AnchorPoint: "Below" 199 -37 basechar 0
 AnchorPoint: "Diacritic" 198 549 basechar 0
-AnchorPoint: "curs" 0 0 exit 0
-AnchorPoint: "curs" 425 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3654,20 +3612,19 @@ SplineSet
  140 461 l 1
  260 461 l 1
  260 40 l 1
- 427 40 l 5
+ 427 40 l 1
  427 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0719.fin
 Encoding: 1114144 -1 110
-Width: 400
+Width: 422
 Flags: W
 HStem: 0 40<260 427>
 VStem: 140 120<40 461>
 AnchorPoint: "Below" 199 -37 basechar 0
 AnchorPoint: "Diacritic" 200 549 basechar 0
-AnchorPoint: "curs" 421 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3676,69 +3633,65 @@ SplineSet
  140 461 l 1
  260 461 l 1
  260 40 l 1
- 427 40 l 5
+ 427 40 l 1
  427 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0720.init
 Encoding: 1114145 -1 111
-Width: 598
+Width: 620
 Flags: W
-HStem: 0 40<-30 391>
-AnchorPoint: "Below" 261 -37 basechar 0
-AnchorPoint: "Diacritic" 445 501 basechar 0
-AnchorPoint: "curs" -26 0 exit 0
+HStem: 0 40<-5 416>
+AnchorPoint: "Below" 286 -37 basechar 0
+AnchorPoint: "Diacritic" 470 501 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-512 0 m 1
- -30 0 l 5
- -30 40 l 5
- 391 40 l 1
- 393 47 l 1
- 158 518 l 1
- 145 541 119 565 80 589 c 1
- 274 589 l 1
- 512 9 l 1
- 512 0 l 1
+537 0 m 1
+ -5 0 l 1
+ -5 40 l 1
+ 416 40 l 1
+ 418 47 l 1
+ 183 518 l 1
+ 170 541 144 565 105 589 c 1
+ 299 589 l 1
+ 537 9 l 1
+ 537 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0720.med
 Encoding: 1114146 -1 112
-Width: 598
+Width: 747
 Flags: W
-HStem: 0 40<-30 391 499 728>
-AnchorPoint: "Below" 261 -37 basechar 0
-AnchorPoint: "Diacritic" 445 501 basechar 0
-AnchorPoint: "curs" -27 0 exit 0
-AnchorPoint: "curs" 726 0 entry 0
+HStem: 0 40<-5 416 524 753>
+AnchorPoint: "Below" 286 -37 basechar 0
+AnchorPoint: "Diacritic" 470 501 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-728 0 m 1
- 277 0 117 0 -30 0 c 5
- -30 40 l 5
- 391 40 l 1
- 393 47 l 1
- 158 518 l 1
- 145 541 119 565 80 589 c 1
- 274 589 l 1
- 349 406 424 223 499 40 c 0
- 502 40 530 40 728 40 c 1
- 728 0 l 1
+753 0 m 1
+ 302 0 142 0 -5 0 c 1
+ -5 40 l 1
+ 416 40 l 1
+ 418 47 l 1
+ 183 518 l 1
+ 170 541 144 565 105 589 c 1
+ 299 589 l 1
+ 374 406 449 223 524 40 c 0
+ 527 40 555 40 753 40 c 1
+ 753 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0720.fin
 Encoding: 1114147 -1 113
-Width: 598
+Width: 723
 Flags: W
 HStem: 0 40<80 392 500 728>
 AnchorPoint: "Below" 261 -37 basechar 0
 AnchorPoint: "Diacritic" 445 501 basechar 0
-AnchorPoint: "curs" 727 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3758,78 +3711,74 @@ EndChar
 
 StartChar: uni0721.init
 Encoding: 1114148 -1 114
-Width: 805
+Width: 950
 Flags: W
-HStem: 0 40<-130 337 451 622> 312 150<80 233> 419 43<233 337 451 622>
-VStem: 80 153<312 419> 337 114<40 419> 622 113<40 419>
-AnchorPoint: "Below" 396 -37 basechar 0
-AnchorPoint: "Diacritic" 412 549 basechar 0
-AnchorPoint: "curs" -128 0 exit 0
+HStem: 0 40<-6 461 575 746> 312 150<204 357> 419 43<357 461 575 746>
+VStem: 204 153<312 419> 461 114<40 419> 746 113<40 419>
+AnchorPoint: "Below" 520 -37 basechar 0
+AnchorPoint: "Diacritic" 536 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-735 0 m 1xbc
- -130 0 l 1
- -130 40 l 1
- 337 40 l 1
- 337 419 l 1
- 233 419 l 1xbc
- 233 312 l 1
- 80 312 l 1
- 80 462 l 1xdc
- 735 462 l 1
- 735 0 l 1xbc
-622 40 m 1
- 622 419 l 1
- 451 419 l 1
- 451 40 l 1
- 622 40 l 1
+859 0 m 1xbc
+ -6 0 l 1
+ -6 40 l 1
+ 461 40 l 1
+ 461 419 l 1
+ 357 419 l 1xbc
+ 357 312 l 1
+ 204 312 l 1
+ 204 462 l 1xdc
+ 859 462 l 1
+ 859 0 l 1xbc
+746 40 m 1
+ 746 419 l 1
+ 575 419 l 1
+ 575 40 l 1
+ 746 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0721.med
 Encoding: 1114149 -1 115
-Width: 805
+Width: 1046
 Flags: W
-HStem: 0 40<-130 337 451 622 735 925> 312 150<80 233> 419 43<233 337 451 622>
-VStem: 80 153<312 419> 337 114<40 419> 622 113<40 419>
-AnchorPoint: "Below" 396 -37 basechar 0
-AnchorPoint: "Diacritic" 412 549 basechar 0
-AnchorPoint: "curs" -128 0 exit 0
-AnchorPoint: "curs" 923 0 entry 0
+HStem: 0 40<-5 462 576 747 860 1050> 312 150<205 358> 419 43<358 462 576 747>
+VStem: 205 153<312 419> 462 114<40 419> 747 113<40 419>
+AnchorPoint: "Below" 521 -37 basechar 0
+AnchorPoint: "Diacritic" 537 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-622 40 m 1xbc
- 622 419 l 1
- 451 419 l 1
- 451 40 l 1
- 622 40 l 1xbc
--130 0 m 5
- -130 40 l 5
- 337 40 l 1
- 337 419 l 1
- 233 419 l 1xbc
- 233 312 l 1
- 80 312 l 1
- 80 462 l 1xdc
- 735 462 l 1
- 735 40 l 1
- 925 40 l 1
- 925 0 l 1
- -130 0 l 5
+747 40 m 1xbc
+ 747 419 l 1
+ 576 419 l 1
+ 576 40 l 1
+ 747 40 l 1xbc
+-5 0 m 1
+ -5 40 l 1
+ 462 40 l 1
+ 462 419 l 1
+ 358 419 l 1xbc
+ 358 312 l 1
+ 205 312 l 1
+ 205 462 l 1xdc
+ 860 462 l 1
+ 860 40 l 1
+ 1050 40 l 1
+ 1050 0 l 1
+ -5 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0721.fin
 Encoding: 1114150 -1 116
-Width: 805
+Width: 920
 Flags: W
 HStem: 0 40<80 337 451 622 735 925> 312 150<80 233> 419 43<233 337 451 622>
 VStem: 80 153<312 419> 337 114<40 419> 622 113<40 419>
 AnchorPoint: "Below" 396 -37 basechar 0
 AnchorPoint: "Diacritic" 412 549 basechar 0
-AnchorPoint: "curs" 923 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3856,48 +3805,45 @@ EndChar
 
 StartChar: uni0722.med
 Encoding: 1114151 -1 117
-Width: 466
+Width: 687
 Flags: W
-HStem: 0 40<-116.5 182.5 291.5 582.5> 422 39<111.5 182.5 291.5 359.5>
-VStem: 182.5 109<40 422>
-AnchorPoint: "Below" 234 -37 basechar 0
-AnchorPoint: "Diacritic" 234 549 basechar 0
-AnchorPoint: "curs" -118 0 exit 0
-AnchorPoint: "curs" 577 0 entry 0
+HStem: 0 40<-5.5 293.5 402.5 693.5> 422 39<222.5 293.5 402.5 470.5>
+VStem: 293.5 109<40 422>
+AnchorPoint: "Below" 345 -37 basechar 0
+AnchorPoint: "Diacritic" 345 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--116.5 0 m 1
- -116.5 40 l 1
- 182.5 40 l 1
- 182.5 422 l 1
- 111.5 422 l 1
- 111.5 461 l 1
- 359.5 461 l 1
- 359.5 422 l 1
- 291.5 422 l 1
- 291.5 40 l 1
- 582.5 40 l 5
- 582.5 0 l 1
- -116.5 0 l 1
+-5.5 0 m 1
+ -5.5 40 l 1
+ 293.5 40 l 1
+ 293.5 422 l 1
+ 222.5 422 l 1
+ 222.5 461 l 1
+ 470.5 461 l 1
+ 470.5 422 l 1
+ 402.5 422 l 1
+ 402.5 40 l 1
+ 693.5 40 l 1
+ 693.5 0 l 1
+ -5.5 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0722.fin
 Encoding: 1114152 -1 118
-Width: 807
+Width: 750
 Flags: W
-HStem: 0 40<431 717>
+HStem: 0 40<431 757>
 AnchorPoint: "Below" 96 -37 basechar 0
 AnchorPoint: "Diacritic" 393 204 basechar 0
-AnchorPoint: "curs" 710 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
 228 138 m 0
  267.12537267 138 292.1675013 121.911028265 385 40 c 1
- 717 40 l 1
- 717 0 l 1
+ 757 40 l 1
+ 757 0 l 1
  431 0 l 1
  633 -162 715 -220 989 -370 c 1
  988 -370 987 -375 984 -386 c 1
@@ -3908,90 +3854,86 @@ EndChar
 
 StartChar: uni0723.med
 Encoding: 1114153 -1 119
-Width: 880
+Width: 1130
 Flags: W
-HStem: 0 54<252.081 390.283 494.969 634.12> 0 40<-130 152 718 1010> 387 78<216.118 319.754 565.579 669.608>
-VStem: 81 90<143.126 332.757> 403 80<67.2186 252.892> 715 88<143.332 333.044>
-AnchorPoint: "Below" 442 -37 basechar 0
-AnchorPoint: "Diacritic" 437 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
-AnchorPoint: "curs" 1004 0 entry 0
+HStem: 0 54<377.081 515.283 619.969 759.12> 0 40<-5 277 843 1135> 387 78<341.118 444.754 690.579 794.608>
+VStem: 206 90<143.126 332.757> 528 80<67.2186 252.892> 840 88<143.332 333.044>
+AnchorPoint: "Below" 567 -37 basechar 0
+AnchorPoint: "Diacritic" 562 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-171 242 m 0xbc
- 171 219 177 54 336 54 c 0
- 381 54 403 77 403 122 c 0
- 403 193 364 387 271 387 c 0
- 195 387 171 292 171 242 c 0xbc
-550 54 m 0
- 670 54 715 154 715 242 c 0
- 715 294 690 387 615 387 c 0
- 524 387 483 203 483 124 c 0
- 483 83 495 54 550 54 c 0
-803 215 m 0
- 803 211 802 135 718 40 c 1
- 1010 40 l 1
- 1010 0 l 1
- -130 0 l 1
- -130 40 l 1
- 152 40 l 1x7c
- 139 53 81 131 81 224 c 0
- 81 344 145 421 196 449 c 0
- 216 460 259 465 277 465 c 0
- 362 465 420 343 443 295 c 1
- 494 408 552 465 614 465 c 0
- 647 465 672 460 690 449 c 0
- 786 391 803 294 803 215 c 0
+296 242 m 0xbc
+ 296 219 302 54 461 54 c 0
+ 506 54 528 77 528 122 c 0
+ 528 193 489 387 396 387 c 0
+ 320 387 296 292 296 242 c 0xbc
+675 54 m 0
+ 795 54 840 154 840 242 c 0
+ 840 294 815 387 740 387 c 0
+ 649 387 608 203 608 124 c 0
+ 608 83 620 54 675 54 c 0
+928 215 m 0
+ 928 211 927 135 843 40 c 1
+ 1135 40 l 1
+ 1135 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 277 40 l 1x7c
+ 264 53 206 131 206 224 c 0
+ 206 344 270 421 321 449 c 0
+ 341 460 384 465 402 465 c 0
+ 487 465 545 343 568 295 c 1
+ 619 408 677 465 739 465 c 0
+ 772 465 797 460 815 449 c 0
+ 911 391 928 294 928 215 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0723.init
 Encoding: 1114154 -1 120
-Width: 880
+Width: 1017
 Flags: W
-HStem: 0 54<251.081 389.283 493.969 633.12> 0 40<-130 151> 387 77<215.118 318.754 564.562 668.626>
-VStem: 80 90<143.493 332.176> 402 80<67.2186 252.892> 714 88<143.253 332.544>
-AnchorPoint: "Below" 442 -37 basechar 0
-AnchorPoint: "Diacritic" 437 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
+HStem: 0 54<376.081 514.283 618.969 758.12> 0 40<-5 276> 387 77<340.118 443.754 689.562 793.626>
+VStem: 205 90<143.493 332.176> 527 80<67.2186 252.892> 839 88<143.253 332.544>
+AnchorPoint: "Below" 567 -37 basechar 0
+AnchorPoint: "Diacritic" 562 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-549 54 m 0xbc
- 669 54 714 154 714 242 c 0
- 714 294 689 387 614 387 c 0
- 523 387 482 203 482 124 c 0
- 482 83 494 54 549 54 c 0xbc
-170 242 m 0
- 170 219 176 54 335 54 c 0
- 380 54 402 77 402 122 c 0
- 402 193 363 387 270 387 c 0
- 194 387 170 292 170 242 c 0
-802 214 m 0
- 802 145 716 0 648 0 c 2
- -130 0 l 1
- -130 40 l 5
- 151 40 l 1x7c
- 130 61 80 137 80 224 c 0
- 80 342 144 420 195 448 c 0
- 215 459 258 464 276 464 c 0
- 361 464 419 342 442 294 c 1
- 493 407 550 464 614 464 c 0
- 646 464 671 459 689 448 c 0
- 785 390 802 293 802 214 c 0
+674 54 m 0xbc
+ 794 54 839 154 839 242 c 0
+ 839 294 814 387 739 387 c 0
+ 648 387 607 203 607 124 c 0
+ 607 83 619 54 674 54 c 0xbc
+295 242 m 0
+ 295 219 301 54 460 54 c 0
+ 505 54 527 77 527 122 c 0
+ 527 193 488 387 395 387 c 0
+ 319 387 295 292 295 242 c 0
+927 214 m 0
+ 927 145 841 0 773 0 c 2
+ -5 0 l 1
+ -5 40 l 1
+ 276 40 l 1x7c
+ 255 61 205 137 205 224 c 0
+ 205 342 269 420 320 448 c 0
+ 340 459 383 464 401 464 c 0
+ 486 464 544 342 567 294 c 1
+ 618 407 675 464 739 464 c 0
+ 771 464 796 459 814 448 c 0
+ 910 390 927 293 927 214 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0723.fin
 Encoding: 1114155 -1 121
-Width: 880
+Width: 1005
 Flags: W
 HStem: 0 54<250.081 388.283 492.969 632.12> 0 40<716 1010> 387 78<214.118 317.754 563.579 667.608>
 VStem: 79 90<144.438 332.612> 401 80<67.2186 252.892> 713 88<143.332 333.044>
 AnchorPoint: "Below" 442 -37 basechar 0
 AnchorPoint: "Diacritic" 437 549 basechar 0
-AnchorPoint: "curs" 1007 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4007,7 +3949,7 @@ SplineSet
  481 83 493 54 548 54 c 0
 801 215 m 0
  801 211 800 135 716 40 c 1
- 1010 40 l 5
+ 1010 40 l 1
  1010 0 l 1
  211 0 l 1x7c
  137 8 79 155 79 231 c 0
@@ -4022,69 +3964,65 @@ EndChar
 
 StartChar: uni0725.init
 Encoding: 1114156 -1 122
-Width: 676
+Width: 800
 Flags: W
-HStem: 0 40<-130 433> 372 89<221.004 313>
-VStem: 80 141<359.5 427.5>
-AnchorPoint: "Below" 326 -37 basechar 0
-AnchorPoint: "Diacritic" 327 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
+HStem: 0 40<-5 558> 372 89<346.004 438>
+VStem: 205 141<359.5 427.5>
+AnchorPoint: "Below" 451 -37 basechar 0
+AnchorPoint: "Diacritic" 452 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-232 372 m 2
- 226 372 221 366 221 362 c 0
- 221 357 539 51 552 39 c 2
- 596 0 l 1
- -130 0 l 1
- -130 40 l 5
- 433 40 l 1
- 160 312 l 2
- 130 342 80 392 80 411 c 0
- 80 444 108 461 163 461 c 2
- 313 461 l 1
- 313 372 l 1
- 232 372 l 2
+357 372 m 2
+ 351 372 346 366 346 362 c 0
+ 346 357 664 51 677 39 c 2
+ 721 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 558 40 l 1
+ 285 312 l 2
+ 255 342 205 392 205 411 c 0
+ 205 444 233 461 288 461 c 2
+ 438 461 l 1
+ 438 372 l 1
+ 357 372 l 2
 EndSplineSet
 EndChar
 
 StartChar: uni0725.med
 Encoding: 1114157 -1 123
-Width: 676
+Width: 925
 Flags: W
-HStem: 0 40<-130 433 536.006 806> 372 89<221.004 313>
-VStem: 80 141<360 427.5>
-AnchorPoint: "Below" 326 -37 basechar 0
-AnchorPoint: "Diacritic" 327 549 basechar 0
-AnchorPoint: "curs" -127 0 exit 0
-AnchorPoint: "curs" 802 0 entry 0
+HStem: 0 40<-5 558 661.006 931> 372 89<346.004 438>
+VStem: 205 141<360 427.5>
+AnchorPoint: "Below" 451 -37 basechar 0
+AnchorPoint: "Diacritic" 452 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-221 362 m 0
- 221 358 381 199 552 40 c 1
- 806 40 l 1
- 806 0 l 1
- -130 0 l 1
- -130 40 l 5
- 433 40 l 1
- 80 392 80 392 80 411 c 0
- 80 444 108 461 163 461 c 2
- 313 461 l 1
- 313 372 l 1
- 230 372 l 2
- 227 372 221 366 221 362 c 0
+346 362 m 0
+ 346 358 506 199 677 40 c 1
+ 931 40 l 1
+ 931 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 558 40 l 1
+ 205 392 205 392 205 411 c 0
+ 205 444 233 461 288 461 c 2
+ 438 461 l 1
+ 438 372 l 1
+ 355 372 l 2
+ 352 372 346 366 346 362 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0725.fin
 Encoding: 1114158 -1 124
-Width: 676
+Width: 800
 Flags: W
 HStem: 0 40<80 433 536.006 806> 372 89<221.004 313>
 AnchorPoint: "Below" 326 -37 basechar 0
 AnchorPoint: "Diacritic" 327 549 basechar 0
-AnchorPoint: "curs" 802 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4093,7 +4031,7 @@ SplineSet
  806 40 l 1
  806 0 l 1
  80 0 l 1
- 80 40 l 5
+ 80 40 l 1
  433 40 l 1
  80 392 80 392 80 411 c 0
  80 444 108 461 163 461 c 2
@@ -4106,81 +4044,77 @@ EndChar
 
 StartChar: uni0727.init
 Encoding: 1114159 -1 125
-Width: 680
+Width: 816
 Flags: W
-HStem: 0 40<-130 171> 388 73<203.484 496.774>
-VStem: 111 84<198.133 385.902> 509 92<257.292 381.054>
-AnchorPoint: "Below" 351 -37 basechar 0
-AnchorPoint: "Diacritic" 357 549 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: 0 40<-5 296> 388 73<328.484 621.774>
+VStem: 236 84<198.133 385.902> 634 92<257.292 381.054>
+AnchorPoint: "Below" 476 -37 basechar 0
+AnchorPoint: "Diacritic" 482 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-531 461 m 2
- 567 461 601 352 601 313 c 0
- 601 268 581 224 540 182 c 0
- 522 163 504 145 487 127 c 1
- 479 127 l 1
- 443 185 l 1
- 487 251 509 293 509 312 c 0
- 509 354 488 388 479 388 c 2
- 224 388 l 2
- 203 388 195 343 195 307 c 0
- 195 281 246 64 263 34 c 1
- 275 0 l 1
- -130 0 l 1
- -130 40 l 1
- 171 40 l 1
- 131 193 111 284 111 313 c 0
- 111 379 118 461 184 461 c 1
- 531 461 l 2
+656 461 m 2
+ 692 461 726 352 726 313 c 0
+ 726 268 706 224 665 182 c 0
+ 647 163 629 145 612 127 c 1
+ 604 127 l 1
+ 568 185 l 1
+ 612 251 634 293 634 312 c 0
+ 634 354 613 388 604 388 c 2
+ 349 388 l 2
+ 328 388 320 343 320 307 c 0
+ 320 281 371 64 388 34 c 1
+ 400 0 l 1
+ -5 0 l 1
+ -5 40 l 1
+ 296 40 l 1
+ 256 193 236 284 236 313 c 0
+ 236 379 243 461 309 461 c 1
+ 656 461 l 2
 EndSplineSet
 EndChar
 
 StartChar: uni0727.med
 Encoding: 1114160 -1 126
-Width: 680
+Width: 929
 Flags: W
-HStem: 0 40<-130 171 254.119 810> 389 73<203.484 496.774>
-VStem: 111 84<200.696 386.902> 509 92<258.292 382.054>
-AnchorPoint: "Below" 351 -37 basechar 0
-AnchorPoint: "Diacritic" 357 549 basechar 0
-AnchorPoint: "curs" -127 0 exit 0
-AnchorPoint: "curs" 806 0 entry 0
+HStem: 0 40<-5 296 379.119 935> 389 73<328.484 621.774>
+VStem: 236 84<200.696 386.902> 634 92<258.292 382.054>
+AnchorPoint: "Below" 476 -37 basechar 0
+AnchorPoint: "Diacritic" 482 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-195 308 m 0
- 195 282 243 78 261 40 c 5
- 810 40 l 1
- 810 0 l 1
- 497 0 183 -0 -130 0 c 1
- -130 40 l 1
- 171 40 l 1
- 131 193 111 285 111 314 c 0
- 111 380 118 462 184 462 c 1
- 531 462 l 2
- 567 462 601 353 601 314 c 0
- 601 269 581 225 540 183 c 0
- 522 164 504 146 487 128 c 1
- 479 128 l 1
- 443 186 l 1
- 487 252 509 294 509 313 c 0
- 509 355 488 389 479 389 c 2
- 224 389 l 2
- 203 389 195 344 195 308 c 0
+320 308 m 0
+ 320 282 368 78 386 40 c 1
+ 935 40 l 1
+ 935 0 l 1
+ 622 0 308 0 -5 0 c 1
+ -5 40 l 1
+ 296 40 l 1
+ 256 193 236 285 236 314 c 0
+ 236 380 243 462 309 462 c 1
+ 656 462 l 2
+ 692 462 726 353 726 314 c 0
+ 726 269 706 225 665 183 c 0
+ 647 164 629 146 612 128 c 1
+ 604 128 l 1
+ 568 186 l 1
+ 612 252 634 294 634 313 c 0
+ 634 355 613 389 604 389 c 2
+ 349 389 l 2
+ 328 389 320 344 320 308 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0727.fin
 Encoding: 1114161 -1 127
-Width: 680
+Width: 805
 Flags: W
 HStem: 0 40<81 171 254.119 810> 389 73<203.484 496.774>
 VStem: 111 84<200.696 386.902> 509 92<258.292 382.054>
 AnchorPoint: "Below" 351 -37 basechar 0
 AnchorPoint: "Diacritic" 357 549 basechar 0
-AnchorPoint: "curs" 806 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4208,89 +4142,85 @@ EndChar
 
 StartChar: uni0726.init
 Encoding: 1114162 -1 128
-Width: 631
+Width: 775
 Flags: W
-HStem: 0 40<-130 424.981> 389 73<184.832 478.077>
-VStem: 80 92<261.89 381.166> 487 84<204.954 312>
-AnchorPoint: "Below" 326 -37 basechar 0
-AnchorPoint: "Diacritic" 330 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
+HStem: 0 40<-6 548.981> 389 73<308.832 602.077>
+VStem: 204 92<261.89 381.166> 611 84<204.954 312>
+AnchorPoint: "Below" 450 -37 basechar 0
+AnchorPoint: "Diacritic" 454 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-497 462 m 2
- 553 462 571 406 571 314 c 0
- 571 284 571 284 500 0 c 1
- -130 0 l 1
- -130 40 l 1
- 418 40 l 5
- 436 74 487 280 487 312 c 0
- 487 312 486 389 457 389 c 2
- 202 389 l 2
- 193 389 172 348 172 318 c 0
- 172 299 194 255 238 186 c 0
- 238.167385191 185.776819745 238.247603886 185.463359906 238.247603886 185.066741977 c 0
- 238.247603886 178.354882868 215.274664172 147.828303663 203 128 c 1
- 195 128 l 1
- 172 153 148 179 124 205 c 1
- 95 242 80 278 80 314 c 0
- 80 351 114 462 150 462 c 2
- 497 462 l 2
+621 462 m 2
+ 677 462 695 406 695 314 c 0
+ 695 284 695 284 624 0 c 1
+ -6 0 l 1
+ -6 40 l 1
+ 542 40 l 1
+ 560 74 611 280 611 312 c 0
+ 611 312 610 389 581 389 c 2
+ 326 389 l 2
+ 317 389 296 348 296 318 c 0
+ 296 299 318 255 362 186 c 0
+ 362.166992188 185.776367188 362.248046875 185.462890625 362.248046875 185.06640625 c 0
+ 362.248046875 178.354492188 339.274414062 147.828125 327 128 c 1
+ 319 128 l 1
+ 296 153 272 179 248 205 c 1
+ 219 242 204 278 204 314 c 0
+ 204 351 238 462 274 462 c 2
+ 621 462 l 2
 EndSplineSet
 EndChar
 
 StartChar: uni0726.med
 Encoding: 1114163 -1 129
-Width: 631
+Width: 880
 Flags: W
-HStem: 0 40<-130 424.981 510 761> 389 73<185.229 478.077>
-VStem: 80 92<258.755 381.128> 487 84<204.575 312>
-AnchorPoint: "Below" 326 -37 basechar 0
-AnchorPoint: "Diacritic" 330 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
-AnchorPoint: "curs" 755 0 entry 0
+HStem: 0 40<-6 548.981 634 885> 389 73<309.229 602.077>
+VStem: 204 92<258.755 381.128> 611 84<204.575 312>
+AnchorPoint: "Below" 450 -37 basechar 0
+AnchorPoint: "Diacritic" 454 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-488 462 m 2
- 533 462 571 448 571 314 c 0
- 571 291 551 199 510 40 c 1
- 761 40 l 5
- 761 0 l 1
- -130 0 l 1
- -130 40 l 1
- 418 40 l 1
- 436 74 487 280 487 312 c 0
- 487 312 486 389 457 389 c 2
- 202 389 l 2
- 194 389 172 351 172 314 c 0
- 172 295 194 252 238 186 c 0
- 238.167385191 185.776819745 238.247603886 185.466472995 238.247603886 185.075560159 c 0
- 238.247603886 178.460246817 215.274664172 148.772508599 203 128 c 1
- 195 128 l 1
- 172 153 148 179 124 205 c 0
- 95 242 80 278 80 314 c 0
- 80 350 112 462 150 462 c 1
- 488 462 l 2
+612 462 m 2
+ 657 462 695 448 695 314 c 0
+ 695 291 675 199 634 40 c 1
+ 885 40 l 1
+ 885 0 l 1
+ -6 0 l 1
+ -6 40 l 1
+ 542 40 l 1
+ 560 74 611 280 611 312 c 0
+ 611 312 610 389 581 389 c 2
+ 326 389 l 2
+ 318 389 296 351 296 314 c 0
+ 296 295 318 252 362 186 c 0
+ 362.166992188 185.776367188 362.248046875 185.466796875 362.248046875 185.075195312 c 0
+ 362.248046875 178.459960938 339.274414062 148.772460938 327 128 c 1
+ 319 128 l 1
+ 296 153 272 179 248 205 c 0
+ 219 242 204 278 204 314 c 0
+ 204 350 236 462 274 462 c 1
+ 612 462 l 2
 EndSplineSet
 EndChar
 
 StartChar: uni0726.fin
 Encoding: 1114164 -1 130
-Width: 631
+Width: 755
 Flags: W
 HStem: 0 40<93 426.516 510 761> 389 73<185.229 478.077>
 VStem: 80 92<258.755 381.128> 487 84<203.34 312>
 AnchorPoint: "Below" 326 -37 basechar 0
 AnchorPoint: "Diacritic" 330 549 basechar 0
-AnchorPoint: "curs" 754 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
 488 462 m 2
  533 462 571 448 571 314 c 0
  571 291 551 199 510 40 c 1
- 761 40 l 5
+ 761 40 l 1
  761 0 l 1
  93 0 l 1
  93 40 l 1
@@ -4312,79 +4242,75 @@ EndChar
 
 StartChar: uni0728.init
 Encoding: 1114165 -1 131
-Width: 710
+Width: 827
 Flags: W
-HStem: -310 50<40 321.767> 0 40<-130 246.773>
-VStem: 404 124<-203.125 -93.8781>
-AnchorPoint: "Below" 91 -38 basechar 0
-AnchorPoint: "Diacritic" 388 549 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
+HStem: -310 50<165 446.767> 0 40<-5 371.773>
+VStem: 529 124<-203.125 -93.8781>
+AnchorPoint: "Below" 216 -38 basechar 0
+AnchorPoint: "Diacritic" 513 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-404 -154 m 0
- 404 -61 272 0 79 0 c 2
- -130 0 l 1
- -130 40 l 1
- 3 40 135 40 269 40 c 5
- 336 462 l 1
- 435 462 l 1
- 652 0 l 1
- 304 0 l 1
- 437.636363636 -40.0909090909 443.710743802 -41.0020661157 443.986851991 -41.0020661157 c 0
- 444 -41.0020661157 444 -41 444 -41 c 1
- 500 -68 528 -111 528 -170 c 0
- 528 -226 432 -310 238 -310 c 1
- 40 -310 l 1
- 40 -260 l 1
- 219 -260 l 2
- 259 -260 404 -236 404 -154 c 0
+529 -154 m 0
+ 529 -61 397 0 204 0 c 2
+ -5 0 l 1
+ -5 40 l 1
+ 128 40 260 40 394 40 c 1
+ 461 462 l 1
+ 560 462 l 1
+ 777 0 l 1
+ 429 0 l 1
+ 562.63671875 -40.0908203125 568.7109375 -41.001953125 568.987304688 -41.001953125 c 0
+ 569 -41.001953125 569 -41 569 -41 c 1
+ 625 -68 653 -111 653 -170 c 0
+ 653 -226 557 -310 363 -310 c 1
+ 165 -310 l 1
+ 165 -260 l 1
+ 344 -260 l 2
+ 384 -260 529 -236 529 -154 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0728.med
 Encoding: 1114166 -1 132
-Width: 710
+Width: 959
 Flags: W
-HStem: -310 50<42 323.767> 0 40<-130 248.773 624.868 840>
-VStem: 406 124<-203.125 -93.8781>
-AnchorPoint: "Below" 91 -38 basechar 0
-AnchorPoint: "Diacritic" 388 549 basechar 0
-AnchorPoint: "curs" -125 0 exit 0
-AnchorPoint: "curs" 837 0 entry 0
+HStem: -310 50<166 447.767> 0 40<-6 372.773 748.868 964>
+VStem: 530 124<-203.125 -93.8781>
+AnchorPoint: "Below" 215 -38 basechar 0
+AnchorPoint: "Diacritic" 512 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-406 -154 m 0
- 406 -61 274 0 81 0 c 2
- -130 0 l 1
- -130 40 l 1
- 271 40 l 1
- 338 462 l 1
- 437 462 l 1
- 566 186 632 45 634 40 c 1
- 840 40 l 5
- 840 0 l 1
- 306 0 l 1
- 440 -40 446 -41 446 -41 c 0
- 502 -68 530 -111 530 -170 c 0
- 530 -226 434 -310 240 -310 c 2
- 42 -310 l 1
- 42 -260 l 1
- 221 -260 l 2
- 261 -260 406 -236 406 -154 c 0
+530 -154 m 0
+ 530 -61 398 0 205 0 c 2
+ -6 0 l 1
+ -6 40 l 1
+ 395 40 l 1
+ 462 462 l 1
+ 561 462 l 1
+ 690 186 756 45 758 40 c 1
+ 964 40 l 1
+ 964 0 l 1
+ 430 0 l 1
+ 564 -40 570 -41 570 -41 c 0
+ 626 -68 654 -111 654 -170 c 0
+ 654 -226 558 -310 364 -310 c 2
+ 166 -310 l 1
+ 166 -260 l 1
+ 345 -260 l 2
+ 385 -260 530 -236 530 -154 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni0728.fin
 Encoding: 1114167 -1 133
-Width: 710
+Width: 835
 Flags: W
 HStem: -310 50<43 324.767> 0 40<82 255.076 620.621 840>
 VStem: 407 124<-203.125 -94.3638>
 AnchorPoint: "Below" 91 -38 basechar 0
 AnchorPoint: "Diacritic" 388 549 basechar 0
-AnchorPoint: "curs" 837 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4396,7 +4322,7 @@ SplineSet
  339 462 l 1
  438 462 l 1
  563 181 627 40 630 40 c 2
- 840 40 l 5
+ 840 40 l 1
  840 0 l 1
  307 -0 l 1
  308 -0 317 -2 447 -41 c 1
@@ -4411,70 +4337,66 @@ EndChar
 
 StartChar: uni0729.init
 Encoding: 1114168 -1 134
-Width: 610
+Width: 740
 Flags: W
-HStem: 0 40<-130 79 200 413> 420 41<200 413>
-VStem: 79 121<40 420> 413 122<40 420>
-AnchorPoint: "Below" 314 -37 basechar 0
-AnchorPoint: "Diacritic" 315 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
+HStem: 0 40<-5 204 325 538> 420 41<325 538>
+VStem: 204 121<40 420> 538 122<40 420>
+AnchorPoint: "Below" 439 -37 basechar 0
+AnchorPoint: "Diacritic" 440 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--130 0 m 1
- -130 40 l 1
- 79 40 l 1
- 79 461 l 1
- 535 461 l 1
- 535 0 l 1
- -130 0 l 1
-413 40 m 1
- 413 420 l 1
- 200 420 l 1
- 200 40 l 1
- 413 40 l 1
+-5 0 m 1
+ -5 40 l 1
+ 204 40 l 1
+ 204 461 l 1
+ 660 461 l 1
+ 660 0 l 1
+ -5 0 l 1
+538 40 m 1
+ 538 420 l 1
+ 325 420 l 1
+ 325 40 l 1
+ 538 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0729.med
 Encoding: 1114169 -1 135
-Width: 610
+Width: 860
 Flags: W
-HStem: 0 40<-130 79 200 413 535 740> 420 41<200 413>
-VStem: 79 121<40 420> 413 122<40 420>
-AnchorPoint: "Below" 314 -37 basechar 0
-AnchorPoint: "Diacritic" 315 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
-AnchorPoint: "curs" 736 0 entry 0
+HStem: 0 40<-5 204 325 538 660 865> 420 41<325 538>
+VStem: 204 121<40 420> 538 122<40 420>
+AnchorPoint: "Below" 439 -37 basechar 0
+AnchorPoint: "Diacritic" 440 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-740 0 m 1
- -130 0 l 1
- -130 40 l 1
- 79 40 l 1
- 79 461 l 1
- 535 461 l 1
- 535 40 l 1
- 740 40 l 1
- 740 0 l 1
-413 40 m 1
- 413 420 l 1
- 200 420 l 1
- 200 40 l 1
- 413 40 l 1
+865 0 m 1
+ -5 0 l 1
+ -5 40 l 1
+ 204 40 l 1
+ 204 461 l 1
+ 660 461 l 1
+ 660 40 l 1
+ 865 40 l 1
+ 865 0 l 1
+538 40 m 1
+ 538 420 l 1
+ 325 420 l 1
+ 325 40 l 1
+ 538 40 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0729.fin
 Encoding: 1114170 -1 136
-Width: 610
+Width: 734
 Flags: W
 HStem: 0 40<202 415 537 740> 420 41<202 415>
 VStem: 79 123<40 420> 415 122<40 420>
 AnchorPoint: "Below" 314 -37 basechar 0
 AnchorPoint: "Diacritic" 315 549 basechar 0
-AnchorPoint: "curs" 735 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4483,7 +4405,7 @@ SplineSet
  79 461 l 1
  537 461 l 1
  537 40 l 1
- 740 40 l 5
+ 740 40 l 1
  740 0 l 1
 415 40 m 1
  415 420 l 1
@@ -4495,14 +4417,12 @@ EndChar
 
 StartChar: uni072A.med
 Encoding: 1114171 -1 137
-Width: 640
+Width: 765
 Flags: W
 HStem: 0 40<572 770> 308 154<81 240> 425 37<240 464> 550 99<292.965 375.299>
 VStem: 81 159<308 425> 284 100<558.5 639.883> 464 108<40 425>
 AnchorPoint: "Below" 334 -37 basechar 0
 AnchorPoint: "Diacritic" 335 732 basechar 0
-AnchorPoint: "curs" 766 0 entry 0
-AnchorPoint: "curs" 0 0 exit 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4514,7 +4434,7 @@ SplineSet
 81 462 m 1xde
  572 462 l 1
  572 40 l 1
- 770 40 l 5
+ 770 40 l 1
  770 0 l 1
  464 0 l 1
  464 425 l 1
@@ -4527,13 +4447,12 @@ EndChar
 
 StartChar: uni072A.fin
 Encoding: 1114172 -1 138
-Width: 640
+Width: 765
 Flags: W
 HStem: 0 40<572 770> 308 154<81 240> 425 37<240 464> 550 99<292.965 375.299>
 VStem: 81 159<308 425> 284 100<558.5 639.883> 464 108<40 425>
 AnchorPoint: "Below" 334 -37 basechar 0
 AnchorPoint: "Diacritic" 331 732 basechar 0
-AnchorPoint: "curs" 767 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4558,87 +4477,83 @@ EndChar
 
 StartChar: uni072B.init
 Encoding: 1114173 -1 139
-Width: 708
+Width: 840
 Flags: W
-HStem: 0 40<-130 252>
-VStem: 220 250<59.6442 233.917>
-AnchorPoint: "Below" 346 -37 basechar 0
-AnchorPoint: "Diacritic" 348 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
+HStem: 0 40<-5 377>
+VStem: 345 250<59.6442 233.917>
+AnchorPoint: "Below" 471 -37 basechar 0
+AnchorPoint: "Diacritic" 473 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-470 151 m 0
- 470 34 402 -5 345 -5 c 0
- 334 -5 323 -3 313 -0 c 0
- 313 -0 287 0 -130 0 c 1
- -130 40 l 5
- 252 40 l 1
- 235 64 220 105 220 149 c 0
- 220 190 232 234 266 269 c 1
- 74 469 l 1
- 192 469 l 1
- 346 314 l 1
- 505 467 l 1
- 628 467 l 1
- 420 273 l 1
- 423 270 470 224 470 151 c 0
+595 151 m 0
+ 595 34 527 -5 470 -5 c 0
+ 459 -5 448 -3 438 0 c 0
+ 438 0 412 0 -5 0 c 1
+ -5 40 l 1
+ 377 40 l 1
+ 360 64 345 105 345 149 c 0
+ 345 190 357 234 391 269 c 1
+ 199 469 l 1
+ 317 469 l 1
+ 471 314 l 1
+ 630 467 l 1
+ 753 467 l 1
+ 545 273 l 1
+ 548 270 595 224 595 151 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni072B.med
 Encoding: 1114174 -1 140
-Width: 708
+Width: 955
 Flags: W
-HStem: 0 40<-129 251 438 838>
-VStem: 219.852 250.148<56.2422 233.769>
-AnchorPoint: "Below" 346 -37 basechar 0
-AnchorPoint: "Diacritic" 348 549 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
-AnchorPoint: "curs" 833 0 entry 0
+HStem: 0 40<-6 374 561 961>
+VStem: 342.853 250.147<56.2422 233.769>
+AnchorPoint: "Below" 469 -37 basechar 0
+AnchorPoint: "Diacritic" 471 549 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-420 273 m 1
- 460 235 470 175 470 151 c 0
- 470 104 459 67 438 40 c 1
- 444 41 523 41 550 41 c 0
- 615 41 709 40 838 40 c 5
- 838 0 l 1
- 767.714285714 0 706.408163265 0.0816326530612 652.16909621 0.0816326530612 c 0
- 516.571428571 0.0816326530612 425.142857143 -0.428571428571 348 -4 c 0
- 345.520259177 -4.17712434447 343.103264422 -4.26012958873 340.754572661 -4.26012958873 c 0
- 329.843134833 -4.26012958873 320.4058809 -2.4686269666 313 0 c 1
- -129 0 l 1
- -129 40 l 1
- 251 40 l 1
- 233.590961855 64.0654350831 219.852377453 104.647912014 219.852377453 148.189014841 c 0
- 219.852377453 189.684057248 232.330106824 233.866198425 266 269 c 1
- 74 469 l 1
- 192 469 l 1
- 346 314 l 1
- 505 467 l 1
+543 273 m 1
+ 583 235 593 175 593 151 c 0
+ 593 104 582 67 561 40 c 1
+ 567 41 646 41 673 41 c 0
+ 738 41 832 40 961 40 c 1
+ 961 0 l 1
+ 890.713867188 0 829.408203125 0.08203125 775.168945312 0.08203125 c 0
+ 639.571289062 0.08203125 548.142578125 -0.4287109375 471 -4 c 0
+ 468.520507812 -4.1767578125 466.103515625 -4.259765625 463.754882812 -4.259765625 c 0
+ 452.842773438 -4.259765625 443.40625 -2.46875 436 0 c 1
+ -6 0 l 1
+ -6 40 l 1
+ 374 40 l 1
+ 356.590820312 64.0654296875 342.852539062 104.647460938 342.852539062 148.189453125 c 0
+ 342.852539062 189.68359375 355.330078125 233.866210938 389 269 c 1
+ 197 469 l 1
+ 315 469 l 1
+ 469 314 l 1
  628 467 l 1
- 420 273 l 1
+ 751 467 l 1
+ 543 273 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni072B.fin
 Encoding: 1114175 -1 141
-Width: 708
+Width: 831
 Flags: W
 HStem: 0.444444 39.5556<438 838>
 VStem: 220.246 249.754<57.7979 235.579>
 AnchorPoint: "Below" 346 -37 basechar 0
 AnchorPoint: "Diacritic" 348 549 basechar 0
-AnchorPoint: "curs" 834 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
 420 274 m 1
  460 236 470 176 470 152 c 0
  470 105 459 67 438 40 c 1
- 441 40 475 40 838 40 c 5
+ 441 40 475 40 838 40 c 1
  838 0 l 1
  624 0 489.555555556 0.444444444444 422.814814815 0.444444444444 c 0
  389.444444444 0.444444444444 373 0.333333333333 372 0 c 0
@@ -4657,99 +4572,95 @@ EndChar
 
 StartChar: uni072C.init
 Encoding: 1114176 -1 142
-Width: 886
+Width: 1020
 Flags: W
-HStem: 0 64<145 484 533 635.827> 0 40<-130 80> 366 76<406.232 630.912>
-VStem: 706 100<140.504 301.397>
-AnchorPoint: "Below" 426 -37 basechar 0
-AnchorPoint: "Diacritic" 517 550 basechar 0
-AnchorPoint: "curs" -124 0 exit 0
+HStem: 0 64<269 608 657 759.827> 0 40<-6 204> 366 76<530.232 754.912>
+VStem: 830 100<140.504 301.397>
+AnchorPoint: "Below" 550 -37 basechar 0
+AnchorPoint: "Diacritic" 641 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-484 64 m 1xb0
- 411 188 l 2
- 362 271 337 315 335 321 c 1
- 305 321 145 151 145 64 c 1
- 484 64 l 1xb0
-568 64 m 0
- 669 64 706 168 706 224 c 0
- 706 272 688 308 653 332 c 0
- 614 359 559 366 516 366 c 0
- 477 366 447 360 446 360 c 0
- 436 358 419 351 396 341 c 1
- 533 64 l 1
- 552 64 548 64 568 64 c 0
-806 222 m 0
- 806 62 718 0 537 0 c 2xb0
- -130 0 l 1
- -130 40 l 1
- 80 40 l 1x70
- 80 60 l 1
- 115 195 189 300 304 377 c 0
- 304 377 259 448 168 588 c 1
- 275 588 l 1
- 370 403 l 1
- 399 419 440 442 544 442 c 0
- 621 442 684 423 733 384 c 0
- 782 345 806 291 806 222 c 0
+608 64 m 1xb0
+ 535 188 l 2
+ 486 271 461 315 459 321 c 1
+ 429 321 269 151 269 64 c 1
+ 608 64 l 1xb0
+692 64 m 0
+ 793 64 830 168 830 224 c 0
+ 830 272 812 308 777 332 c 0
+ 738 359 683 366 640 366 c 0
+ 601 366 571 360 570 360 c 0
+ 560 358 543 351 520 341 c 1
+ 657 64 l 1
+ 676 64 672 64 692 64 c 0
+930 222 m 0
+ 930 62 842 0 661 0 c 2xb0
+ -6 0 l 1
+ -6 40 l 1
+ 204 40 l 1x70
+ 204 60 l 1
+ 239 195 313 300 428 377 c 0
+ 428 377 383 448 292 588 c 1
+ 399 588 l 1
+ 494 403 l 1
+ 523 419 564 442 668 442 c 0
+ 745 442 808 423 857 384 c 0
+ 906 345 930 291 930 222 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni072C.med
 Encoding: 1114177 -1 143
-Width: 886
+Width: 1134
 Flags: W
-HStem: 0 64<145 484 533.147 635.444> 0 40<-130 80 723 1015> 365.567 76.4326<404.179 631.318>
-VStem: 706 100<140.623 301.397>
-AnchorPoint: "Below" 426 -37 basechar 0
-AnchorPoint: "Diacritic" 517 550 basechar 0
-AnchorPoint: "curs" -126 0 exit 0
-AnchorPoint: "curs" 1012 0 entry 0
+HStem: 0 64<269 608 657.147 759.444> 0 40<-6 204 847 1139> 365.567 76.4326<528.179 755.318>
+VStem: 830 100<140.623 301.397>
+AnchorPoint: "Below" 550 -37 basechar 0
+AnchorPoint: "Diacritic" 641 550 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-484 64 m 1xb0
- 411 188 l 2
- 362 271 337 315 335 321 c 1
- 305 321 145 151 145 64 c 1
- 484 64 l 1xb0
-568 65 m 0
- 669 65 706 168 706 224 c 0
- 706 272 688 308 653 332 c 0
- 614.271222254 359.057091302 559.217569844 365.567357594 515.613510016 365.567357594 c 0
- 477.028134682 365.567357594 447.408406394 360.469468798 446 360 c 0
- 436 358 419 351 396 341 c 1
- 533 64 l 1
- 536 65 548 65 568 65 c 0
-806 222 m 0
- 806 94 749 57 723 40 c 1
- 1015 40 l 1
- 1015 0 l 1
- 740 0 386 0 -130 0 c 1
- -130 40 l 1
- 80 40 l 1x70
- 80 60 l 1
- 119 199 194 305 304 377 c 0
- 304 377 259 448 168 588 c 1
- 275 588 l 1
- 370 403 l 1
- 388 413 399 419 404 420 c 0
- 455 435 502 442 544 442 c 0
- 621 442 684 423 733 384 c 0
- 782 345 806 291 806 222 c 0
+608 64 m 1xb0
+ 535 188 l 2
+ 486 271 461 315 459 321 c 1
+ 429 321 269 151 269 64 c 1
+ 608 64 l 1xb0
+692 65 m 0
+ 793 65 830 168 830 224 c 0
+ 830 272 812 308 777 332 c 0
+ 738.271484375 359.056640625 683.217773438 365.567382812 639.61328125 365.567382812 c 0
+ 601.028320312 365.567382812 571.408203125 360.469726562 570 360 c 0
+ 560 358 543 351 520 341 c 1
+ 657 64 l 1
+ 660 65 672 65 692 65 c 0
+930 222 m 0
+ 930 94 873 57 847 40 c 1
+ 1139 40 l 1
+ 1139 0 l 1
+ 864 0 510 0 -6 0 c 1
+ -6 40 l 1
+ 204 40 l 1x70
+ 204 60 l 1
+ 243 199 318 305 428 377 c 0
+ 428 377 383 448 292 588 c 1
+ 399 588 l 1
+ 494 403 l 1
+ 512 413 523 419 528 420 c 0
+ 579 435 626 442 668 442 c 0
+ 745 442 808 423 857 384 c 0
+ 906 345 930 291 930 222 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni072C.fin
 Encoding: 1114178 -1 144
-Width: 886
+Width: 1010
 Flags: W
 HStem: 0 64<145 484 533.147 635.444> 0 40<723 1015> 365.567 77.4326<404.179 630.917>
 VStem: 706 100<139.375 300.393>
 AnchorPoint: "Below" 426 -37 basechar 0
 AnchorPoint: "Diacritic" 517 550 basechar 0
-AnchorPoint: "curs" 1011 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4769,7 +4680,7 @@ SplineSet
 544 443 m 0
  589 443 806 432 806 222 c 0
  806 137 778 75 723 40 c 1
- 727 40 760 40 1015 40 c 5
+ 727 40 760 40 1015 40 c 1
  1015 0 l 1
  894 0 596 0 80 0 c 1x70
  80 61 l 1
@@ -4807,21 +4718,19 @@ EndChar
 
 StartChar: uni0716.med
 Encoding: 1114179 -1 146
-Width: 648
+Width: 773
 Flags: W
 HStem: 0 40<571 778> 308 153<80 240> 425 36<240 464>
 VStem: 80 160<308 425> 464 107<40 425>
 AnchorPoint: "Below" 355 -37 basechar 0
 AnchorPoint: "Diacritic" 360 550 basechar 0
-AnchorPoint: "curs" -1 0 exit 0
-AnchorPoint: "curs" 776 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
 80 461 m 1xd8
  571 461 l 1
  571 40 l 1
- 778 40 l 5
+ 778 40 l 1
  778 0 l 1
  464 0 l 1
  464 425 l 1
@@ -4834,13 +4743,12 @@ EndChar
 
 StartChar: uni0716.fin
 Encoding: 1114180 -1 147
-Width: 648
+Width: 773
 Flags: W
 HStem: 0 40<571 778> 308 153<80 240> 425 36<240 464>
 VStem: 80 160<308 425> 464 107<40 425>
 AnchorPoint: "Below" 355 -37 basechar 0
 AnchorPoint: "Diacritic" 360 550 basechar 0
-AnchorPoint: "curs" 776 0 entry 0
 LayerCount: 2
 Fore
 SplineSet

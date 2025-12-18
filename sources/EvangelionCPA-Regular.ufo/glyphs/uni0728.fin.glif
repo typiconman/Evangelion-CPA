@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0728.fin" format="2">
-  <advance width="710"/>
+  <advance width="835"/>
   <anchor x="91" y="-38" name="Below"/>
   <anchor x="388" y="549" name="Diacritic"/>
-  <anchor x="837" y="0" name="_curs"/>
   <outline>
     <contour>
       <point x="407" y="-154" type="curve" smooth="yes"/>

@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0717.init" format="2">
-  <advance width="804"/>
-  <anchor x="409" y="-37" name="Below"/>
-  <anchor x="411" y="550" name="Diacritic"/>
-  <anchor x="-125" y="0" name="curs"/>
+  <advance width="949"/>
+  <anchor x="534" y="-37" name="Below"/>
+  <anchor x="536" y="550" name="Diacritic"/>
   <outline>
     <contour>
-      <point x="-130" y="0" type="line"/>
-      <point x="-130" y="40" type="line"/>
-      <point x="80" y="40" type="line"/>
-      <point x="80" y="40"/>
-      <point x="80" y="40"/>
-      <point x="80" y="460" type="curve"/>
-      <point x="724" y="460" type="line"/>
-      <point x="724" y="0" type="line"/>
-      <point x="613" y="0" type="line"/>
-      <point x="613" y="418" type="line"/>
-      <point x="461" y="418" type="line"/>
-      <point x="461" y="0" type="line"/>
-      <point x="349" y="0" type="line"/>
-      <point x="349" y="418" type="line"/>
-      <point x="194" y="418" type="line"/>
-      <point x="194" y="0" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="-5" y="40" type="line"/>
+      <point x="205" y="40" type="line"/>
+      <point x="205" y="40"/>
+      <point x="205" y="40"/>
+      <point x="205" y="460" type="curve"/>
+      <point x="849" y="460" type="line"/>
+      <point x="849" y="0" type="line"/>
+      <point x="738" y="0" type="line"/>
+      <point x="738" y="418" type="line"/>
+      <point x="586" y="418" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="474" y="0" type="line"/>
+      <point x="474" y="418" type="line"/>
+      <point x="319" y="418" type="line"/>
+      <point x="319" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -47,19 +46,19 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>80</integer>
+            <integer>205</integer>
             <key>width</key>
             <integer>114</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>349</integer>
+            <integer>474</integer>
             <key>width</key>
             <integer>112</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>613</integer>
+            <integer>738</integer>
             <key>width</key>
             <integer>111</integer>
           </dict>

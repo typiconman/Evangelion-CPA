@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0729.init" format="2">
-  <advance width="610"/>
-  <anchor x="314" y="-37" name="Below"/>
-  <anchor x="315" y="549" name="Diacritic"/>
-  <anchor x="-126" y="0" name="curs"/>
+  <advance width="740"/>
+  <anchor x="439" y="-37" name="Below"/>
+  <anchor x="440" y="549" name="Diacritic"/>
   <outline>
     <contour>
-      <point x="-130" y="0" type="line"/>
-      <point x="-130" y="40" type="line"/>
-      <point x="79" y="40" type="line"/>
-      <point x="79" y="461" type="line"/>
-      <point x="535" y="461" type="line"/>
-      <point x="535" y="0" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="-5" y="40" type="line"/>
+      <point x="204" y="40" type="line"/>
+      <point x="204" y="461" type="line"/>
+      <point x="660" y="461" type="line"/>
+      <point x="660" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="413" y="40" type="line"/>
-      <point x="413" y="420" type="line"/>
-      <point x="200" y="420" type="line"/>
-      <point x="200" y="40" type="line"/>
+      <point x="538" y="40" type="line"/>
+      <point x="538" y="420" type="line"/>
+      <point x="325" y="420" type="line"/>
+      <point x="325" y="40" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,13 +42,13 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>79</integer>
+            <integer>204</integer>
             <key>width</key>
             <integer>121</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>413</integer>
+            <integer>538</integer>
             <key>width</key>
             <integer>122</integer>
           </dict>

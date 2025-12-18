@@ -157,78 +157,6 @@ feature ccmp {
 
 # GPOS
 
-lookup cursCursiveAttachmentlookup0 {
-  lookupflag RightToLeft IgnoreMarks;
-    pos cursive \uni0640 <anchor 237 0> <anchor -86 0>;
-    pos cursive \uni0712.init <anchor NULL> <anchor -129 0>;
-    pos cursive \uni0712.med <anchor 885 0> <anchor -129 0>;
-    pos cursive \uni0712.fin <anchor 885 0> <anchor NULL>;
-    pos cursive \uni0713.init <anchor NULL> <anchor -98 0>;
-    pos cursive \uni0713.med <anchor 808 0> <anchor -98 0>;
-    pos cursive \uni0713.fin <anchor 888 0> <anchor NULL>;
-    pos cursive \uni071F.med <anchor 649 0> <anchor -129 0>;
-    pos cursive \uni0722.init <anchor NULL> <anchor -128 0>;
-    pos cursive \uni0710.med <anchor 924 0> <anchor -125 0>;
-    pos cursive \uni0717.init <anchor NULL> <anchor -125 0>;
-    pos cursive \uni0717.med <anchor 931 0> <anchor -125 0>;
-    pos cursive \uni0717.fin <anchor 932 0> <anchor NULL>;
-    pos cursive \uni0718.med <anchor 728 0> <anchor -125 0>;
-    pos cursive \uni0718.fin <anchor 727 0> <anchor NULL>;
-    pos cursive \uni0718.init <anchor NULL> <anchor -125 0>;
-    pos cursive \uni071A.init <anchor NULL> <anchor -125 0>;
-    pos cursive \uni071A.med <anchor 652 0> <anchor -128 0>;
-    pos cursive \uni071A.fin <anchor 651 0> <anchor NULL>;
-    pos cursive \uni071B.init <anchor NULL> <anchor -122 0>;
-    pos cursive \uni071B.med <anchor 998 0> <anchor -127 0>;
-    pos cursive \uni071B.fin <anchor 998 0> <anchor NULL>;
-    pos cursive \uni071D.init <anchor NULL> <anchor -127 0>;
-    pos cursive \uni071D.med <anchor 647 0> <anchor -128 0>;
-    pos cursive \uni071D.fin <anchor 648 0> <anchor NULL>;
-    pos cursive \uni071F.init <anchor NULL> <anchor -127 0>;
-    pos cursive \uni071F.fin <anchor 992 0> <anchor NULL>;
-    pos cursive \uni0710.fin <anchor 927 0> <anchor NULL>;
-    pos cursive \uni0710.init <anchor NULL> <anchor -124 0>;
-    pos cursive \uni0715.med <anchor 776 0> <anchor -1 0>;
-    pos cursive \uni0715.fin <anchor 776 0> <anchor NULL>;
-    pos cursive \uni0719.med <anchor 425 0> <anchor 0 0>;
-    pos cursive \uni0719.fin <anchor 421 0> <anchor NULL>;
-    pos cursive \uni0720.init <anchor NULL> <anchor -26 0>;
-    pos cursive \uni0720.med <anchor 726 0> <anchor -27 0>;
-    pos cursive \uni0720.fin <anchor 727 0> <anchor NULL>;
-    pos cursive \uni0721.init <anchor NULL> <anchor -128 0>;
-    pos cursive \uni0721.med <anchor 923 0> <anchor -128 0>;
-    pos cursive \uni0721.fin <anchor 923 0> <anchor NULL>;
-    pos cursive \uni0722.med <anchor 577 0> <anchor -118 0>;
-    pos cursive \uni0722.fin <anchor 710 0> <anchor NULL>;
-    pos cursive \uni0723.med <anchor 1004 0> <anchor -126 0>;
-    pos cursive \uni0723.init <anchor NULL> <anchor -126 0>;
-    pos cursive \uni0723.fin <anchor 1007 0> <anchor NULL>;
-    pos cursive \uni0725.init <anchor NULL> <anchor -126 0>;
-    pos cursive \uni0725.med <anchor 802 0> <anchor -127 0>;
-    pos cursive \uni0725.fin <anchor 802 0> <anchor NULL>;
-    pos cursive \uni0727.init <anchor NULL> <anchor -125 0>;
-    pos cursive \uni0727.med <anchor 806 0> <anchor -127 0>;
-    pos cursive \uni0727.fin <anchor 806 0> <anchor NULL>;
-    pos cursive \uni0726.init <anchor NULL> <anchor -126 0>;
-    pos cursive \uni0726.med <anchor 755 0> <anchor -126 0>;
-    pos cursive \uni0726.fin <anchor 754 0> <anchor NULL>;
-    pos cursive \uni0728.init <anchor NULL> <anchor -125 0>;
-    pos cursive \uni0728.med <anchor 837 0> <anchor -125 0>;
-    pos cursive \uni0728.fin <anchor 837 0> <anchor NULL>;
-    pos cursive \uni0729.init <anchor NULL> <anchor -126 0>;
-    pos cursive \uni0729.med <anchor 736 0> <anchor -126 0>;
-    pos cursive \uni0729.fin <anchor 735 0> <anchor NULL>;
-    pos cursive \uni072A.med <anchor 766 0> <anchor 0 0>;
-    pos cursive \uni072A.fin <anchor 767 0> <anchor NULL>;
-    pos cursive \uni072B.init <anchor NULL> <anchor -126 0>;
-    pos cursive \uni072B.med <anchor 833 0> <anchor -126 0>;
-    pos cursive \uni072B.fin <anchor 834 0> <anchor NULL>;
-    pos cursive \uni072C.init <anchor NULL> <anchor -124 0>;
-    pos cursive \uni072C.med <anchor 1012 0> <anchor -126 0>;
-    pos cursive \uni072C.fin <anchor 1011 0> <anchor NULL>;
-    pos cursive \uni0716.med <anchor 776 0> <anchor -1 0>;
-    pos cursive \uni0716.fin <anchor 776 0> <anchor NULL>;
-} cursCursiveAttachmentlookup0;
 
 lookup markDiacriticalPositioninglookup1 {
   lookupflag RightToLeft;
@@ -238,29 +166,33 @@ lookup markDiacriticalPositioninglookup1 {
   markClass [\uni0307 ] <anchor 77 598> @Diacritic;
   pos base [\uni0640 ] <anchor 73 550> mark @Diacritic
 	<anchor 72 -37> mark @Below;
-  pos base [\uni0712 \uni0712.init \uni0712.med \uni0712.fin ] <anchor 362 -37> mark @Below
+  pos base [\uni0712 \uni0712.fin ] <anchor 362 -37> mark @Below
 	<anchor 374 550> mark @Diacritic;
-  pos base [\uni0713 \uni0713.init \uni0713.med \uni0713.fin ] <anchor 256 -37> mark @Below
+  pos base [\uni0713 \uni0713.fin ] <anchor 256 -37> mark @Below
 	<anchor 454 293> mark @Diacritic;
+  pos base [\uni0712.init \uni0712.med ] <anchor 487 -37> mark @Below
+	<anchor 499 550> mark @Diacritic;
+  pos base [\uni0713.init \uni0713.med ] <anchor 351 -37> mark @Below
+	<anchor 549 293> mark @Diacritic;
   pos base [\uni0710 \uni0710.fin ] <anchor 326 -37> mark @Below
 	<anchor 261 550> mark @Diacritic;
   pos base [\uni0715 \uni0715.med \uni0715.fin ] <anchor 309 -37> mark @Below
 	<anchor 360 550> mark @Diacritic;
-  pos base [\uni0717 \uni0717.init \uni0717.med ] <anchor 409 -37> mark @Below
+  pos base [\uni0717 ] <anchor 409 -37> mark @Below
 	<anchor 411 550> mark @Diacritic;
-  pos base [\uni0718 \uni0718.med \uni0718.fin \uni0718.init ] <anchor 311 -37> mark @Below
+  pos base [\uni0718 \uni0718.fin ] <anchor 311 -37> mark @Below
 	<anchor 302 550> mark @Diacritic;
   pos base [\uni0719 ] <anchor 153 -37> mark @Below
 	<anchor 152 549> mark @Diacritic;
   pos base [\uni071A ] <anchor 266 -37> mark @Below
 	<anchor 267 549> mark @Diacritic;
-  pos base [\uni071B \uni071B.init \uni071B.med \uni071B.fin ] <anchor 116 -38> mark @Below
+  pos base [\uni071B \uni071B.fin ] <anchor 116 -38> mark @Below
 	<anchor 530 310> mark @Diacritic;
-  pos base [\uni071D \uni071D.init \uni071D.med \uni071D.fin ] <anchor 206 -37> mark @Below
+  pos base [\uni071D \uni071D.fin ] <anchor 206 -37> mark @Below
 	<anchor 197 549> mark @Diacritic;
   pos base [\uni071F \uni071F.fin ] <anchor 279 -37> mark @Below
 	<anchor 273 550> mark @Diacritic;
-  pos base [\uni0720 \uni0720.init \uni0720.med \uni0720.fin ] <anchor 261 -37> mark @Below
+  pos base [\uni0720 \uni0720.fin ] <anchor 261 -37> mark @Below
 	<anchor 445 501> mark @Diacritic;
   pos base [\uni0721 ] <anchor 396 -37> mark @Below
 	<anchor 399 550> mark @Diacritic;
@@ -268,50 +200,88 @@ lookup markDiacriticalPositioninglookup1 {
 	<anchor 393 204> mark @Diacritic;
   pos base [\uni0723 ] <anchor 442 -37> mark @Below
 	<anchor 444 549> mark @Diacritic;
-  pos base [\uni0725 \uni0725.init \uni0725.med \uni0725.fin ] <anchor 326 -37> mark @Below
+  pos base [\uni0725 \uni0725.fin ] <anchor 326 -37> mark @Below
 	<anchor 327 549> mark @Diacritic;
-  pos base [\uni0727 \uni0727.init \uni0727.med \uni0727.fin ] <anchor 351 -37> mark @Below
+  pos base [\uni0727 \uni0727.fin ] <anchor 351 -37> mark @Below
 	<anchor 357 549> mark @Diacritic;
-  pos base [\uni0726 \uni0726.init \uni0726.med \uni0726.fin ] <anchor 326 -37> mark @Below
+  pos base [\uni0726 \uni0726.fin ] <anchor 326 -37> mark @Below
 	<anchor 330 549> mark @Diacritic;
-  pos base [\uni0728 \uni0728.init \uni0728.med \uni0728.fin ] <anchor 91 -38> mark @Below
+  pos base [\uni0728 \uni0728.fin ] <anchor 91 -38> mark @Below
 	<anchor 388 549> mark @Diacritic;
-  pos base [\uni0729 \uni0729.init \uni0729.med \uni0729.fin ] <anchor 314 -37> mark @Below
+  pos base [\uni0729 \uni0729.fin ] <anchor 314 -37> mark @Below
 	<anchor 315 549> mark @Diacritic;
   pos base [\uni072A ] <anchor 329 -37> mark @Below
 	<anchor 335 732> mark @Diacritic;
-  pos base [\uni072B \uni072B.init \uni072B.med \uni072B.fin ] <anchor 346 -37> mark @Below
+  pos base [\uni072B \uni072B.fin ] <anchor 346 -37> mark @Below
 	<anchor 348 549> mark @Diacritic;
-  pos base [\uni072C \uni072C.init \uni072C.med \uni072C.fin ] <anchor 426 -37> mark @Below
+  pos base [\uni072C \uni072C.fin ] <anchor 426 -37> mark @Below
 	<anchor 517 550> mark @Diacritic;
-  pos base [\uni071F.med \uni071F.init ] <anchor 279 -37> mark @Below
-	<anchor 292 549> mark @Diacritic;
-  pos base [\uni0722.init ] <anchor 234 -37> mark @Below
-	<anchor 239 549> mark @Diacritic;
-  pos base [\uni0710.med ] <anchor 261 550> mark @Diacritic
-	<anchor 326 -38> mark @Below;
+  pos base [\uni071F.med \uni071F.init ] <anchor 404 -37> mark @Below
+	<anchor 417 549> mark @Diacritic;
+  pos base [\uni0722.init ] <anchor 359 -37> mark @Below
+	<anchor 364 549> mark @Diacritic;
+  pos base [\uni0710.med ] <anchor 386 550> mark @Diacritic
+	<anchor 451 -38> mark @Below;
+  pos base [\uni0717.init ] <anchor 534 -37> mark @Below
+	<anchor 536 550> mark @Diacritic;
+  pos base [\uni0717.med ] <anchor 535 -37> mark @Below
+	<anchor 537 550> mark @Diacritic;
   pos base [\uni0717.fin ] <anchor 409 -38> mark @Below
 	<anchor 411 550> mark @Diacritic;
-  pos base [\uni071A.init \uni071A.med \uni071A.fin ] <anchor 266 -38> mark @Below
+  pos base [\uni0718.med \uni0718.init ] <anchor 436 -37> mark @Below
+	<anchor 427 550> mark @Diacritic;
+  pos base [\uni071A.init \uni071A.med ] <anchor 391 -38> mark @Below
+	<anchor 392 549> mark @Diacritic;
+  pos base [\uni071A.fin ] <anchor 266 -38> mark @Below
 	<anchor 267 549> mark @Diacritic;
-  pos base [\uni0710.init ] <anchor 326 -38> mark @Below
-	<anchor 261 549> mark @Diacritic;
+  pos base [\uni071B.init \uni071B.med ] <anchor 241 -38> mark @Below
+	<anchor 655 310> mark @Diacritic;
+  pos base [\uni071D.init \uni071D.med ] <anchor 331 -37> mark @Below
+	<anchor 322 549> mark @Diacritic;
+  pos base [\uni0710.init ] <anchor 451 -38> mark @Below
+	<anchor 386 549> mark @Diacritic;
   pos base [\uni0719.med ] <anchor 199 -37> mark @Below
 	<anchor 198 549> mark @Diacritic;
   pos base [\uni0719.fin ] <anchor 199 -37> mark @Below
 	<anchor 200 549> mark @Diacritic;
-  pos base [\uni0721.init \uni0721.med \uni0721.fin ] <anchor 396 -37> mark @Below
+  pos base [\uni0720.init \uni0720.med ] <anchor 286 -37> mark @Below
+	<anchor 470 501> mark @Diacritic;
+  pos base [\uni0721.init ] <anchor 520 -37> mark @Below
+	<anchor 536 549> mark @Diacritic;
+  pos base [\uni0721.med ] <anchor 521 -37> mark @Below
+	<anchor 537 549> mark @Diacritic;
+  pos base [\uni0721.fin ] <anchor 396 -37> mark @Below
 	<anchor 412 549> mark @Diacritic;
-  pos base [\uni0722.med ] <anchor 234 -37> mark @Below
-	<anchor 234 549> mark @Diacritic;
+  pos base [\uni0722.med ] <anchor 345 -37> mark @Below
+	<anchor 345 549> mark @Diacritic;
   pos base [\uni0722.fin ] <anchor 96 -37> mark @Below
 	<anchor 393 204> mark @Diacritic;
-  pos base [\uni0723.med \uni0723.init \uni0723.fin ] <anchor 442 -37> mark @Below
+  pos base [\uni0723.med \uni0723.init ] <anchor 567 -37> mark @Below
+	<anchor 562 549> mark @Diacritic;
+  pos base [\uni0723.fin ] <anchor 442 -37> mark @Below
 	<anchor 437 549> mark @Diacritic;
+  pos base [\uni0725.init \uni0725.med ] <anchor 451 -37> mark @Below
+	<anchor 452 549> mark @Diacritic;
+  pos base [\uni0727.init \uni0727.med ] <anchor 476 -37> mark @Below
+	<anchor 482 549> mark @Diacritic;
+  pos base [\uni0726.init \uni0726.med ] <anchor 450 -37> mark @Below
+	<anchor 454 549> mark @Diacritic;
+  pos base [\uni0728.init ] <anchor 216 -38> mark @Below
+	<anchor 513 549> mark @Diacritic;
+  pos base [\uni0728.med ] <anchor 215 -38> mark @Below
+	<anchor 512 549> mark @Diacritic;
+  pos base [\uni0729.init \uni0729.med ] <anchor 439 -37> mark @Below
+	<anchor 440 549> mark @Diacritic;
   pos base [\uni072A.med ] <anchor 334 -37> mark @Below
 	<anchor 335 732> mark @Diacritic;
   pos base [\uni072A.fin ] <anchor 334 -37> mark @Below
 	<anchor 331 732> mark @Diacritic;
+  pos base [\uni072B.init ] <anchor 471 -37> mark @Below
+	<anchor 473 549> mark @Diacritic;
+  pos base [\uni072B.med ] <anchor 469 -37> mark @Below
+	<anchor 471 549> mark @Diacritic;
+  pos base [\uni072C.init \uni072C.med ] <anchor 550 -37> mark @Below
+	<anchor 641 550> mark @Diacritic;
   pos base [\uni0716 \uni0716.med \uni0716.fin ] <anchor 355 -37> mark @Below
 	<anchor 360 550> mark @Diacritic;
   pos base [\uni25CC ] <anchor 262 -37> mark @Below
@@ -325,21 +295,6 @@ lookup mkmkMarktoMarklookup2 {
   pos mark [\uni0308 ] <anchor 167 800> mark @Stacking;
   pos mark [\uni0307 ] <anchor 79 800> mark @Stacking;
 } mkmkMarktoMarklookup2;
-
-feature curs {
-
- script DFLT;
-     language dflt ;
-      lookup cursCursiveAttachmentlookup0;
-
- script latn;
-     language dflt ;
-      lookup cursCursiveAttachmentlookup0;
-
- script syrc;
-     language dflt ;
-      lookup cursCursiveAttachmentlookup0;
-} curs;
 
 feature mark {
 

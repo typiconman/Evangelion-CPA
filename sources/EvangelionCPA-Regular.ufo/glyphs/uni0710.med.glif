@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0710.med" format="2">
-  <advance width="800"/>
-  <anchor x="261" y="550" name="Diacritic"/>
-  <anchor x="326" y="-38" name="Below"/>
-  <anchor x="-125" y="0" name="curs"/>
-  <anchor x="924" y="0" name="_curs"/>
+  <advance width="905"/>
+  <anchor x="386" y="550" name="Diacritic"/>
+  <anchor x="451" y="-38" name="Below"/>
   <outline>
     <contour>
-      <point x="632" y="40" type="line"/>
-      <point x="930" y="40" type="line"/>
-      <point x="930" y="0" type="line"/>
-      <point x="527" y="0" type="line"/>
-      <point x="335" y="390" type="line"/>
-      <point x="188" y="390" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="-130" y="0" type="line"/>
-      <point x="-130" y="40" type="line"/>
-      <point x="79" y="40" type="line"/>
-      <point x="79" y="462" type="line"/>
-      <point x="328" y="462" type="line"/>
-      <point x="660" y="671" type="line"/>
-      <point x="720" y="605" type="line"/>
-      <point x="450" y="417" type="line"/>
+      <point x="757" y="40" type="line"/>
+      <point x="910" y="40" type="line"/>
+      <point x="910" y="0" type="line"/>
+      <point x="652" y="0" type="line"/>
+      <point x="460" y="390" type="line"/>
+      <point x="313" y="390" type="line"/>
+      <point x="313" y="0" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="-5" y="40" type="line"/>
+      <point x="204" y="40" type="line"/>
+      <point x="204" y="462" type="line"/>
+      <point x="453" y="462" type="line"/>
+      <point x="785" y="671" type="line"/>
+      <point x="845" y="605" type="line"/>
+      <point x="575" y="417" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -47,7 +45,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>79</integer>
+            <integer>204</integer>
             <key>width</key>
             <integer>109</integer>
           </dict>

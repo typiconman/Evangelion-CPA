@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>2</integer>
+    <integer>21</integer>
     <key>copyright</key>
     <string>Copyright 2025 The Evangelion CPA Project Authors (https://github.com/typiconman/Evangelion-CPA)</string>
     <key>unitsPerEm</key>
@@ -35,7 +35,7 @@
     <key>openTypeNameDesigner</key>
     <string>Aleksandr Andreev</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.002</string>
+    <string>Version 1.021</string>
     <key>openTypeNameSampleText</key>
     <string>ܬܫܡܠܡ ܒܛܝܒܘܬܐ ܒܫܢܬ ܐܬܝܢ ܘܚܡܫܐ ܘܥܣܪܝܢ</string>
     <key>openTypeOS2Panose</key>
