@@ -49,7 +49,7 @@ Google's master repository also had a GitHub workflow for building the fonts in 
 ## Features
 
 Documentation of the characters and features of the font is stored in `documentation/documentation_EN.html`.
-The contents of the file may be viewed via [RawCDN](https://rawcdn.githack.com/typiconman/Evangelion-CPA/09baac140eb9771ebb9fab5e37e522d4b60dd121/documentation/documentation_EN.html).
+The contents of the file may be viewed via [RawCDN](https://rawcdn.githack.com/typiconman/Evangelion-CPA/b4457be3e7a7a62da0f3af7102285282bd6e789a/documentation/documentation_EN.html).
 
 ## More Fonts
 
