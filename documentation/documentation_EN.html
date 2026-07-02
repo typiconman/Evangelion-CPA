@@ -371,6 +371,31 @@ lang="syr">ܒ̇̈</span>.</p>
   <a href="https://www.lexilogos.com/keyboard/syriac.htm" target="_blank">virtual keyboard provided by Lexilogos</a>.
 </p>
 
+<h2 class="unnumbered" id="software-support">Using the Font with LuaLaTeX and XeLaTeX</h2>
+
+<p>Because CPA is a cursive script, correct rendering depends on the
+typesetting engine applying the font's OpenType shaping features: the
+selection of the initial, medial, and final forms, the cursive joining
+of adjacent letters, and the positioning of the diacritical marks
+described above. Not every engine or font loader does this reliably.</p>
+
+<p>Under XeLaTeX the font may be loaded in the ordinary way with
+<span lang="latin">fontspec</span>, since XeTeX shapes complex scripts
+through HarfBuzz by default:</p>
+
+<pre lang="latin">\newfontfamily\cpafont{EvangelionCPA}</pre>
+
+<p>Under LuaLaTeX the font must be loaded with the HarfBuzz renderer:</p>
+
+<pre lang="latin">\newfontfamily\cpafont[Script=Syriac,Renderer=HarfBuzz]{EvangelionCPA}</pre>
+
+<p>This is necessary because the font loader's default
+<span lang="latin">node</span> renderer does not correctly shape CPA:
+it fails to select the positional forms and to join
+adjacent letters, so that the text appears as a sequence of unconnected
+isolated glyphs. The HarfBuzz renderer shapes the script correctly and
+should always be used with this font under LuaLaTeX.</p>
+
 <h2 class="unnumbered">Bugs and Questions</h2>
 <p>Please <a href="https://github.com/typiconman/Evangelion-CPA/issues" target="_blank">open an issue on GitHub</a>.</p>
 
