@@ -48,8 +48,7 @@ Google's master repository also had a GitHub workflow for building the fonts in 
 
 ## Features
 
-Documentation of the characters and features of the font is stored in `documentation/documentation_EN.html`.
-The contents of the file may be viewed via [RawCDN](https://rawcdn.githack.com/typiconman/Evangelion-CPA/b4457be3e7a7a62da0f3af7102285282bd6e789a/documentation/documentation_EN.html).
+See the font documentation on the [Slavonic Computing Initiative website](https://sci.ponomar.net/cpa_documentation.html).
 
 ## More Fonts
 
